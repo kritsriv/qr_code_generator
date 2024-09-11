@@ -13,7 +13,7 @@ Handlebars.registerHelper("qrcode",  async (text) => {
   return await QRCode.toDataURL(text);
 })
 
-var pathname = 'batch1';
+var pathname = 'batch5';
 
 var options = {
   format: "A3",
@@ -29,7 +29,7 @@ function create (document, filename , options) {
       // Compiles a template
       var html = await Handlebars.compile(document.html)(document.data);
   
-        fs.writeFile(path.join(__dirname, `./${filename}.html`), html, err => {
+        fs.writeFile(path.join(__dirname, `./${pathname}/${filename}.html`), html, err => {
           if (err) {
             console.error(err);
           } else {
@@ -47,7 +47,7 @@ function create (document, filename , options) {
         console.log(name)
 
             // Read CSV
-alasql.promise(`SELECT AssetNumber,AssetTypeName FROM CSV("./batch1/${file}",{headers:true})`).then(function(assets){
+alasql.promise(`SELECT AssetNumber,AssetTypeName FROM CSV("./${pathname}/${file}",{headers:true})`).then(function(assets){
     console.log(assets)
     console.log(`Total Assets: ${assets.length}`)
     var document = {

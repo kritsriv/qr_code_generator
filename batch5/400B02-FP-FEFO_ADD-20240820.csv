@@ -1,0 +1,13 @@
+AssetManufacture,AssetModel,AssetNumber,AssetParentNumber,AssetAccountingNumber,AssetSerialNumber,AssetPartNumber,AssetTypeName,PriorityName,AssetHostName,AssetOS,AssetCPU,AssetRam,AssetHarddisk,AssetIPAddress,AssetMAC,AssetDetail,Remark,AssetLocation,Status,BuyingName,AssetPO,AssetRegisterDate,AssetBuyDate,AssetPriceEx,AssetVAT,AssetVATValue,AssetPrice,AssetAccumulatedDepreciation,AssetSalvageValue,AssetWriteOffDate,NumOfMonthWarranty,AssetStartWarrantyDate,AssetEndWarrantyDate,AssetQuantity,Branch,Zone,Supplier,Owner,CostCenter,CostType,Company,Department,AssetLatLong,AssetGoogleMapUrl
+N/A,N/A,400B02-FP-FEFO-1.FL-0001,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���1,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-1.FL-0002,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���1,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-1.FL-0003,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���1,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-1.FL-0004,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���1,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-1.FL-0005,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���1,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-1.FL-0006,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���1,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-1.FL-0007,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���1,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-2.FL-0001,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���2,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-2.FL-0002,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���2,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-2.FL-0003,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���2,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-2.FL-0004,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���2,,,,,,CRA,,,
+N/A,N/A,400B02-FP-FEFO-2.FL-0005,,,N/A,,Fire Extinguisher Foam,,,,,,,,,,,,,,,,,,,,,,,,,,,,�Է����� 400B-���2,,,,,,CRA,,,

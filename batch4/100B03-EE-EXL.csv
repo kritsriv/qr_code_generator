@@ -1,0 +1,8 @@
+AssetManufacture,AssetModel,AssetNumber,AssetSerialNumber,AssetPartNumber,AssetTypeName,PriorityName,AssetHostName,AssetOS,AssetCPU,AssetRam,AssetHarddisk,AssetIPAddress,AssetMAC,AssetDetail,Remark,AssetLocation,Status,BuyingName,AssetPO,AssetRegisterDate,AssetBuyDate,AssetPriceEx,AssetVAT,AssetVATValue,AssetPrice,AssetAccumulatedDepreciation,AssetSalvageValue,AssetWriteOffDate,NumOfMonthWarranty,AssetStartWarrantyDate,AssetEndWarrantyDate,AssetQuantity,Branch,Zone,Supplier,Owner,CostCenter,CostType,Company,Department,AssetLatLong,AssetGoogleMapUrl
+,,100B03-EE-EXL-B.FL-0001,,,Exit Sign Light,,,,,,,,,Exit Sign Light No.1,,ชั้น B | หน้าประตูหนีไฟ,,,,,,,,,,,,,,,,,บริการกลางชั้นB,,,,,,CRA,,,
+,,100B03-EE-EXL-1.FL-0001,,,Exit Sign Light,,,,,,,,,Exit Sign Light No.2,,ชั้น 1 | หน้าประตูหนีไฟ,,,,,,,,,,,,,,,,,บริการกลางชั้น1,,,,,,CRA,,,
+,,100B03-EE-EXL-2.FL-0001,,,Exit Sign Light,,,,,,,,,Exit Sign Light No.3,,ชั้น 2 | หน้าประตูหนีไฟ,,,,,,,,,,,,,,,,,บริการกลางชั้น2,,,,,,CRA,,,
+,,100B03-EE-EXL-2.FL-0002,,,Exit Sign Light,,,,,,,,,Exit Sign Light No.4,,ชั้น 2 | หน้าห้องศพ,,,,,,,,,,,,,,,,,บริการกลางชั้น2,,,,,,CRA,,,
+,,100B03-EE-EXL-3.FL-0001,,,Exit Sign Light,,,,,,,,,Exit Sign Light No.5,,ชั้น 3 | หน้าประตูหนีไฟ,,,,,,,,,,,,,,,,,บริการกลางชั้น3,,,,,,CRA,,,
+,,100B03-EE-EXL-4.FL-0001,,,Exit Sign Light,,,,,,,,,Exit Sign Light No.6,,ชั้น 4 | หน้าประตูหนีไฟ,,,,,,,,,,,,,,,,,บริการกลางชั้น4,,,,,,CRA,,,
+,,100B03-EE-EXL-5.FL-0001,,,Exit Sign Light,,,,,,,,,Exit Sign Light No.7,,ชั้น 5 | หน้าประตูหนีไฟ,,,,,,,,,,,,,,,,,บริการกลางชั้น5,,,,,,CRA,,,

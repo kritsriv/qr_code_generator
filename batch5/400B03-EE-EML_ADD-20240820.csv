@@ -1,0 +1,8 @@
+AssetManufacture,AssetModel,AssetNumber,AssetParentNumber,AssetAccountingNumber,AssetSerialNumber,AssetPartNumber,AssetTypeName,PriorityName,AssetHostName,AssetOS,AssetCPU,AssetRam,AssetHarddisk,AssetIPAddress,AssetMAC,AssetDetail,Remark,AssetLocation,Status,BuyingName,AssetPO,AssetRegisterDate,AssetBuyDate,AssetPriceEx,AssetVAT,AssetVATValue,AssetPrice,AssetAccumulatedDepreciation,AssetSalvageValue,AssetWriteOffDate,NumOfMonthWarranty,AssetStartWarrantyDate,AssetEndWarrantyDate,AssetQuantity,Branch,Zone,Supplier,Owner,CostCenter,CostType,Company,Department,AssetLatLong,AssetGoogleMapUrl
+DELIGHT,DLEM-209L2ATRT,400B03-EE-EML-2.FL-0011,,,,,Emergency Light,,,,,,,,,Emergency Light FL2 No.11,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� 2,,,,,,CRA,,,
+DELIGHT,DLEM-209L2ATRT,400B03-EE-EML-B1.FL-0011,,,,,Emergency Light,,,,,,,,,Emergency Light FLB1 No.11,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� B1,,,,,,CRA,,,
+DELIGHT,DLEM-209L2ATRT,400B03-EE-EML-B1.FL-0012,,,,,Emergency Light,,,,,,,,,Emergency Light FLB1 No.12,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� B1,,,,,,CRA,,,
+DELIGHT,DLEM-209L2ATRT,400B03-EE-EML-B1.FL-0013,,,,,Emergency Light,,,,,,,,,Emergency Light FLB1 No.13,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� B1,,,,,,CRA,,,
+DELIGHT,DLEM-209L2ATRT,400B03-EE-EML-B1.FL-0014,,,,,Emergency Light,,,,,,,,,Emergency Light FLB1 No.14,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� B1,,,,,,CRA,,,
+DELIGHT,DLEM-209L2ATRT,400B03-EE-EML-B2.FL-0011,,,,,Emergency Light,,,,,,,,,Emergency Light FLB2 No.11,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� B2,,,,,,CRA,,,
+DELIGHT,DLEM-209L2ATRT,400B03-EE-EML-B2.FL-0012,,,,,Emergency Light,,,,,,,,,Emergency Light FLB2 No.12,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� B2,,,,,,CRA,,,

@@ -1,0 +1,5 @@
+AssetManufacture,AssetModel,AssetNumber,AssetParentNumber,AssetAccountingNumber,AssetSerialNumber,AssetPartNumber,AssetTypeName,PriorityName,AssetHostName,AssetOS,AssetCPU,AssetRam,AssetHarddisk,AssetIPAddress,AssetMAC,AssetDetail,Remark,AssetLocation,Status,BuyingName,AssetPO,AssetRegisterDate,AssetBuyDate,AssetPriceEx,AssetVAT,AssetVATValue,AssetPrice,AssetAccumulatedDepreciation,AssetSalvageValue,AssetWriteOffDate,NumOfMonthWarranty,AssetStartWarrantyDate,AssetEndWarrantyDate,AssetQuantity,Branch,Zone,Supplier,Owner,CostCenter,CostType,Company,Department,AssetLatLong,AssetGoogleMapUrl
+N/A,N/A,100B04-FP-FHC-1.FL-0001,,,N/A,,Fire Hose Cabinet,,,,,,,,,N/A,,��� 1|˹���Կ��ҧ���,,,,,,,,,,,,,,,,,����Ҫ��Ծ�� (100BED)- ��� 1,,,,,,CRA,,,
+N/A,N/A,100B04-FP-FHC-2.FL-0001,,,N/A,,Fire Hose Cabinet,,,,,,,,,N/A,,��� 2|˹���Կ��,,,,,,,,,,,,,,,,,����Ҫ��Ծ�� (100BED)- ��� 2,,,,,,CRA,,,
+N/A,N/A,100B04-FP-FHC-3.FL-0001,,,N/A,,Fire Hose Cabinet,,,,,,,,,N/A,,��� 3|˹���Կ��,,,,,,,,,,,,,,,,,����Ҫ��Ծ�� (100BED)- ��� 3,,,,,,CRA,,,
+N/A,N/A,100B04-FP-FHC-4.FL-0001,,,N/A,,Fire Hose Cabinet,,,,,,,,,N/A,,��� 4|˹���Կ��,,,,,,,,,,,,,,,,,����Ҫ��Ծ�� (100BED)- ��� 4,,,,,,CRA,,,

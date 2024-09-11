@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> -->
+    <title>FEM Sticker</title>
+    <style>
+
+        .mycontainer {
+            display: -webkit-box; 
+            display: -webkit-flex; 
+            display: -ms-flexbox; 
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            justify-content: left;
+            align-items: center;
+        }
+        .sticker {
+          align-content: center;
+          border: 1mm solid white;
+          border-collapse: collapse;
+          width: 65mm;
+          height: 20mm;
+          margin: 0mm;
+        }
+        .innerSticker {
+          display: flex;
+        }
+        .labelSticker {
+          align-content: center;
+          font-size: 12px;
+          font-family: "IBM Plex Sans", sans-serif;
+          font-weight: 500;
+          font-style: normal;
+        }
+        .labelId {
+          align-content: center;
+          font-size: 10px;
+          font-family: "IBM Plex Sans", sans-serif;
+          font-weight: 600;
+          font-style: normal;
+        }
+        </style>
+  </head>
+  <body>
+    <div class="mycontainer">
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOvSURBVO3BQY4kRwIDQfdA/f/LXB104GUDSGR1SyPQzPyFmb8dZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmyoeXVH5TEprKTRKaSktCU3kiCTcqvykJbxxmymGmHGbKhy9Lwjep3CShqTSVloSm8kQS3kjCN6l802GmHGbKYaZ8+GEqTyThm5LwRBJuVG6S8ITKE0n4SYeZcpgph5ny4Q+n0pLQVFoS5v87zJTDTDnMlA//MSrfpNKS8F92mCmHmXKYKR9+WBL+TVRaEm6S8JOS8G9ymCmHmXKYKR++TOWflISm0pLQVFoSmkpLQlNpSbhR+Tc7zJTDTDnMlA8vJeFPloSm0pLQVJ5Iwp/kMFMOM+UwUz68pNKS8IRKS0JTeUKlJaGptCQ8kYQblW9Kwo1KS8Ibh5lymCmHmfLhh6ncJKGptCQ0lZskPKFyo9KS0FSeSEJTeULlJx1mymGmHGbKh5eS0FRaEm5UblSeULlJQlNpSbhRaUl4QqUloak8kYRvOsyUw0w5zJQPX5aEpnKThKbSktBU3lBpSbhReUOlJaGp3Kj8psNMOcyUw0z58GUq36TSktBUWhKaSkvCjco3JaGptCS8odKS8MZhphxmymGmfHhJ5SYJNyotCU8koam0JNyotCQ8odKS8IRKS8KNyk86zJTDTDnMFPMXfpHKNyWhqfykJNyotCTcqDyRhKbSkvDGYaYcZsphpnz4ZUloKjdJuFF5IwlNpSWhqbyh0pJwo9JUftJhphxmymGmfHhJ5Y0k3KjcJOENlSeS0FRuVG5UnkhCU/mmw0w5zJTDTPnwUhJ+UhJuVG6ScJOEptJUnkjCEyotCU3lNx1mymGmHGbKh5dUflMSbpLwRhKeULlRaUm4UWlJaCo/6TBTDjPlMFM+fFkSvknlJglNpSXhRqUloam0JDyRhDdUbpLwTYeZcpgph5ny4YepPJGEJ1RaEprKTRKayhsqbyShqfymw0w5zJTDTPnwh0tCU7lJQlNpSbhRaUm4UWlJaCpNpSXhRqUl4Y3DTDnMlMNM+fAfl4SmcqNyk4SmcpOEptKS0FSayk0SvukwUw4z5TBTPvywJPymJDSVmyQ0lZaEmyQ8kYSmcpOEptJUWhLeOMyUw0w5zJQPX6bym1RaEloSblSeUGlJaCo3SWhJeCIJTeWbDjPlMFMOM8X8hZm/HWbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsr/AH/pk0gZGFUxAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-B1.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN+SURBVO3BMY7jSAAEwayG/v/lvDHOKIsAQUm7s6iI+IOZ/x1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKi4eS8E0qLQlNpSXhisodSbii0pLwTSpPHGbKYaYcZsqLN1N5pyQ8odKS0JLQVFoSmsoTKu+UhHc6zJTDTDnMlBcfloQ7VO5QaUm4Q6UloalcSUJTuSMJd6h80mGmHGbKYaa8+OWS0FRaEq4koalcSUJT+ZccZsphphxmyotfTqUl4YkkXFH5lx1mymGmHGbKiw9T+SaVloQ7VFoSriShqdyh8jc5zJTDTDnMlBdvloRvSkJTuaLSkvBNSfibHWbKYaYcZkr8wS+WhG9S+ZcdZsphphxmyouHktBUWhKuqLQk3KHSktBU7kjCHUloKi0JTeVKEppKS8IVlScOM+UwUw4zJf7ggSTcofJJSbii8kQS3knljiRcUXniMFMOM+UwU+IP3igJTeVKEj5J5YkkNJWWhKZyJQlXVFoSrqi802GmHGbKYaa8eDOVO1SeSMKVJDSVK0m4Q6Ul4ZNUPukwUw4z5TBT4g8eSEJTeack3KHymyThisqVJDSVJw4z5TBTDjMl/uCNktBUriShqTyRhDtUWhKaypUk3KHSktBU/qTDTDnMlMNMefFlSbgjCU2lJaGp3JGEptKScEXljiTckYQ7VJ44zJTDTDnMlPiDB5LQVO5IQlO5koQ7VK4k4YpKS0JTuZKEKyp/k8NMOcyUw0yJP/iiJDyh0pLwhMoTSfiTVN7pMFMOM+UwU158mconqbQkNJWWhCsqLQlXVO5IQlP5kw4z5TBTDjPlxUNJ+CaVJ5JwReWKSkvClSQ0lStJuKLySYeZcpgph5ny4s1U3ikJ76TSknBHEu5QuUPlShKayjsdZsphphxmyosPS8IdKneo3JGEK0loKk2lJaEl4ZuS0FSeOMyUw0w5zJQXv1wS7lBpSbiShKbSVK4k4YrKHSotCe90mCmHmXKYKS/+cSotCXeotCQ0lZaEptKS0JLQVK4koam802GmHGbKYaa8+DCVT1JpSbii8puptCQ0lScOM+UwUw4z5cWbJeGbknAlCU2lJaGptCQ0lTuScEcSmso3HWbKYaYcZkr8wcz/DjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+U/OKCED5VK/ZMAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-B1.FL-0002</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAANtSURBVO3BQY5bCRYDweSD7n/lHC9mwdUHBKns7jYj4i/M/N8xU46ZcsyUY6YcM+WYKcdMOWbKMVOOmXLMlGOmHDPlmCnHTHnxoST8TipPkvAJlXckoam0JPxOKp84ZsoxU46Z8uLLVL4pCd+k8okkNJV3qHxTEr7pmCnHTDlmyosfloR3qLwjCe9IQlP5k5LwDpWfdMyUY6YcM+XFf5zKkyQ0lb/ZMVOOmXLMlBd/OZWWhKbyNzlmyjFTjpny4oep/ElJaCrvSMJPUvknOWbKMVOOmfLiy5LwJ6m0JDxJQlNpSWgqLQlN5UkS/smOmXLMlGOmxF/4F0vCE5WWhKbSktBUWhKayn/JMVOOmXLMlBcfSkJTaUn4JpWm8iQJ71BpSfhEEr5J5ScdM+WYKcdMib/wRUloKi0J71BpSXii0pLQVFoSmsqTJHyTyjuS8ETlE8dMOWbKMVNefJlKS0JTeZKEloSm8iQJ/2ZJeKLSkvBNx0w5ZsoxU178MJWWhKbSVJ4k4R0qn0jCJ1SeJOGJyu90zJRjphwz5cVvpvKOJDxRaUloSWgqTeWJyt/kmCnHTDlmyosPJeEnqTxJwieS8E0q71BpSXiShJ90zJRjphwz5cWXqTxJQlN5koQnKi0JTeWJSkvCE5WWhCdJaCotCZ9Q+aZjphwz5Zgp8Rc+kISm0pLwDpUnSXii8o4kPFFpSWgqT5LwROWf5Jgpx0w5ZsqL30zlSRKeqLQkPElCU3mi0pLwJAmfSEJTaUloKi0JTeUTx0w5ZsoxU+Iv/Isl4R0q35SEpvKOJLxDpSWhqXzimCnHTDlmyosPJeF3UmkqLQlNpSXhico3JaGpfJPKNx0z5Zgpx0x58WUq35SEJ0loKu9QeZKEpvIOlU+oPElCU/nEMVOOmXLMlBc/LAnvUPlEEr5JpSXhSRK+KQlPVL7pmCnHTDlmyou/jEpLwjtU3pGEJyqfSEJT+cQxU46ZcsyUF/8xKi0JT1RaEv6kJDSV3+mYKcdMOWbKix+m8pNUnqg8ScITlSdJeIdKS8KTJDSVpvJNx0w5ZsoxU158WRJ+pyQ0lZaEpvJEpSWhqTSVloQnSXiHypMkNJVPHDPlmCnHTIm/MPN/x0w5ZsoxU46ZcsyUY6YcM+WYKcdMOWbKMVOOmXLMlGOmHDPlfwxMewxZgh1RAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-B1.FL-0003</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOjSURBVO3BQa5bRwADwe6B7n9lxossuBrgQdK3nbDK/MLMvw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlxZtUflISmkpLQlNpSbhRuUnCEyo/KQnvOMyUw0w5zJQXH5aET1K5SUJT+SaVloQnkvBJKp90mCmHmXKYKS++TOWJJHxSEppKS0JLwo1KU2lJeELliSR802GmHGbKYaa8+MuptCQ8odKS8H92mCmHmXKYKS/+41TeodKS8F92mCmHmXKYKS++LAk/SeWTkvBNSfiTHGbKYaYcZsqLD1P5nZLQVFoSmsqNSktCU2lJuFH5kx1mymGmHGbKizcl4U+i0pLQVFoSmkpLQlN5Igl/k8NMOcyUw0x58SaVloQnVFoSmsoTSWgqNypPJOFG5ZOScKPSkvCOw0w5zJTDTHnxmyXhJgk3Kt+k0pLQVJ5IQlN5QuWbDjPlMFMOM+XFh6ncJOEJlZsk3CShqbQkPKHSkvCESktCU3kiCZ90mCmHmXKYKS/elISm8oTKTRJuVG6S0JLwhMo7VFoSmsqNyk86zJTDTDnMlBcfloSm8kQSmkpLQkvCjUpLwo3KJyWhqbQkvEOlJeEdh5lymCmHmfLiTSotCS0JTeVGpSXhRqUl4QmVloQnVFoSnlBpSbhR+abDTDnMlMNMMb/wRSq/UxKayjuScKPSknCj8kQSmkpLwjsOM+UwUw4z5cUPS8JPUrlJQlNpSWgq71BpSbhRaSrfdJgph5lymCkv3qRyk4Sm8klJaCotCTcqTyShqdyo3Kg8kYSm8kmHmXKYKYeZ8uJNSXgiCZ+k0pLwRBKaSlN5IglPqLQkNJWfdJgph5lymCkv3qTyk5LwTUl4QuVGpSXhRqUloal802GmHGbKYaa8+LAkfJLKTRKayk0SmkpLQlNpSXgiCe9QuUnCJx1mymGmHGbKiy9TeSIJT6i0JDSVptKS0FTeofKOJDSVn3SYKYeZcpgpL/5ySWgqLQk3Ki0JNyotCTcqLQlNpam0JNyotCS84zBTDjPlMFNe/M+o3KjcJKGp3CShqbQkNJWmcpOETzrMlMNMOcyUF1+WhJ+UhKZyk4Sm0pJwk4QnktBUbpLQVJpKS8I7DjPlMFMOM+XFh6n8JJWbJNyoPKHSktBUbpLQkvBEEprKJx1mymGmHGaK+YWZfx1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKP9qMh07u07IiAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-B1.FL-0004</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOaSURBVO3BQW5cSwIDwcxC3//KHC3+gqsCHrolWx5GmC/M/OcwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTXrxJ5Scloam0JDSVloSm0pLwSSo/KQnvOMyUw0w5zJQXH5aET1J5QqUloak8oXKThCeS8Ekqn3SYKYeZcpgpL76ZyhNJeCIJTaWptCQ0labSknCj0pLwhMoTSfhOh5lymCmHmfLil1O5SUJTaUl4QqUl4V9ymCmHmXKYKS9+uSQ0lZsk3KjcJOFfdpgph5lymCkvvlkS/iSVloSbJDSVG5WWhCeS8Dc5zJTDTDnMlBcfpvKTVFoSmsqNSkvCd1L5mx1mymGmHGaK+cIvpnKThCdUbpLwLzvMlMNMOcyUF29SaUloKjdJaCpPJOEdKu9QaUloKi0JNyotCU3lJgnvOMyUw0w5zBTzhQ9SaUm4UblJwo1KS0JTuUnCEyqflIQnVG6S8I7DTDnMlMNMMV/4i6jcJKGptCR8kkpLQlNpSbhRuUlCU7lJwicdZsphphxmyos3qbwjCS0JNyo3Ki0JTaUloak8kYSm8p2S8J0OM+UwUw4zxXzhDSo3SWgqN0loKjdJ+M1UbpJwo9KS8I7DTDnMlMNMefGmJDSVT0pCU2kq70hCU2lJuFF5Igk3SXgiCZ90mCmHmXKYKS++mco7VFoSnlBpSWgqLQlN5SYJT6g8ofJEEt5xmCmHmXKYKS/epNKScKNyo9KS8IRKS8ITKi0JTeUJlZsk3CThJx1mymGmHGaK+cIPUmlJaCo3SWgqN0loKi0J71D5k5LwSYeZcpgph5livvCLqbQkPKFyk4SmcpOEJ1RaEv6kw0w5zJTDTHnxJpWflIQblZaEpnKThJskNJUblZaEG5WbJHynw0w5zJTDTHnxYUn4JJV3qLQkNJUnVJ5IwhNJuFFpSfikw0w5zJTDTHnxzVSeSMITSbhRaSo3Ki0JLQlNpan8JJWWhHccZsphphxmyotfTqUloSXhRuVGpSWhJeFG5SYJTyShqXzSYaYcZsphprz4P6PyRBKaSktCU2lJaCpNpSXhRqUl4ZMOM+UwUw4z5cU3S8J3SkJTaUloSfjNktBUWhLecZgph5lymCkvPkzlJ6m8Q6Uloam0JDyh8oRKS8JPOsyUw0w5zBTzhZn/HGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsr/AIfOkiVu+mLKAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-B1.FL-0005</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAANvSURBVO3BSY5DBxYDweSD7n/lbC+84KY/IEhVnhgR/8DMn46ZcsyUY6YcM+WYKcdMOWbKMVOOmXLMlGOmHDPlmCnHTDlmyosPJeE3qXxTEprKkyQ8UWlJ+E0qnzhmyjFTjpny4stUvikJ70jCE5VPqHxC5ZuS8E3HTDlmyjFTXvywJLxD5R1J+E1JaCqfSMI7VH7SMVOOmXLMlBf/MUmY/++YKcdMOWbKi38ZlSdJaCotCU3lv+SYKcdMOWbKix+m8puS8ESlJeFJEn6Syt/JMVOOmXLMlBdfloS/kkpLwjtUWhKaSktCU3mShL+zY6YcM+WYKS8+pPJPptKS0FRaEprKE5V/kmOmHDPlmCkvPpSEptKS8E0qTaUloam0JDxRaUn4RBK+SeUnHTPlmCnHTIl/4IuS8ESlJaGpvCMJTeUdSWgqT5LwTSrvSMITlU8cM+WYKcdMefGhJDSVb0pCU/lEEprK30kSnqi0JHzTMVOOmXLMlBcfUmlJaCqfUHlHEt6RhKbSkvAJlSdJeKLym46ZcsyUY6a8+GVJeJKEn6TyDpX/kmOmHDPlmCkvPpSEptKS0FRaEprKb0rCN6m8Q6Ul4UkSftIxU46ZcsyUF78sCU3lSRK+SaWptCQ8UWlJeJKEptKS8AmVbzpmyjFTjpny4oeptCQ8SUJTaUloKi0JTeVJEp6otCQ0lXckoam8Q+UnHTPlmCnHTHnxy1RaEppKS0JTaUl4koSm8kSlJeFJEj6RhKbSktBUWhKayieOmXLMlGOmvPiQyidUnqi8Q6Ul4YnKE5UnSWgq70hCS8Jf6Zgpx0w5ZsqLDyXhN6k0lZaEptKS8ETlm5LQVL5J5ZuOmXLMlGOmvPgylW9KwpMkNJWWhCcqT5LQVN6h8gmVJ0loKp84ZsoxU46Z8uKHJeEdKp9IwjeptCQ8ScI3JeGJyjcdM+WYKcdMefEvp/IkCe9QeUcSnqh8IglN5RPHTDlmyjFTXvzLqLQkNJWm0pLwV0pCU/lNx0w5ZsoxU178MJWfpPJE5UkSnqg8ScI7VFoSniShqTSVbzpmyjFTjpny4suS8JuS8A6VJyotCU2lqbQkPEnCO1SeJKGpfOKYKcdMOWZK/AMzfzpmyjFTjplyzJRjphwz5Zgpx0w5ZsoxU46ZcsyUY6YcM+WYKf8D8Lp4GB4YyVsAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-B1.FL-0006</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOeSURBVO3BQY4jSQIDQWdA//+ybx/mwFMACUk1XbM0i38w84/DTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMefGmJPwklZaEG5VvSkJTaUn4SSrvOMyUw0w5zJQXH6bySUl4QuUmCU3lJgk3Kk+ofFISPukwUw4z5TBTXnxZEp5QeUKlJeFGpSXhRuUmCU3liSQ8ofJNh5lymCmHmfLil0tCU3mHyk0Smsp/yWGmHGbKYaa8+OVUbpLQVG6ScKPyX3aYKYeZcpgpL75M5W+ShKZyk4SbJDSVJ1T+JoeZcpgph5ny4sOS8JOS0FRuVFoSmso3JeFvdpgph5lymCkv3qTyN1N5IglPqNyo/CaHmXKYKYeZ8uJNSWgqLQk3Ki0JT6jcJKGpfFISmkpLQlO5SUJTaUm4UXnHYaYcZsphprz4sCQ0lZaEJ1RaEm6S0FRuVJ5Iwk0SbpLQVJrKv+kwUw4z5TBT4h+8IQlPqDyRhBuVmyQ8odKS0FRaEprKTRJuVFoSblQ+6TBTDjPlMFNevEmlJaGptCTcqDSVloSWhBuVloSm0pLwhEpLwjepfNNhphxmymGmxD94QxJuVFoSPknlN0vCjcpNEprKOw4z5TBTDjPlxZtUvknlJglN5SYJTaUloancJOEJlRuVJ1Q+6TBTDjPlMFNefFgS3qHSktBUmspNEppKS0JTaUm4UXkiCU8k4QmVdxxmymGmHGbKizcloam0JDSVmyQ0lZaEpnKj8kQSmkpLwhNJuFG5UflJh5lymCmHmRL/4IuScKNyk4Sm0pLQVFoSblTekYR/k8onHWbKYaYcZkr8g18sCU+otCTcqLQk3Kg8kYSm8m86zJTDTDnMlBdvSsJPUrlRaUloSbhRuVFpSbhJQlO5ScKNyjcdZsphphxmyosPU/mkJLxD5SYJTyThCZUnVG6S0FQ+6TBTDjPlMFNefFkSnlB5QuUmCU8koak0lZaEloSflISm8o7DTDnMlMNMefHLJeFG5SYJN0loKk3lJgk3Kk+otCR80mGmHGbKYaa8+D+ThCdUWhKaSktCU2lJaEloKjdJaCqfdJgph5lymCkvvkzlm1RaEm5UfjOVloSm8o7DTDnMlMNMefFhSfhJSWgqLQlNpSWhqbQkNJUnkvBEEprKTzrMlMNMOcyU+Acz/zjMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyU/wFEbKgA2OKlgwAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-B1.FL-0007</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAANwSURBVO3BQa7cWAIDweRD3f/KOV70grMRIEj123YzIv7CzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cNDSfhJKv+mJDSVK0n4SSpPHGbKYaYcZsqHl6m8KQl3JKGptCRcUbkjCU3lisqbkvCmw0w5zJTDTPnwZUm4Q+WOJDSVloSm8iaVJ5Jwh8o3HWbKYaYcZsqHv5zKlSQ0lf+yw0w5zJTDTPkw/ycJTeW/5DBTDjPlMFM+fJnK7yQJTaUloSXhm1R+J4eZcpgph5ny4WVJ+J0koam0JDSVloSm0pLQVK4k4Xd2mCmHmXKYKR8eUvmTJOFKEppKS0JTuaLyJznMlMNMOcyUDw8loam0JLxJpam0JFxRaUloKi0JTyThTSrfdJgph5lymCnxFx5IwptUriThisqVJDSVO5LwJpU7knBF5YnDTDnMlMNM+fCQyhNJaEm4Q6Ul4U+WhCsqLQlvOsyUw0w5zJQPL0tCU2lJaCotCU3lDpUrSbgjCU+oXEnCFZWfdJgph5lymCkfXqbSknAlCVeS8IRKU7lD5b/kMFMOM+UwUz48lIQrKleScEWlJeGOJDSVloQ3qdyh0pJwJQnfdJgph5lymCkfXqbyhEpLQlNpSXhCpSXhikpLwpUkNJWWhCdU3nSYKYeZcpgpH35YEppKS0JTuUPljiRcUWlJaCp3JKGp3KHyTYeZcpgph5ny4cuS0FRaEq4k4YrKlSQ0lSsqLQlXkvBEEppKS0JTaUloKk8cZsphphxmSvyFP1gS7lB5UxKayh1JuEOlJaGpPHGYKYeZcpgpHx5Kwk9SaSotCVeScEXlTUloKm9SedNhphxmymGmfHiZypuScCUJTeVKEprKlSQ0lTtUnlC5koSm8sRhphxmymGmfPiyJNyh8qYkPKHSknAlCW9KwhWVNx1mymGmHGbKh79MEprKlSTcoXJHEq6oPJGEpvLEYaYcZsphpnz4y6jcodKS8G9KQlP5SYeZcpgph5ny4ctUvknlShKaSkvCFZUrSbhDpSXhShKaSlN502GmHGbKYaZ8eFkSflISrqjcodKS0FSaSkvClSTcoXIlCU3licNMOcyUw0yJvzDzj8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0z5H74/bSkRiyAhAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-B1.FL-0008</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOESURBVO3BQY5jBxYDweSD7n/lHC+84OoDglQ17QYj4j+Y+dcxU46ZcsyUY6YcM+WYKcdMOWbKMVOOmXLMlGOmHDPlmCnHTHnxoST8JpVPJOEdKi0JTeVJEn6TyieOmXLMlGOmvPgylW9KwjuS8ESlJeFJEr5J5ZuS8E3HTDlmyjFTXvywJLxD5R1JeKLSkvAOlZaEb0rCO1R+0jFTjplyzJQXfxmVloSm8o4kNJW/2TFTjplyzJQXf5kkPElCU3mi0pLQVP4mx0w5ZsoxU178MJXfpPIkCS0JTeU3qfxJjplyzJRjprz4siT8SZLQVFoSniShqbQkNJUnSfiTHTPlmCnHTIn/4D8sCU3lm5LwROVvcsyUY6YcM+XFh5LQVFoSvkmlqbQkNJUnSWgqTaUl4R1J+CaVn3TMlGOmHDPlxYdUPqHSktBUWhKaSlNpSWgqTaUl4RNJeIfKO5LwROUTx0w5ZsoxU178MpWWhCdJ+ITKkyT8SZLwRKUl4ZuOmXLMlGOmvPhQEppKU3mi0pLQVFoSWhKayjeptCS8Q+VJEp6o/KZjphwz5ZgpL74sCZ9QaUloKi0JT5LQVJ6otCS8Q+W/7Jgpx0w5ZsqLX6bSkvBE5YnKJ1SeqLQkPEnCE5Wm0pLwJAk/6Zgpx0w5ZsqLL1N5koR3JOEdKk2lJeGJyidU3pGET6h80zFTjplyzJQXv0ylJaEloam0JHyTypMkPEnCE5WWhKbyDpWfdMyUY6YcM+XFD0tCU2kqLQktCU2lJeFJEj6h0pLwjiQ8SUJTaUloKi0JTeUTx0w5ZsoxU158SOWJyjtUPpGEpvIkCe9QaUloKu9IQkvC/9MxU46ZcsyUFx9Kwm9SaSotCe9QaUn4piQ0lT/ZMVOOmXLMlBdfpvJNSXiShE8k4YlKS8I7VD6h8puOmXLMlGOmvPhhSXiHyidUPqHSktBUWhJaEr4pCU9UvumYKcdMOWbKi79MEprKE5UnKj9J5RNJaCqfOGbKMVOOmfLiL5eEd6i8Q6Uloam0JDxJQlP5TcdMOWbKMVNe/DCVn6TyJAlPVJ4koam8IwlNpSXhSRKaSlP5pmOmHDPlmCkvviwJvykJTaWptCS8Q6Uloak8UWlJeIfKkyQ0lU8cM+WYKcdMif9g5l/HTDlmyjFTjplyzJRjphwz5Zgpx0w5ZsoxU46ZcsyUY6YcM+V/oReHHsUChvsAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-1.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOASURBVO3BQY4jRwADwWRB//9yeg4+8NRAoyXtjs2I+IOZfx1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKi4eS8E0qLQl3qFxJQlNpSWgqV5LwTSpPHGbKYaYcZsqLN1N5pyTcofJJKk+ovFMS3ukwUw4z5TBTXnxYEu5QuUOlJeGKSktCU7kjCU3ljiTcofJJh5lymCmHmfLil0tCU7mShDuS8H9ymCmHmXKYKS9+OZWWhCsqLQl3qPyXHWbKYaYcZsqLD1P5k1RaEq4koalcSUJTuUPlb3KYKYeZcpgpL94sCd+UhKbSktBUWhKaSktCU3kiCX+zw0w5zJTDTIk/+MWS8E4q/2eHmXKYKYeZ8uKhJDSVloQrKi0Jd6jckYSm0pLQVK4koam0JDSVK0loKi0JV1SeOMyUw0w5zJT4g18sCU+otCTcodKScIfKHUm4ovLEYaYcZsphpsQfvFESrqi0JDSVloSmciUJV1RaEq6ovFMSrqi0JFxReafDTDnMlMNMefFhKnckoam0JDSVKyotCU3liSR8k8onHWbKYaYcZkr8wQNJaCotCU3ljiTcoXJHEppKS8IVlSeScEXlShKayhOHmXKYKYeZ8uIhlU9SuZKEloSm0pLwhMonqdyh8k6HmXKYKYeZ8uLNkvBEEr5JpSWhqVxJQlNpSXgiCXeoPHGYKYeZcpgp8QcPJKGptCQ8odKScEXlShKaypUkPKHSktBU/iaHmXKYKYeZEn/wQUloKleS8E4qV5LQVFoSmkpLwp+k8k6HmXKYKYeZEn/wiyXhisoTSbhD5Y4kNJU/6TBTDjPlMFNePJSEb1K5otKS0FSuJOGKSkvClSQ0lStJuKLSktBUnjjMlMNMOcyUF2+m8k5JeEKlJaGpfJLKHSpXktBU3ukwUw4z5TBTXnxYEu5QuUOlJaGpNJUnknAlCd+UhKbyxGGmHGbKYaa8+OWS0FRaEprKFZU7kvCEyh0qLQnvdJgph5lymCkv/uNUnkjCFZUrSbiShKZyJQlN5Z0OM+UwUw4z5cWHqXySyh1JeKckXFFpSXhCpSWhqTxxmCmHmXKYKS/eLAnflISm0pJwReWOJDSVloQnktBUvukwUw4z5TBT4g9m/nWYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgp/wDgHpL377ABAAAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-1.FL-0002</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAONSURBVO3BMZIcRwIEwciy+f+X41agkFKZ9fUuAILpHr8w84/DTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNM+fBSEn4llZaEptKS0FRaEppKS8ITKi0Jv5LKG4eZcpgph5ny4ZupfKck3Kg8kYSbJNyovKHynZLwnQ4z5TBTDjPlww9LwhMqTyThRqUl4UalJaEl4UbliSQ8ofKTDjPlMFMOM+XDv5xKS8L8/w4z5TBTDjPlw19GpSWhqbQktCT8lx1mymGmHGbKhx+m8pOS8EQSmsrvpPInOcyUw0w5zJQP3ywJv5NKS0JTaUloKi0JTaUloancJOFPdpgph5lymCnxC3+RJNyoPJGEpvI3O8yUw0w5zJQPLyWhqbQkNJUnknCj8p2ScJOEG5WbJDSVmyQ0lZaEpvLGYaYcZsphpnz4ZkloKi0JT6i0JNyotCR8J5WbJDSVJ5LQVFoSmsp3OsyUw0w5zJQPL6m0JDyhcpOEN1SeULlJwo1KS0JTaUl4IwlN5Y3DTDnMlMNMiV94IQlNpSXhCZWbJLyh0pJwo/JEEm5UWhKayu90mCmHmXKYKR/+MEl4QuWJJLyRhCdUWhKaSkvCGypvHGbKYaYcZkr8wm+UhBuVmyQ8odKS0FTeSEJT+U5JaCrf6TBTDjPlMFM+vJSEG5UblZskvKHyRBJ+UhKaSkvCjcpPOsyUw0w5zJT4hR+UhBuVN5LwnVRaEppKS8IbKi0JTeUmCU3ljcNMOcyUw0yJX3ghCU+otCQ0lZaEpvJEEprKTRJ+J5WbJNyovHGYKYeZcpgpH15SeUPlRuUmCX8SlSeScJOEpvKTDjPlMFMOM+XDS0n4lVTeSEJTaSpPJOEmCU3lJglNpSXhRuWNw0w5zJTDTPnwzVS+UxJuVG6S0FRuktBU3lB5QuVG5ScdZsphphxmyocfloQnVN5Iwk0SflIS3khCU/mVDjPlMFMOM+XDf4xKS0JTuUnCEyotCU2lJeF3OsyUw0w5zJQP/3JJaCpvJOFGpSWhqdyotCTcJOEJlTcOM+UwUw4z5cMPU/lJKi0JTaUl4UalJaEloam0JDSVJ1RaEppKS8J3OsyUw0w5zJT4hReS8CuptCQ0lTeS8IbKG0l4Q+WNw0w5zJTDTIlfmPnHYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphpvwPTOaPE5fpnzIAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-1.FL-0003</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOXSURBVO3BQY4kyQEDQWeg/v9l1xx0oC4BJLK6NbugWfyDmf86zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlA8vJeE3qdwkoam0JDSVmyQ8odKS8JtU3jjMlMNMOcyUD1+m8k1JuElCU2lJaCotCU+ovKHyTUn4psNMOcyUw0z58MOS8ITKb1JpSWgqLQlN5Y0kPKHykw4z5TBTDjPlw/wPlSeS0FT+yQ4z5TBTDjPlwz+cSkvCTRJuVJ5Q+Tc5zJTDTDnMlA8/TOU3qdwkoak8ofJNKn+Tw0w5zJTDTPnwZUn4TUloKi0JTaUloam0JDSVloSmcpOEv9lhphxmymGmfHhJ5W+m0pLQVN5QuVH5JznMlMNMOcyUDy8loal8UxKayhsqLQlNpam0JDSVloQblZskPKHyTYeZcpgph5kS/+CLktBUbpLQVG6S8IZKS8KNyk0S/iYqbxxmymGmHGbKh5eS0FRuktBUbpLQVFoS3lBpSWhJuFFpSXhCpSXhRqUl4ZsOM+UwUw4z5cNLKjdJaCotCU2lqdyoPJGEJ1TeULlJQlP5fzrMlMNMOcyUDy8l4UalJaGptCTcqLQkNJUblZaEJ5LwRhKaSkvC/9NhphxmymGmxD94IQlPqNwkoancJOEJlZ+UhBuVN5Jwo/LGYaYcZsphpnz4MpWbJDyRhBuVloSm0pJwo3KThKbSVJ5Iwo3Kjco3HWbKYaYcZsqHH5aEG5U3ktBUnlB5QuUmCU2lJeGJJDSVn3SYKYeZcpgpH36Zyk0SnlD5TUl4IglPqLQk3CShqbxxmCmHmXKYKR9eUrlReULliSQ0lZaEptKS8E0qTyThb3KYKYeZcpgpH15Kwm9SaSotCTdJaCpvJOEmCU3lJglNpSXhJx1mymGmHGbKhy9T+aYkvKFyk4QblTdUnlC5UWlJ+KbDTDnMlMNM+fDDkvCEyhsqLQlN5UalJaGp3CThjSQ8ofJNh5lymCmHmfLhXyYJT6g8kYSm0pLQVFoS3lBpSWgqbxxmymGmHGbKh38ZlZsk3Kg0lZ+k0pLQVH7TYaYcZsphpnz4YSq/KQlN5UblJgk3KjdJaCotCU2lJaGpNJVvOsyUw0w5zJT4By8k4TeptCTcqDyRhDdU3kjCGypvHGbKYaYcZkr8g5n/OsyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJT/AGYdr+ZvdAZ9AAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-2.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOSSURBVO3BQY4jSQIDQWdA//+ybx/mwFMACUlVPbM0i38w84/DTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMefGmJPwklZaEptKS0FRaEppKS8ITKi0JP0nlHYeZcpgph5ny4sNUPikJNyo3Ki0JTaUl4UblHSqflIRPOsyUw0w5zJQXX5aEJ1SeSMKNSlNpSWgqLQktCTcqTyThCZVvOsyUw0w5zJQX/3IqN0m4UXlCpSXhv+QwUw4z5TBTXvzHqdwk4Ykk/JcdZsphphxmyosvU/mmJDSVloQbld+k8jc5zJTDTDnMlBcfloS/mUpLQlNpSWgqLQlN5SYJf7PDTDnMlMNMefEmld+k8kQSPknlRuXf5DBTDjPlMFPiH7whCU2lJaGpPJGEG5V3JOGTVG6S0FRuktBUWhKayjsOM+UwUw4z5cWHJaGptCQ0lZaEpnKThKZyk4Sm0pJwo3KThKbyRBKaSktCU/mkw0w5zJTDTIl/8IuS8IRKS8ITKi0JTeUmCTcqLQlNpSXhRqUl4UblHYeZcpgph5ny4k1JaCotCU+o3CThRqUl4UalJaGpNJWbJLxD5Ublmw4z5TBTDjPlxZep3CShJeEnJeGJJDyh0pLQVFoS3qHyjsNMOcyUw0yJf/CDknCj8kQSblRuktBU3pGEpvJJSWgqn3SYKYeZcpgpL96UhBuVG5WWhN+UhG9KQlNpSbhR+abDTDnMlMNMefEmlZskNJWWhKbySUl4QqUloam0JNwk4R0qN0loKu84zJTDTDnMlPgHb0jCb1L5pCT8JpWbJNyovOMwUw4z5TBTXrxJ5Tcl4UblJ6k8kYSbJDSVbzrMlMNMOcyUF29Kwk9SuVG5SUJTaSpPJOEmCU3lJglNpSXhRuUdh5lymCmHmfLiw1Q+KQk3Ki0JTaWp3CShqbxD5QmVG5VvOsyUw0w5zJQXX5aEJ1TeodKS8JOS8I4kNJWfdJgph5lymCkv/s+otCQ0lZskfJJKS8JvOsyUw0w5zJQX/3JJaCpN5Ykk3Ki0JDSVJ5Jwk4QnVN5xmCmHmXKYKS++TOWbVJ5Iwo1KS0JLQlNpSWgqT6i0JDSVloRPOsyUw0w5zJQXH5aEn5SEJ1RukvBEEprKEyotCTdJ+KbDTDnMlMNMiX8w84/DTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNM+R/d6JkJMQxOCgAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-2.FL-0002</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOFSURBVO3BMY5rRwADweZA979yewMHjAZ4kLT+tlkVfzDzt8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0x58aYk/CaVloQblZaEpnKThCdUWhJ+k8o7DjPlMFMOM+XFh6l8UhJuVG6ScJOEJ1TeofJJSfikw0w5zJTDTHnxZUl4QuWJJDSVG5UnktCScKPyRBKeUPmmw0w5zJTDTHnxL6fyRBJuVP7PDjPlMFMOM+XF/4zKTRL+zw4z5TBTDjPlxZepfFMSmspNEm5UfpPKn+QwUw4z5TBTXnxYEv5kKi0JN0loKi0JTeUmCX+yw0w5zJTDTIk/+A9Lwo3KTRKayn/ZYaYcZsphprx4UxKaSktCU3kiCTcqT6jcJOEmCTcqN0loKjdJaCotCU3lHYeZcpgph5ny4stUWhJuVJpKS8ITKjdJeELlJglN5YkkNJWWhKbySYeZcpgph5ny4sOScKPSktCScKPSkvCEyo3KTRJuVFoSmkpLwjuS0FTecZgph5lymCnxB3+QJDSVdyThHSpPJOFGpSWhqfyTDjPlMFMOM+XFm5LwTUloKi0JTaWp3CThiSQ8odKS0FRaEt6h8o7DTDnMlMNMiT/4RUloKp+UhBuVloSm8o4kNJVPSkJT+aTDTDnMlMNMefGmJNyoNJWbJDyh0lTekYRvSkJTaUm4Ufmmw0w5zJTDTHnxJpWbJNyo3Ki0JLwjCTcqLQlNpSXhJgnvULlJQlN5x2GmHGbKYabEH7whCU+otCQ0lZaEJ1TekYR/kspNEm5U3nGYKYeZcpgp8Qf/Ykm4UXkiCe9QeSIJTaUloal802GmHGbKYaa8eFMSfpPKE0m4UWkqTyThJglN5SYJTaUl4UblHYeZcpgph5ny4sNUPikJNyotCTcqN0loKu9QeULlRuWbDjPlMFMOM+XFlyXhCZVPUmlJ+KYkvCMJTeU3HWbKYaYcZsqL/xiVloSm0pLQVG6S8EkqLQn/pMNMOcyUw0x58S+XhE9Kwo1KS0JTeSIJN0l4QuUdh5lymCmHmfLiy1S+SaUl4SYJNyotCS0JTaUloak8odKS0FRaEj7pMFMOM+UwU158WBJ+UxKeULlJwhNJaCpPqLQk3CThmw4z5TBTDjMl/mDmb4eZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5nyF3ipgh0oFjKtAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-2.FL-0003</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOdSURBVO3BQY4jRwADwWRB//9yeg4+8FRAQ9KsvWBE/MHMvw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlxZuS8JtUWhKayicl4QmVloTfpPKOw0w5zJTDTHnxYSqflIQblZaEptKS8A6Vd6h8UhI+6TBTDjPlMFNefFkSnlB5IglNpSWhqTyRhJaEG5UnkvCEyjcdZsphphxmyov/OZWWhKZyk4SmcqPyNzvMlMNMOcyUF38ZlZaEpnKThCeS0FT+zw4z5TBTDjPlxZepfFMSblRaEm5UnlB5h8p/yWGmHGbKYaa8+LAk/EkqLQlNpSXhJglNpSWhqdwk4b/sMFMOM+UwU+IP/iJJeELlJglN5W92mCmHmXKYKfEHb0hCU2lJaCpPJOFG5SYJTeUmCe9QuUlCU7lJQlNpSWgq7zjMlMNMOcyUFx+WhKZyk4QblZskNJUnkvCEyk0SmsoTSWgqLQlN5ZMOM+UwUw4z5cWbVN6h0pLQkvAOlSdUbpJwo9KS0FRaEt6RhKbyjsNMOcyUw0yJP/igJNyotCTcqNwk4ZtUnkjCjUpLQlP5kw4z5TBTDjMl/uCLkvBNKk8k4QmVloQnVFoSmkpLwjtU3nGYKYeZcpgp8QcflIQblU9KQlNpSWgqLQlN5R1JaCqflISm8kmHmXKYKYeZ8uJNSXhHEppKS0JTaSotCU3liSR8UxKaSkvCjco3HWbKYaYcZsqLN6ncJKEloancqNwk4Ykk3Ki0JDSVloSbJLxD5SYJTeUdh5lymCmHmRJ/8IYk3Ki0JLxDpSXhCZWbJPxJKjdJuFF5x2GmHGbKYaa8eJPKEyrfpNKS8JtUnkjCTRKayjcdZsphphxmyos3JeE3qdwkoam0JDSVpvJEEm6S0FRuktBUWhJuVN5xmCmHmXKYKS8+TOWTknCj8oTKTRKayjtUnlC5Ufmmw0w5zJTDTHnxZUl4QuWTkvCbkvCOJDSV33SYKYeZcpgpL/4ySbhRaUloKjdJ+CSVloQ/6TBTDjPlMFNe/M8loam0JDyRhBuVloSm8kQSbpLwhMo7DjPlMFMOM+XFl6l8k8qNSkvCjUpLQktCU2lJaCpPqLQkNJWWhE86zJTDTDnMlBcfloTflIQnVG6S8EQSmsoTKi0JN0n4psNMOcyUw0yJP5j512GmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYab8A8Xong0ZsjyZAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-2.FL-0004</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOgSURBVO3BQY4cRwADwWRh/v/ltA4+8FRAo2cly2BE/IWZfx1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKh5eS8DuptCQ8odKS0FRaEp5QaUn4nVTeOMyUw0w5zJQPX6byTUm4UWlJaCpPJOFG5Q2Vb0rCNx1mymGmHGbKhx+WhCdUnkjCTRKaSlO5SUJLwo3KE0l4QuUnHWbKYaYcZsqHv5zKn6Tyf3KYKYeZcpgpH/7nktBUWhLeSEJT+ZsdZsphphxmyocfpvKTktBUmkpLQlP5k1T+Sw4z5TBTDjPlw5cl4b8kCU2lJaGptCQ0lZaEpnKThP+yw0w5zJTDTPnwksqfpPInqdyo/E0OM+UwUw4zJf7CC0loKi0JTeWJJNyoPJGEn6Ryk4SmcpOEptKS0FTeOMyUw0w5zJQPL6k8kYQblaZyk4QblRuVloQblZskNJUnktBUWhKayjcdZsphphxmyocvS0JTuUlCS8KNSlO5ScITKjdJuFFpSWgqLQlvJKGpvHGYKYeZcpgp8Re+KAk3KjdJaCo3SWgqTyThRuWJJNyotCQ0lT/pMFMOM+UwUz68lIQnktBUmkpLQlO5SUJTaUl4IwlPqLQkNJWWhDdU3jjMlMNMOcyU+As/KAlPqNwk4Q2VloSm8kYSmso3JaGpfNNhphxmymGmfHgpCTcqTyThm1SeSMIbKjdJaCotCTcqP+kwUw4z5TBTPrykcpOEJ1S+KQlPqLQkNJWWhJ+kcpOEpvLGYaYcZsphpsRfeCEJNyo3SXhCpSXhRuWJJPxJKjdJuFF54zBTDjPlMFM+vKTyhso3qbQkNJWfpPJEEm6S0FR+0mGmHGbKYaZ8eCkJv5PKTRKaSktCU2kqTyThJglN5SYJTaUl4UbljcNMOcyUw0z58GUq35SEG5WWhBuVmyQ0lTdUnlC5UflJh5lymCmHmfLhhyXhCZU3VFoSfqckvJGEpvI7HWbKYaYcZsqH/5kkNJWbJDSVmyQ8odKS0FRaEv6kw0w5zJTDTPnwl0tCU2lJaCo3SbhRaUloKjcqLQk3SXhC5Y3DTDnMlMNM+fDDVH6SSkvCTRJuVFoSWhKaSktCU3lCpSWhqbQkfNNhphxmymGmfPiyJPxOSXhC5SYJTyShqTyh0pJwk4SfdJgph5lymCnxF2b+dZgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCn/AKv3pQZkE+N/AAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-3.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOpSURBVO3BQY4kRwIDQXqg/v9l3znsgacAEtnVkgY0wz8y838nM+VkppzMlJOZcjJTTmbKyUw5mSknM+VkppzMlJOZcjJTTmbKyUz55CUgv0lNA9LU3ABpam6APKGmAflNat44mSknM+Vkpnzyw9T8JCA3ahqQJ4A8oeYNNT8JyE86mSknM+VkpnzyZUCeUPMEkKamAXlCTQPSgNyoeQLIE2q+6WSmnMyUk5nyyX+cmt+kpgH5m5zMlJOZcjJTPvnLALlR04A0IDdA/mYnM+VkppzMlE++TM03AWlqGpAG5EbNb1Lzb3IyU05myslM+eSHAfk3U9OA3ABpahqQpuYGyL/ZyUw5mSknM+WTl9T8k9TcqPkmNTdq/ktOZsrJTDmZKZ+8BKSpaUCamieA3Ki5AdLU3AC5AXKj5gZIU3MDpKlpQJqaN05myslMOZkpn7yk5kbNDZAbNQ3IE2pu1DQgN2pugDQ1TwBpahqQpuYnncyUk5lyMlM+eQlIU9OAvAHkBkhT8wSQpuYGyI2aBqSpaUDeANLUvHEyU05myslMwT/yg4A8oaYBaWoakKbmBsgbap4AcqOmAWlq/kknM+VkppzMlE9eAtLUNCBNTQPS1DQgN0B+E5An1DQgTU0D8oaaN05myslMOZkp+Ed+EJCm5gkgTU0D8oSaGyBNzRtAmpqfBKSp+UknM+VkppzMFPwjLwB5Qs0TQJqaBuQJNQ3IT1JzA6SpaUBu1HzTyUw5mSknM+WTl9S8AaSpaWpu1NwAaUBu1DQgTU0D8k1qboA0NW+czJSTmXIyUz55Ccg3AblR04DcqLkBcgPkBsgTQJqaGyDfdDJTTmbKyUz55CU136TmBsiNmt+k5gkgN0Camm86mSknM+VkpnzyEpDfpOZGTQNyo6apeQLIDZCm5gZIU9OA3Kh542SmnMyUk5nyyQ9T85OA3KhpQJqaJ4A0NW+oeULNjZpvOpkpJzPlZKZ88mVAnlDzhpobIN8E5A0gTc1vOpkpJzPlZKZ88pcD0tQ0IE3NDZAn1DQgTU0D8k86mSknM+VkpnzyHwekqWlqngByo6YBaWpu1DQgN0CeUPPGyUw5mSknM+WTL1PzTWpugDyhpgFpQJqaBqSpeUJNA9LUNCA/6WSmnMyUk5nyyQ8D8puA3Kh5AsgTQJqaJ9Q0IDdAvulkppzMlJOZgn9k5v9OZsrJTDmZKScz5WSmnMyUk5lyMlNOZsrJTDmZKScz5WSmnMyUk5nyPxttmC4LZNWXAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-3.FL-0002</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOTSURBVO3BQbJbyQEDwUIH73/lshazwMYdZjzySyMjM/7CzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cVDSfhJKi0J71BpSWgqLQnvUGlJ+EkqTxxmymGmHGbKiw9T+aQk3Ki0JDSVloSm0pJwo/KEyicl4ZMOM+UwUw4z5cWXJeEdKu9IwieptCS0JNyovCMJ71D5psNMOcyUw0x58S+ncpOE+d8dZsphphxmyou/TBKayjuS8P/sMFMOM+UwU158mco3JaGptCTcqDSVn6TyJznMlMNMOcyUFx+WhD+ZSktCU2lJaCotCU3lJgl/ssNMOcyUw0yJvzD/VRKayt/sMFMOM+UwU148lISm0pLQVN6RhBuVT0rCTRJuVG6S0FRuktBUWhKayhOHmXKYKYeZ8uIhlZaEpvKEyk0SmspNEp5QuUlCU3lHEppKS0JT+aTDTDnMlMNMefHDkvA7qbQkNJWbJNyotCQ0lZaEJ5LQVJ44zJTDTDnMlBcPJeEdKi0JTeUdSbhJQlNpKi0JTaWp3CThCZUblW86zJTDTDnMlBc/LAnvSEJTuUlCU2lJeCIJ71BpSWgqLQlPqDxxmCmHmXKYKfEXPigJTeUmCTcqLQlNpSXhRqUloak8kYSm8klJaCqfdJgph5lymCkvHkrCTRJuVG6S0FRuVFoS3pGEJ1RuktBUWhJuVL7pMFMOM+UwU148pPKOJNwkoam0JDSVG5WWhBuVloSm0pLwTSo3SWgqTxxmymGmHGZK/IUHkvAOlZaEn6Ryk4TfSeUmCTcqTxxmymGmHGbKi4dUnlB5Igk3Kj9J5R1JuElCU/mmw0w5zJTDTHnxUBJ+ksoTSWgqTeUdSbhJQlO5SUJTaUm4UXniMFMOM+UwU158mMonJeFGpSWhJaGp3CShqTyh8g6VG5VvOsyUw0w5zJQXX5aEd6h8UxK+KQlPJKGp/KTDTDnMlMNMefGXUWlJaCotCU3lJgnvUGlJaCotCb/TYaYcZsphprz4l0vCJyXhRqUloancqLQk3CThHSpPHGbKYaYcZsqLL1P5JpWWhKbSknCj0pLQktBUWhKayjtUWhKaSkvCJx1mymGmHGbKiw9Lwk9KwjtUbpLwjiQ0lXeotCTcJOGbDjPlMFMOMyX+wsw/DjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+U/jHuMKKkRqpgAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-3.FL-0003</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOhSURBVO3BO44sSQIDQfdA3f/K3CeMQCmARFb3zodm5g9m/nKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgpH15S+U1JaCo3SbhRaUloKi0JT6j8piS8cZgph5lymCkfviwJ36Ryk4QblTeS8E1J+CaVbzrMlMNMOcyUDz9M5YkkvKHSktBUblRaEprKTRKeUHkiCT/pMFMOM+UwUz78w6m0JDSVmyTcqPyXHGbKYaYcZsqH/ziVN5Lwb3KYKYeZcpgpH35YEn6TSktCU3kjCd+UhL+Tw0w5zJTDTPnwZSr/T0loKi0JTaUloancqLQk3Kj8nR1mymGmHGbKh5eS8E+i0pLwhMoTSfgnOcyUw0w5zJQPL6m0JDyh0pLQVJ5QeUPlJgk3Kt+UhBuVloQ3DjPlMFMOM+XDl6k8kYSm0pJwo9KS0FSeSMJPSkJTeULlJx1mymGmHGbKh5eS0FRaEprKEyo3SWgqN0m4UXkjCTcqLQlN5YkkfNNhphxmymGmfHhJpSWhqdyo3CThiSTcqLQk3CShqTyh0pLQVG5UftNhphxmymGmmD/4G1F5Igk3Km8k4ZtUWhLeUGlJeOMwUw4z5TBTPrykcpOEpvJEEr4pCTcqTaUl4UblCZWWhBuVn3SYKYeZcpgp5g9+kMo3JaGpPJGEN1RuktBUWhKayhNJaCotCW8cZsphphxmyocfloQblZskPJGEpnKj0pLQVG6S0FRaEppKS8KNSlP5SYeZcpgph5li/uAFlZskPKFyk4Sm8kYSmspNEprKb0pCU2lJeOMwUw4z5TBTPryUhG9KwhtJaCotCU2lJeFG5SYJT6i0JDSV33SYKYeZcpgpH15S+U1JuFG5UblRuUlCU7lRaUm4UWlJaCotCd90mCmHmXKYKR++LAnfpHKThKbyRBKaSktCU3kiCW+o/KbDTDnMlMNM+fDDVJ5IwhMqTyShqXyTyhtJaCq/6TBTDjPlMFM+/MMloak8kYSm0lS+KQlNpam0JNyotCS8cZgph5lymCkf/mWS0FSeSMITKi0JTaWptCQ0laZyk4RvOsyUw0w5zJQPPywJv0mlJeFGpSWhqbQkPJGEG5WbJDSVptKS8MZhphxmymGmfPgyld+k0pLQVG6S0FSeSEJTaUm4ScITSWgq33SYKYeZcpgp5g9m/nKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgp/wPjCYNPV9Nf7gAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-3.FL-0004</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOvSURBVO3BQY4kRwIDQXqg/v9l3znsgacAElnd0gg0wz8y838nM+VkppzMlJOZcjJTTmbKyUw5mSknM+VkppzMlJOZcjJTTmbKyUz55CUgv0lNA9LUNCA3am6ANDVPAPlNat44mSknM+VkpnzyZWq+CciNmhs1DcgTar5JzTcB+aaTmXIyU05myic/DMgTar4JyBNAmpoG5EbNE0CeUPOTTmbKyUw5mSmf/OWANDVPAGlqGpCmpgH5LzmZKScz5WSmfPIfp6YBaWoakBsgTc1/yclMOZkpJzPlkx+m5jcBaWq+Sc03qfk3OZkpJzPlZKZ88mVA/klqGpCmpgFpahqQGyBNzQ2Qf7OTmXIyU05myicvqfmbAHkDyBNq/iYnM+VkppzMFPwjLwBpap4A0tQ0IG+oaUDeUHMD5JvU3ABpat44mSknM+Vkpnzyw4C8oaYBaWpugDQ1DUhT85PUNCBPAPlJJzPlZKaczJRP/mFqGpA3gDyhpgF5Q80NkKamAXlCzTedzJSTmXIyU/CP/EWA3Kh5AsiNmgbkRk0D0tQ0IG+o+aaTmXIyU05myidfBuQJNQ3IjZo3gLyh5gk1DUhT8waQpuaNk5lyMlNOZsonLwG5UdOAPKHmBkhTc6PmBkgD0tTcAHkCSFNzA+QnncyUk5lyMlPwj/wgIE1NA/KEmieANDVvALlR04A0NQ3IE2oakKbmjZOZcjJTTmYK/pFfBKSpeQLIjZongDQ1DciNmgakqWlAmpobIE+oeeNkppzMlJOZ8slLQG7UvAGkqbkB8oSaBuRGTQNyA+QGyBNqGpBvOpkpJzPlZKZ88pKaJ9Q8oeYGSFPTgDQ1DUhTcwPkRs0TQJqaBuQ3ncyUk5lyMlM+eQnIb1LzhJoG5AbIjZoG5AZIU3MDpKlpQJqabzqZKScz5WSmfPJlar4JyI2aBqSpuVHTgDQ1DcgTat4A8ptOZsrJTDmZKZ/8MCBPqHkCSFNzo6YB+SYgb6hpQH7TyUw5mSknM+WTv5yaBuRGTVPTgDQg36SmAWlAmpobIE3NGycz5WSmnMyUT/7j1Dyh5gkgTU0D0oA0NQ1IA3Kj5ptOZsrJTDmZKZ/8MDW/SU0D0tQ0IE1NA9LUPKHmBsiNmgakAWlq3jiZKScz5WSmfPJlQH4TkKbmBkhT04A8oaYBaWpu1DyhpgH5ppOZcjJTTmYK/pGZ/zuZKScz5WSmnMyUk5lyMlNOZsrJTDmZKScz5WSmnMyUk5lyMlNOZsr/ANMgoideUpW6AAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-3.FL-0005</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOYSURBVO3BQa5bRwADweZA979yx4ssuBrgQdK3nbAq/sLMvw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlxZuS8JNUWhKayk0SblQ+KQk/SeUdh5lymCmHmfLiw1Q+KQmfpNKScJOEpvIOlU9KwicdZsphphxmyosvS8ITKk+o3CShqTSVloSmcpOEpvJEEp5Q+abDTDnMlMNMefGXS8ITSbhRuUlCU/kvOcyUw0w5zJQXfzmVloSmcpOEloQblf+yw0w5zJTDTHnxZSq/UxKaSlO5ScJNEprKEyp/ksNMOcyUw0x58WFJ+ElJaCotCTdJaCrflIQ/2WGmHGbKYaa8eJPKnyQJ70jCEyo3Kn+Tw0w5zJTDTHnxpiQ0lZaEG5WWhCdUWhKayjcloam0JDSVmyQ0lZaEG5V3HGbKYaYcZsqLD0vCjcoTKjdJeCIJNyo3SbhJwk0SmkpT+Z0OM+UwUw4z5cVvloSm0pLQVJ5Iwo3KTRKaSktCU7lJQktCU2lJuFH5pMNMOcyUw0x58cOScJOEptKS8IRKS0JLwjtUWhK+SeWbDjPlMFMOM+XFl6m0JDSVmyQ0lZskPKHySSpPJKEloancJKGpvOMwUw4z5TBTXrxJ5SYJTyShqTyh8o4kNJWbJDSVd6g8ofJJh5lymCmHmfLiw5LQVFoSblRaEm5UbpLQVFoSmkpLwo1KS8InJeEJlXccZsphphxmyos3JaGptCQ0lZaEG5WbJNyoPJGEptKScKPSknCjcqPykw4z5TBTDjMl/sIPSkJTuUnCjcpNEm5U3pGE30nlkw4z5TBTDjMl/sJfLAk3KjdJuFFpSbhReSIJTeV3OsyUw0w5zJQXb0rCT1J5IglPqNyotCTcJKGp3CThRuWbDjPlMFMOM+XFh6l8UhLeoXKThCeS8ITKEyo3SWgqn3SYKYeZcpgpL74sCU+oPKFyk4QnktBUmkpLQkvCT0pCU3nHYaYcZsphprz4yyXhRuUmCTdJaCpN5SYJNypPqLQkfNJhphxmymGmvPifScITKi0JTeVGpSWhJaGp3CShqXzSYaYcZsphprz4MpVvUnlC5R0qLQk/SaUloam84zBTDjPlMFNefFgSflISblRuktBUWhKayo3KTRJuktBUftJhphxmymGmxF+Y+ddhphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGm/ANTb44mJb9v1gAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-3A.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOkSURBVO3BQY4jyQEEQfcE///lUB8WUJwSKJBszazCzPxg5h+HmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZ8uJNKr8pCU3lNyWhqbQkNJXflIR3HGbKYaYcZsqLD0vCJ6ncJKGp/KYkPJGET1L5pMNMOcyUw0x58WUqTyThHUm4UblJwo3KTRKeUHkiCd90mCmHmXKYKS/+cipPJKGpzH8dZsphphxmyot/uSQ0lSdUWhL+zQ4z5TBTDjPlxZcl4Tcloam0JDSVmyR8UxL+JIeZcpgph5ny4sNU/k1UWhKaSkvCjcqf7DBTDjPlMFNevCkJfxOVloSm0pLQVJ5Iwt/kMFMOM+UwU8wP3qDSkvCESktCU3lHEprKE0l4QuWTknCj0pLwjsNMOcyUw0x58WUqN0m4SUJTaUm4UWlJuFFpKi0JTeWJJDSVJ1S+6TBTDjPlMFNefJjKTRKaSktCU2lJaCo3SWgqN0m4UWlJeEKlJaGpPJGETzrMlMNMOcyUF1+WhHck4ZOS0FRuVN6h0pLQVG5UftNhphxmymGmmB98kUpLwo3KE0loKk8koak8kYQnVFoS3qHSkvCOw0w5zJTDTHnxJpWWhBuVloSbJDyRhKbSktBUWhKeUHmHSkvCjco3HWbKYaYcZor5wS9SaUloKjdJaCo3SWgq70jCEyotCU3liSQ0lZaEdxxmymGmHGbKiy9TaUloKi0JNypPqNwkoam0JDSVJ5LQVFoSblSayjcdZsphphxmivnBG1R+UxKayk0SblRuknCj8puS0FRaEt5xmCmHmXKYKS/elIQ/SRKaSktCS0JTaSpPJOEJlZaEpvKbDjPlMFMOM+XFm1R+UxJuVFoSnkjCEyo3Ki0JNyotCU3lmw4z5TBTDjPlxYcl4ZNUbpJwo9KS0FRaEppKS8ITSXiHyk0SPukwUw4z5TBTXnyZyhNJeEKlJeFGpSWhqbxD5R1JaCq/6TBTDjPlMFNe/OWS0FRaEm5UWhJuVFoSblRaEppKU2lJuFFpSXjHYaYcZsphprz4P6Nyo3KThKbSktCS0FRaEppKU7lJwicdZsphphxmyosvS8L/kspNEppKS0JTeUKlJaGp3CShqTSVloR3HGbKYaYcZsqLD1P5TSotCU2lJaGpfFMSbpLwRBKayicdZsphphxmivnBzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5T+7ZJYzXY1ErgAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-3A.FL-0002</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAONSURBVO3BQa7cVgADwebD3P/KHS+y4EqIIM23HbAq/sLMvw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlw0NJ+EkqLQlNpSWhqVxJQlNpSWgqV5Lwk1SeOMyUw0w5zJQPL1N5UxLuSEJTaUl4QuUJlTcl4U2HmXKYKYeZ8uHLknCHyh0qLQlXVN6UhKZyRxLuUPmmw0w5zJTDTPnwl0tCU2lJaCotCU2lJaGpNJX/k8NMOcyUw0z58JdTaUloKvPfHWbKYaYcZsqHL1P5nZJwRxKaypUkNJU7VP4kh5lymCmHmfLhZUn4SUloKi0JTaUloam0JDSVJ5LwJzvMlMNMOcyUDw+p/EmS8CaVKypXVP4mh5lymCmHmfLhoSQ0lZaEKyotCXeoPKHSktBUriShqbQkNJUrSWgqLQlXVJ44zJTDTDnMlA8vS8IVlZaEKypXktBUWhKuqFxJwhWVloQrSWgqTeV3OsyUw0w5zJQPD6lcScIdKi0JTeUnqdyhciUJLQlNpSXhisqbDjPlMFMOMyX+wgNJaCpXktBU3pSEJ1TuSMKbVFoSmso3HWbKYaYcZsqHlyWhqVxJwh0qLQnflIQrKk8koSWhqVxJQlN54jBTDjPlMFM+PKRyh8oTSfidVL5J5Q6VNx1mymGmHGbKh5cl4Q6VloQ3qbQkNJWWhKZyJQnflIQ7VJ44zJTDTDnMlA8PJaGptCQ0lZaEKyotCVdUnlBpSbhDpSXhisoVlZ90mCmHmXKYKfEXflASmkpLwhWVNyWhqbQkNJWWhN9J5U2HmXKYKYeZEn/hL5aEptKS0FTuSMIdKnckoan8ToeZcpgph5ny4aEk/CSVK0l4IglXVFoSriShqVxJwhWVloSm8sRhphxmymGmfHiZypuScIfKlSQ0lW9SuUPlShKaypsOM+UwUw4z5cOXJeEOlTtUWhKaSlN5IglXkvCTktBUnjjMlMNMOcyUD3+5JLxJ5Y4kXFFpSWgqd6i0JLzpMFMOM+UwUz78z6i0JDSVO5JwReVKEq4koalcSUJTedNhphxmymGmfPgylW9SaUm4koQ3JeGKSkvCEyotCU3licNMOcyUw0z58LIk/KQkNJWWhCsqdyShqbQkPJGEpvKTDjPlMFMOMyX+wsy/DjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UfMRKVDded7f4AAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-4.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOkSURBVO3BOw4rSQIDwWRB979y7hhr0Cqg0dKbDxgR/8LM/x1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKh5eS8CeptCQ8odKS0FRaEp5QaUn4k1TeOMyUw0w5zJQPX6byTUm4UWlJuEnCTRJuVN5Q+aYkfNNhphxmymGmfPixJDyh8kQSblTeSEJLwo3KE0l4QuWXDjPlMFMOM+XDv5xKS8JNEm5UblRaEv5LDjPlMFMOM+XDf1wSmspNEm6S8F92mCmHmXKYKR9+TOWXkvBEEppKU/mTVP5JDjPlMFMOM+XDlyXh76TSktBUWhKaSktCU2lJaCo3SfgnO8yUw0w5zJQPL6n8nVRaEppKS8I3qdyo/JscZsphphxmSvwLLyShqbQkNJUnknCj0pJwo9KS8E0qN0loKjdJaCotCU3ljcNMOcyUw0z58JJKS0JTuUlCU2kqLQk3Ki0J36Ryk4Sm8kQSmkpLQlP5psNMOcyUw0z58GUqT6jcJKGp3CThCZUnknCj0pLQVFoS3khCU3njMFMOM+UwUz68lIQblZskNJWmcpOEN5Jwo9JUbpLwhsqNyi8dZsphphxmyocfS0JTeSIJTaWptCT8UhKeUGlJaCotCW+ovHGYKYeZcpgpH15SaUloKi0JT6i0JDSVG5UnVG5UbpJwo3KjcpOEpvJNh5lymCmHmRL/wgtJeELlJgk3Kk8koam0JHyTyk0SmkpLwo3KLx1mymGmHGbKh5dU3kjCjUpLwhMqLQk3Ki0JTaUl4ZdUbpLQVN44zJTDTDnMlPgXXkjCN6m0JDSVloQblSeS8HdSuUnCjcobh5lymCmHmfLhJZVfUnkjCU3ll1SeSMJNEprKLx1mymGmHGbKh5eS8Cep3Ki0JLQkNJWm8kQSbpLQVG6S0FRaEm5U3jjMlMNMOcyUD1+m8k1JuFG5UXkiCU3lDZUnVG5UfukwUw4z5TBTPvxYEp5Q+aYk/ElJeCMJTeVPOsyUw0w5zJQP/zFJuFFpSWgqN0n4JpWWhL/TYaYcZsphpnz4l0vCNyXhRqUloak8kYSbJDyh8sZhphxmymGmfPgxlV9SeSIJNyotCS0JTaUloak8odKS0FRaEr7pMFMOM+UwUz58WRL+pCQ0lZaEpnKThCeS0FSeUGlJuEnCLx1mymGmHGZK/Asz/3eYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgp/wPbsqcK3cDfGAAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-4.FL-0002</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOVSURBVO3BQa5bRwADweZA979yx4ssuBpAeNK3nbAq/sLMvw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlxUNJ+EkqLQk3Ki0JTaUl4UalJaGptCT8JJUnDjPlMFMOM+XFh6l8UhJuVJ5IQlN5h8o7VD4pCZ90mCmHmXKYKS++LAnvUHlHEprKjcpNEp5QeUcS3qHyTYeZcpgph5ny4i+n0pLQVFoSmkpT+T87zJTDTDnMlBf/MSotCU2lJaGptCS8Q+Vvdpgph5lymCkvvkzlm5LQVJrKO5Jwo/JJKn+Sw0w5zJTDTHnxYUn4kyShqdyotCTcJKGp3CThT3aYKYeZcpgp8Rf+w5LQVFoSblT+Tw4z5TBTDjPlxUNJaCotCU3lHUm4UWlJaCotCU2lJeEmCTcqN0loKjdJaCotCU3licNMOcyUw0yJv/BFSbhReSIJTaUl4R0q70jCjUpLQlNpSWgqLQlN5ZMOM+UwUw4z5cVDSWgqTeUmCe9QaSotCe9QaUl4h8pNEppKS8ITSWgqTxxmymGmHGbKi4dUPknlJglNpam0JDSVloSm0pLQVFoSPknlRuWbDjPlMFMOM+XFQ0n4pCTcqNwk4SYJTaUl4ZNUWhKaSkvCEypPHGbKYaYcZsqLh1SeSMKNyjtU/mQqNyo3SWgqn3SYKYeZcpgp8RceSMI7VN6RhBuVmyTcqPykJDSVloQblW86zJTDTDnMlBcPqdwkoSXhRqWptCTcJOFG5SYJTeV3UrlJQlN54jBTDjPlMFNePJSEG5WbJNwk4SYJ70jCE0n4pCQ0lZskfNNhphxmymGmvHhI5QmVG5WbJNyo3CShqTyh8o4k3CShqXzTYaYcZsphprx4KAk/SeWbknCj0pJwk4SmcpOEptKS0FQ+6TBTDjPlMFNefJjKJyXhRuUdSbhRaUloSXiHyjtUblS+6TBTDjPlMFNefFkS3qHyRBKaSlO5ScITSXgiCU3lJx1mymGmHGbKi3lE5SYJNyotCb/TYaYcZsphprz4yyXhHUloKk3lHUloKjcqLQk3SXiHyhOHmXKYKYeZ8uLLVL5J5R0qN0loKjcqLQlPqLQkNJWWhE86zJTDTDnMlBcfloSflISmcpOEn6Ryo9KScJOEbzrMlMNMOcyU+Asz/zrMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUfwCoPJ4Hkq5/YQAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-4A.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOJSURBVO3BQW5cSwIDwWSh73/lHC3+gqsCHrolWx5GxC/M/OcwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTXrwpCT9JpSXhRuWTknCj0pLwk1TecZgph5lymCkvPkzlk5LwjiQ0lSeS0FTeofJJSfikw0w5zJTDTHnxzZLwhMoTKjdJaEloKi0JTeUmCU3liSQ8ofKdDjPlMFMOM+XFL5eEpvIOlZskNJV/yWGmHGbKYaa8+OVUWhKayk0SnlD5lx1mymGmHGbKi2+m8puotCTcJKGpPKHyNznMlMNMOcyUFx+WhJ+UhKbSktBU/qQk/M0OM+UwUw4zJX7hF0tCU3lHEm5U/mWHmXKYKYeZ8uJNSWgqLQk3Ki0JT6jcJOFG5R1JaCotCU3lJglNpSXhRuUdh5lymCmHmfLim6m8Q+UmCTcqN0loKjdJuEnCTRKaSlP5kw4z5TBTDjMlfuGDknCj0pLwnVRaEprKTRKaSktCU7lJwo1KS8KNyicdZsphphxmyosPU2lJuFH5pCTcqLQkvEOlJeE7qXynw0w5zJTDTIlf+EFJaCotCU+o3CShqfxNknCjcpOEpvKOw0w5zJTDTHnxYUm4UWlJuFFpSWhJaCo3SWgqLQlN5SYJTeUdKk+ofNJhphxmymGmvPhmKjcqLQktCTcqLQlN5SYJTaUl4UalJeGTkvCEyjsOM+UwUw4zJX7hDUloKi0JTeUnJaGptCTcqLQkNJWbJNyo/E0OM+UwUw4zJX7hGyXhCZWWhKZyk4QnVN6RhD9J5ZMOM+UwUw4zJX7hF0tCU2lJaCotCTcqLQk3Kk8koan8SYeZcpgph5ny4k1J+EkqN0m4ScKNyo1KS8JNEprKTRJuVL7TYaYcZsphprz4MJVPSsITKk8k4YkkPKHyhMpNEprKJx1mymGmHGbKi2+WhCdUnlC5ScITSWgqTaUloSXhJyWhqbzjMFMOM+UwU178ckm4UblJwk0SmkpTeSIJTeUJlZaETzrMlMNMOcyUF/9nkvCESktCU3lHEprKTRKayicdZsphphxmyotvpvKdVJ5QeYdKS8JPUmlJaCrvOMyUw0w5zJQXH5aEn5SEpvJEEppKS0JTuVG5ScJNEprKTzrMlMNMOcyU+IWZ/xxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbK/wAp+JUB7eu2cgAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-4A.FL-0002</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOWSURBVO3BQW4bSQAEwawG///lXB32UKcGBqRk2aiI+IWZ/x1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKizcl4SeptCQ0ld8kCT9J5R2HmXKYKYeZ8uLDVD4pCU8koam0JNyotCQ0lXeofFISPukwUw4z5TBTXnyzJDyh8oTKTRKaSktCS0JTuUlCU3kiCU+ofKfDTDnMlMNMefGXS8Inqdwkoan8Sw4z5TBTDjPlxV9OpSXhHUm4UfmXHWbKYaYcZsqLb6byJ6m0JDSVmyTcJKGpPKHymxxmymGmHGbKiw9Lwk9KQlNpSWgqLQlN5Tsl4Tc7zJTDTDnMlPiFv1gSblRaEppKS8KNyr/sMFMOM+UwU168KQlNpSXhRqUl4QmVmyQ0lU9KQlNpSWgqN0loKi0JNyrvOMyUw0w5zJT4hTck4UblJglN5SYJTeWJJDSVJ5LwSSpPJOFG5R2HmXKYKYeZ8uLDVFoSblRaEp5Iwo3KTRKaSktCU2lJaCo3SWhJaCotCTcqn3SYKYeZcpgpL96kcqNyk4Sm8o4ktCQ0lZskPKHSkvCdVL7TYaYcZsphpsQvvCEJn6TSkvAOlZaEpvInJeFG5SYJTeUdh5lymCmHmfLiTSo3SXgiCU2lJeFG5R1JaCo3SWgq71B5QuWTDjPlMFMOM+XFhyXhHSotCU8koak0lZaEptKScKPSkvBJSXhC5R2HmXKYKYeZ8uJNSWgqLQlN5QmVloSmcpOEpnKThKbSkvBJKjcqP+kwUw4z5TBT4hd+kSTcqLQkvEPlHUn4k1Q+6TBTDjPlMFNe/DIqn6Ryk4QblZaEG5UnktBU/qTDTDnMlMNMefGmJPwklSeS8ITKjUpLwk0SmspNEm5UvtNhphxmymGmvPgwlU9KwhMqLQlNpSXhiSQ8ofKEyk0SmsonHWbKYaYcZsqLb5aEJ1SeUHkiCTdJaCpNpSWhJeEnJaGpvOMwUw4z5TBTXvzlktBUmspNEm6S0FSayk0SblSeUGlJ+KTDTDnMlMNMefGPS8I7VFoSmsqNSktCS0JTuUlCU/mkw0w5zJTDTHnxzVS+k8oTKu9QaUn4SSotCU3lHYeZcpgph5ny4sOS8JOS0FSayk0SmkpLQlO5UblJwk0SmspPOsyUw0w5zJT4hZn/HWbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsp/vTyfBmu3BhkAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-5A.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN1SURBVO3BQa7cWAIDweRD3f/KOV40MFwJEKT6bbsZEX9h5h+HmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZ8uGhJPwklTuS0FSeSMIVlZaEn6TyxGGmHGbKYaZ8eJnKm5JwRxLuSEJTuUPlDpU3JeFNh5lymCmHmfLhy5Jwh8odSWgqLQm/syTcofJNh5lymCmHmfLhL5OEpnJFZf7vMFMOM+UwUz78ZVRaEp5Q+S85zJTDTDnMlA9fpvKTktBUWhLuSMI3qfxODjPlMFMOM+XDy5Lwb1JpSWgqLQlNpSWhqbQkNJUrSfidHWbKYaYcZsqHh1T+JEloKi0JTaUloalcUfmTHGbKYaYcZsqHh5LQVFoS3qTSVFoSnlBpSXgiCW9S+abDTDnMlMNMib/wQBLuUGlJuKLSktBUriShqbQkNJUrSXiTyh1JuKLyxGGmHGbKYaZ8eEjlShJaEq6otCRcScIVlT9JEq6otCS86TBTDjPlMFM+PJSEpnKHyhWVloSm0pLwpiQ8oXIlCVdUftJhphxmymGmfHhIpSXhjiS8SaUl4YrKFZX/ksNMOcyUw0z58FASrqhcScIVlTuScEWlJeEnqTSVloQrSfimw0w5zJTDTPnwMpWWhCsqV5LQVK6o3KHSknBFpSXhisqVJDyh8qbDTDnMlMNM+fDDVFoSmkpTeSIJTaUl4YpKS0JTaUloSbiicofKNx1mymGmHGbKhy9TaUm4IwlNpSXhisodKi0JV5LwRBKaSktCU2lJaCpPHGbKYaYcZkr8hT9YEu5QeVMSmsodSbhDpSWhqTxxmCmHmXKYKR8eSsJPUmkqLQlXknBF5U1JaCpvUnnTYaYcZsphpnx4mcqbknAlCU+oXElCU7lD5QmVK0loKk8cZsphphxmyocvS8IdKr8TlZaEK0l4UxKuqLzpMFMOM+UwUz785VSuJOEOlTuScEXliSQ0lScOM+UwUw4z5cNfRuUOlZaEJ5LwRBKayk86zJTDTDnMlA9fpvJNKi0JV1RaEq6otCQ0lSsqV5JwJQlNpam86TBTDjPlMFM+vCwJPykJTaUl4Q6VloSm0pLQVK4k4Q6VK0loKk8cZsphphxmSvyFmX8cZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmyv8AATt8FMTsdh0AAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-5A.FL-0002</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOxSURBVO3BQW4kRwADQWZh/v/ltA4+8FRAoyWtvWAEfsnMv05myslMOZkpJzPlZKaczJSTmXIyU05myslMOZkpJzPlZKaczJSTmfLJS0B+k5oG5EbNDZCmpgF5Qk0D8pvUvHEyU05myslM+eSbqflOQG7UNCANSFNzA+RGzRtqvhOQ73QyU05myslM+eSHAXlCzRNA3lBzA6QBuVHzBJAn1Pykk5lyMlNOZson/3NqGpCmpgFpat5Q8zc5mSknM+VkpnzylwPS1DQgbwBpav7PTmbKyUw5mSmf/DA1PwnIjZoG5EbNb1LzX3IyU05myslM+eSbAfmT1DQgTU0DcgOkqWlAmpobIP9lJzPlZKaczBT8kr8IkBs1TwBpav5mJzPlZKaczJRPXgLS1DQgTc0TQG7UNDUNyA2QJ4DcqLkB0tTcAGlqGpCm5o2TmXIyU05mCn7JC0DeUNOANDUNyI2aN4DcqLkB0tQ0IE1NA9LUNCBNzXc6mSknM+VkpnzyH6OmAWlqboDcqLlRcwPkRk0D0tQ0IG8AaWreOJkpJzPlZKbgl/wiIDdq3gDyhJoGpKl5AsiNmgakqfmTTmbKyUw5mSmfvATkRs2NmhsgN2qeUNOAPAHkCTUNSFPTgLyh5o2TmXIyU05mCn7JDwLyhpobIE3NE0CamjeANDXfCUhT851OZsrJTDmZKZ+8BORGTQNyo6YBuVFzA6SpuQHyhpobIE1NA3Kj5iedzJSTmXIyUz55Sc0NkDfUNCANSFPT1DQgN2oakKamAbkB8oaaGyBNzRsnM+VkppzMFPySF4DcqGlAmpobIDdqGpAbNTdA/iQ1N0Bu1LxxMlNOZsrJTPnkJTVPqHlCzQ2QpqYB+U1qngByA6Sp+UknM+VkppzMlE9eAvKb1DyhpgFpapqaJ4DcAGlqboA0NQ3IjZo3TmbKyUw5mSmffDM13wnIjZoG5EbNDZCm5g01T6i5UfOTTmbKyUw5mSmf/DAgT6h5Q00D0oD8JCBvAGlqftPJTDmZKScz5ZO/nJobIE3NDZAn1DQgTU0D8iedzJSTmXIyUz75nwNyo+YJIDdqGpCm5kZNA3ID5Ak1b5zMlJOZcjJTPvlhan6SmieA3KhpQBqQpqYBaWqeUNOANDUNyHc6mSknM+VkpnzyzYD8JiBNTQPS1NwAeQJIU/OEmgbkBshPOpkpJzPlZKbgl8z862SmnMyUk5lyMlNOZsrJTDmZKScz5WSmnMyUk5lyMlNOZsrJTDmZKf8A+v2vEflUE+EAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-7.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOgSURBVO3BQY4cRwADwWRh/v/ltA4+8FRAo2dly2ZE/IWZvx1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKh5eS8DuptCTcqDyRhBuVloSm0pLwO6m8cZgph5lymCkfvkzlm5Jwo9KS0JLwhMoTKk+ofFMSvukwUw4z5TBTPvywJDyh8kQSblRuktCS8IbKE0l4QuUnHWbKYaYcZsqHP5zKTRKeUPk/O8yUw0w5zJQP/zFJeELlJglPqPzJDjPlMFMOM+XDD1P5SUloKi0JTaUl4QmVb1L5NznMlMNMOcyUD1+WhD+ZSkvCTRKayk0S/s0OM+UwUw4zJf7Cf0gSmkpLQlNpSWgq/yeHmXKYKYeZ8uGlJDSVloSm8kQSblTeSMITSbhRuUlCU7lJQlNpSWgqbxxmymGmHGZK/IUflISm0pLQVG6S8IZKS0JTeSIJNyotCU2lJaGptCQ0lW86zJTDTDnMlA8vJaGpPKHSkvCESkvCTRJukvCEyk0SmkpLwhtJaCpvHGbKYaYcZsqHl1RaEprKEyo3SbhRuUlCU7lJQlNpSfgmlRuVn3SYKYeZcpgpH15KwhNJ+KYkNJWWhKZyk4RvUmlJaCotCW+ovHGYKYeZcpgpH15SaUl4Q+UmCU2lJeGfpNKS0FRuVG6S0FS+6TBTDjPlMFPiL7yQhCdUnkjCEyotCTcq35SEptKS0FRaEm5UftJhphxmymGmfHhJ5SYJLQlPqLQkvKFyk4Sm8oTKN6ncJKGpvHGYKYeZcpgpH15KwhsqN0m4UblRaUl4IwnflISmcpOEn3SYKYeZcpgpH15S+UkqN0m4UWkqLQlN5Q2VJ5Jwk4Sm8pMOM+UwUw4z5cNLSfidVG5UWhKayk0SblRaEm6S0FRuktBUWhKayjcdZsphphxmyocvU/mmJNyo3Ki0JNyotCS0JDyh8oTKjcpPOsyUw0w5zJQPPywJT6i8kYSm0lRukvBGEt5IQlP5nQ4z5TBTDjPlw39cEprKN6k8kYSm0pLwTzrMlMNMOcyUD3+4JNyotCQ0labyRBJuVJpKS8JNEp5QeeMwUw4z5TBTPvwwlZ+k0pJwo3KThKbSktBUWhJaEprKjUpLQlNpSfimw0w5zJTDTPnwZUn4nZJwk4RvUvkmlZaEmyT8pMNMOcyUw0yJvzDzt8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0z5Cy3wmxz2JdbvAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-RF.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOgSURBVO3BQY4cRwADwWRh/v/ltA4+8FRAo2dly2ZE/IWZvx1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKh5eS8DuptCTcqDyRhBuVloSm0pLwO6m8cZgph5lymCkfvkzlm5Jwo9KS0JLwhMoTKk+ofFMSvukwUw4z5TBTPvywJDyh8kQSblRuktCS8IbKE0l4QuUnHWbKYaYcZsqHP5zKTRKeUPk/O8yUw0w5zJQP/zFJeELlJglPqPzJDjPlMFMOM+XDD1P5SUloKi0JTaUl4QmVb1L5NznMlMNMOcyUD1+WhD+ZSkvCTRKayk0S/s0OM+UwUw4zJf7Cf0gSmkpLQlNpSWgq/yeHmXKYKYeZ8uGlJDSVloSm8kQSblTeSMITSbhRuUlCU7lJQlNpSWgqbxxmymGmHGZK/IUflISm0pLQVG6S8IZKS0JTeSIJNyotCU2lJaGptCQ0lW86zJTDTDnMlA8vJaGpPKHSkvCESkvCTRJukvCEyk0SmkpLwhtJaCpvHGbKYaYcZsqHl1RaEprKEyo3SbhRuUlCU7lJQlNpSfgmlRuVn3SYKYeZcpgpH15KwhNJ+KYkNJWWhKZyk4RvUmlJaCotCW+ovHGYKYeZcpgpH15SaUl4Q+UmCU2lJeGfpNKS0FRuVG6S0FS+6TBTDjPlMFPiL7yQhCdUnkjCEyotCTcq35SEptKS0FRaEm5UftJhphxmymGmfHhJ5SYJLQlPqLQkvKFyk4Sm8oTKN6ncJKGpvHGYKYeZcpgpH15KwhsqN0m4UblRaUl4IwnflISmcpOEn3SYKYeZcpgpH15S+UkqN0m4UWkqLQlN5Q2VJ5Jwk4Sm8pMOM+UwUw4z5cNLSfidVG5UWhKayk0SblRaEm6S0FRuktBUWhKayjcdZsphphxmyocvU/mmJNyo3Ki0JNyotCS0JDyh8oTKjcpPOsyUw0w5zJQPPywJT6i8kYSm0lRukvBGEt5IQlP5nQ4z5TBTDjPlw39cEprKN6k8kYSm0pLwTzrMlMNMOcyUD3+4JNyotCQ0labyRBJuVJpKS8JNEp5QeeMwUw4z5TBTPvwwlZ+k0pJwo3KThKbSktBUWhJaEprKjUpLQlNpSfimw0w5zJTDTPnwZUn4nZJwk4RvUvkmlZaEmyT8pMNMOcyUw0yJvzDzt8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0z5Cy3wmxz2JdbvAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-FP-FEDC-RF.FL-0001</span> <br>
+        Fire Extinguisher Dry Chemical
+      </div>
+      </div>
+    </div>
+</div>
+
+  </body>
+</html>

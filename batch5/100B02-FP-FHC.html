@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> -->
+    <title>FEM Sticker</title>
+    <style>
+
+        .mycontainer {
+            display: -webkit-box; 
+            display: -webkit-flex; 
+            display: -ms-flexbox; 
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            justify-content: left;
+            align-items: center;
+        }
+        .sticker {
+          align-content: center;
+          border: 1mm solid white;
+          border-collapse: collapse;
+          width: 65mm;
+          height: 20mm;
+          margin: 0mm;
+        }
+        .innerSticker {
+          display: flex;
+        }
+        .labelSticker {
+          align-content: center;
+          font-size: 12px;
+          font-family: "IBM Plex Sans", sans-serif;
+          font-weight: 500;
+          font-style: normal;
+        }
+        .labelId {
+          align-content: center;
+          font-size: 10px;
+          font-family: "IBM Plex Sans", sans-serif;
+          font-weight: 600;
+          font-style: normal;
+        }
+        </style>
+  </head>
+  <body>
+    <div class="mycontainer">
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKbSURBVO3BQW7kQAwEwSxC//9yro88CRDUM7C5jIg/WGMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRrl4qUkfJPKnSR0Kl0SOpU7SfgmlTeKNUqxRinWKBeHqZyUhJNU3lA5KQknFWuUYo1SrFEuPiwJT6g8kYQ7SXhC5YkkPKHyScUapVijFGuUi+FU/ifFGqVYoxRrlIvhktCpdEnoVP6yYo1SrFGKNcrFh6l8k8o3qfwmxRqlWKMUa5SLw5LwmyShU3kjCb9ZsUYp1ijFGuXiJZXJVP6SYo1SrFGKNcrFS0noVLoknKTSqdxReSMJJ6l8UrFGKdYoxRrl4stUTkpCp9IloVO5k4ROpUvCHZUuCV0SOpWTijVKsUYp1igXL6l0SXgiCZ1Kl4ROpVPpknAnCXdUuiR0Kl0S3khCp/JGsUYp1ijFGuXipSR0Km8koVPpktCp3FG5k4QuCU+oPKHSJeGkYo1SrFGKNcrFlyXhjkqXhE7ljspJKl0STlI5qVijFGuUYo0Sf/CHJeGOyhNJeEKlS8IdlU8q1ijFGqVYo1y8lIRvUulUnkjCEypdEu6oPJGETuWNYo1SrFGKNcrFYSonJeFOEjqVk5LQqXRJ6FS6JNxROalYoxRrlGKNcvFhSXhC5aQkPKFyJwmdyhMqXRI6lTeKNUqxRinWKBfDqdxJQpeETuVOEjqVJ1ROKtYoxRqlWKNcDJeETuUkld+kWKMUa5RijRJ/8EISOpWTktCpvJGET1J5IgmdyhvFGqVYoxRrlIvDkvBNSXhD5U4SnkhCp3JH5aRijVKsUYo1SvzBGqNYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ij/AHeo/d24/CS9AAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-1.FL-1-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAK+SURBVO3BQW7sWAwEwSxC979yjpdcPUCQur/NYUT8wRqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoFw8l4ZtUuiS8SaVLwjepPFGsUYo1SrFGuXiZypuScKLSJaFTeZPKm5LwpmKNUqxRijXKxYcl4Q6VO5LQqXxTEu5Q+aRijVKsUYo1ysUfp9IloVM5SUKn8pcVa5RijVKsUS6GUemS8H9SrFGKNUqxRrn4MJVPSkKn0ql8kspvUqxRijVKsUa5eFkSfpMkdCpdEjqVkyT8ZsUapVijFGuU+INBknCiMlmxRinWKMUa5eKhJHQqXRI6lTuScKJyRxJOVE6S0KmcJKFT6ZLQqTxRrFGKNUqxRok/eFESOpUuCZ3KHUl4QuUkCZ3KSRI6lZMkdCpvKtYoxRqlWKNcPJSETqVLQqfSJaFT6ZJwotIl4SQJncoTKl0STlQ+qVijFGuUYo1y8ZBKl4ROpUtCp3Ki0iXhDpUnknCi0qnckYRO5YlijVKsUYo1ysWXqXRJ6FS6JJwkoVM5ScKJSpeEJ5LwTcUapVijFGuU+IM/LAmdSpeETqVLwh0qJ0noVL6pWKMUa5RijXLxUBK+SeUkCZ3KHSpdErokPJGETuVNxRqlWKMUa5SLl6m8KQknKl0SuiScqHRJeELlXyrWKMUapVijXHxYEu5QeUKlS0Kn0iXhTUn4l4o1SrFGKdYoF8MkoVM5UemS0KmcJKFT+ZeKNUqxRinWKBd/XBLuSMKJSpeEO5LwhMoTxRqlWKMUa5SLD1P5JJUnVLoknKh0SehUuiR0Kl0S3lSsUYo1SrFGuXhZEr4pCZ3KicodKl0SOpUTlS4Jn1SsUYo1SrFGiT9YYxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGuU/GDYT97VwyA8AAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-1.FL-1-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKiSURBVO3BQQ7bWAwFwX6E7n/lniw5mw8Ikh2HYFX8gzVGsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRLh5KwjepnCThRKVLQqfSJeGbVJ4o1ijFGqVYo1y8TOVNSXhTEp5QeVMS3lSsUYo1SrFGufiwJNyhckcSOpUuCScqTyThDpVPKtYoxRqlWKNcDKfSJWGyYo1SrFGKNcrFMEnoVDqVLgmdyr+sWKMUa5RijXLxYSrfpPJNKr+kWKMUa5RijXLxsiT8kiR0Kk8k4ZcVa5RijVKsUS4eUvllKk+o/EuKNUqxRinWKBcPJaFT6ZLwJpVO5Y4kdConSXiTyicVa5RijVKsUS5eloQTlZMkdConSehUuiR0KidJ6FS6JJyodEnoktCpvKlYoxRrlGKNcvEylTcloVPpVLoknCThRKVLQqfSJeGJJHQqTxRrlGKNUqxRLl6WhE6lS8IdKk+o3JGEO1TuUOmS8KZijVKsUYo1ysVDKidJOFE5SUKn0iXhjiR0Knck4U0qbyrWKMUapVijXHyYyhMqd6h8k0qXhL+pWKMUa5RijRL/4IEkfJPKHUl4QqVLQqfyS4o1SrFGKdYoFy9TeVMSTpJwotIloVPpktAloVPpktCpdEnoVLokdCpPFGuUYo1SrFEuPiwJd6g8odIloVPpktCpnCShU/klxRqlWKMUa5SL9T9J6FROktCp3KHypmKNUqxRijXKxXAqn6TyS4o1SrFGKdYoFx+m8kkqdyThjiScJKFT6VROktCpPFGsUYo1SrFGuXhZEr4pCScqJyonSbgjCZ3KicqbijVKsUYp1ijxD9YYxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFG+Q8YeALtDfXtJAAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-2.FL-1A-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALRSURBVO3BQW7gSAwEwUxC//9yrY88NSBI8o4JRpgfrDGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1y8ZDKb0rCiUqXhCdUflMSnijWKMUapVijXLwsCW9SOVH5TUl4k8qbijVKsUYp1igXH1O5Iwl3JOEOlS4JT6jckYQvFWuUYo1SrFEuhlHpktAloVPpkvCXFWuUYo1SrFEu/jiVLgmdSpeEyYo1SrFGKdYoFx9LwpeScJKETqVLwhNJ+JcUa5RijVKsUS5epvKbVLokdCpdEjqVLgknKv+yYo1SrFGKNYr5wWAqdyThLyvWKMUapVijXDyk0iWhU+mS0Kl0SehUuiScqHRJ6FS6JDyh0iXhRKVLwpuKNUqxRinWKOYHH1I5SUKn0iXhDpUnknCickcSflOxRinWKMUa5eIhlS4JJ0noVE5UTpLQJaFT+VISTlROkvCmYo1SrFGKNcrFx5LQqXRJuEOlUzlJQqdyh0qXhBOVLgmdSqfSJeGJYo1SrFGKNcrFx1S6JHQqdyThRKVTOUlCp9Il4QmVLgmdypuKNUqxRinWKOYHf5jKHUnoVLokdConSbhDpUvCm4o1SrFGKdYo5gcPqPymJJyodEnoVJ5IQqfSJeEOlS4JTxRrlGKNUqxRLl6WhDep3JGEkyR0Kl0SOpU7VLokdCpfKtYoxRqlWKNcfEzljiTcodIl4f+UhE6lS8KXijVKsUYp1igXf1wSTlROknCShE7lRKVLQqfSJeFNxRqlWKMUa5SLP07ljiR0KnckoVPpktCpdEnoVLokPFGsUYo1SrFGufhYEr6UhE7ljiScqHQqJyonKl8q1ijFGqVYo1y8TOU3qZwkoVPpknCShDtUuiScqLypWKMUa5RijWJ+sMYo1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijXKf1W5Hf9sY43WAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-2.FL-1A-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOMSURBVO3BO67kWgIDweRB7X/LOW08g5YAQarbn2FE/IWZ/xxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKh4eS8JNUWhLuUHkiCVdUWhJ+ksoTh5lymCmHmfLhZSpvSsIVlSeScIdKS8IdKm9KwpsOM+UwUw4z5cOXJeEOlTuS0FSuJKGpXElCS8KbknCHyjcdZsphphxmyoe/nModKk+o/MsOM+UwUw4z5cM/LglNpSXhjiQ0lX/JYaYcZsphpnz4MpVvSsIVlSsqdyThTSp/ksNMOcyUw0z58LIk/E4qLQlNpSWhqbQkNJWWhKZyJQl/ssNMOcyUw0z58JDK76RyReVNSbhD5W9ymCmHmXKYKR8eSkJTaUloKnck4YrKEyotCVdUWhLuSEJTuZKEptKS0FSeOMyUw0w5zJQPD6lcUWlJaCotCU3lShKaSktCU3mTSkvCFZWWhCsqLQlN5U2HmXKYKYeZ8uHLktBUWhKuJOEJlZaEptJUriThTSotCXckoak8cZgph5lymCnxF35QEu5QuZKEptKS8ITKHUloKi0JTeVPcpgph5lymCkfHkrCEypXkvCESkvCE0loKk2lJeGOJDyh8sRhphxmymGmxF/4oiQ0lTcl4Q6VloSm8kQSmkpLwhWVK0loKm86zJTDTDnMlA8PJeFNSbii0lRaEprKHUl4QuUOlZaEKyrfdJgph5lymCkfHlK5Iwl3qNyh0pJwh0pLwk9SaUm4koSm8sRhphxmymGmxF94IAlXVK4k4QmVloSmckcSfieVK0m4ovLEYaYcZsphpnx4SOUJlSeS0FRaEprKN6nckYQrSWgq33SYKYeZcpgpHx5Kwk9SuZKEptKS0FSaypUk3JGEpnIlCU2lJaGpvOkwUw4z5TBTPrxM5U1JuKJyh8qVJDSVJ1TuULmi0pLQVJ44zJTDTDnMlA9floQ7VN6UhDeptCS0JDyRhKbSktBU3nSYKYeZcpgpH/7PqLQkNJUrSbhD5UoSmsoVlW86zJTDTDnMlA9/uSRcUbkjCU+o3KFyRxKuqDxxmCmHmXKYKR++TOWbVFoSWhLuUGlJeFMSmsodKi0JbzrMlMNMOcyUDy9Lwk9KwhWVO5JwRaUl4U1J+J0OM+UwUw4zJf7CzH8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5X9d+ZUHwjv78wAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-2A.FL-2A-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKxSURBVO3BQW7jUAwFwX6E7n/lHu+Gqw8Ykp2EYFV8YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi5uS8E0qXRI6lScl4ZtU7ijWKMUapVijXDxM5UlJOFHpktCpdEnoVN6h8qQkPKlYoxRrlGKNcvFhSXiHyjuS0Kl0SehUnpSEd6h8UrFGKdYoxRrl4o9TWf8Va5RijVKsUS6GSUKn0iXhROUvK9YoxRqlWKNcfJjKJyXhJAmdypNUfpNijVKsUYo1ysXDkvCTVLoknCShUzlJwm9WrFGKNUqxRokvDJKEE5XJijVKsUYp1igXNyWhU+mS0Km8IwknKicqXRJOVE6S0KmcJKFT6ZLQqdxRrFGKNUqxRokv3JCEE5UuCScqJ0m4Q+UkCZ3KSRI6lZMkdCpPKtYoxRqlWKPEFx6UhHeodEk4UXlSEjqVO5JwovJJxRqlWKMUa5T4wg1JOFE5SUKn8o4kdCqflIRO5Y4kdCp3FGuUYo1SrFEuviwJncpJEjqVTuUkCe9Q6ZJwRxK+qVijFGuUYo0SX/jDktCpdEl4kspJEjqVbyrWKMUapVijXNyUhG9SOUlCp9Il4USlS0KXhDuS0Kk8qVijFGuUYo1y8TCVJyXhRKVLQpeETuUkCXeo/KRijVKsUYo1ysWHJeEdKneodEnoktCpPCkJP6lYoxRrlGKNcjFMEjqVO1ROktCp/KRijVKsUYo1ysUfl4RO5SQJJypdEt6RhDtU7ijWKMUapVijXHyYyiep3KHSJeFEpUtCp9IloVPpkvCkYo1SrFGKNcrFw5LwTUk4UelU3qHSJaFTOVHpkvBJxRqlWKMUa5T4whqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYo/wCL8AnyMhMYhAAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-3.FL-2-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALBSURBVO3BQW7kQAwEwSxC//9yro88CWhIM7C5jIg/WGMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRrl4qEkfJNKl4QTKl0SOpUuCd+k8kSxRinWKMUa5eJlKm9Kwh2VE0noVE6ovCkJbyrWKMUapVijXHxYEk6oPJGEOypvSsIJlU8q1ijFGqVYo1z8cUnoVO4koVOZpFijFGuUYo1yMUwSOpVOpUtCp/KXFWuUYo1SrFEuPkzlm1S6JHQqb1L5TYo1SrFGKdYoFy9LwmRJ+M2KNUqxRinWKBcPqfxmKl0SOpU7Kn9JsUYp1ijFGuXioSR0KieS0Kl0STiRhDsqXRI+SeVOEjqVJ4o1SrFGKdYoFw+pdEnoVLoknFDpktCpdEl4QqVLQqfSJaFT6ZLQqXxSsUYp1ijFGuXiZSpdEp5IwgmVLgldEu4k4YRKl4ROpUvCJxVrlGKNUqxRLh5KQqfSqXRJOKFyJwmdygmVJ5JwQqVLwpuKNUqxRinWKBcPqXRJOKFyJwmdSqfSJeGOSpeETqVLQqdyIgnfVKxRijVKsUaJP/jDktCp3ElCp/KmJDyh8kSxRinWKMUa5eKhJHyTyokknEhCp9Il4QmVLglvKtYoxRqlWKNcvEzlTUm4o/JJSehU7iShU+mS0Km8qVijFGuUYo1y8WFJOKFyIgknVD5JpUvCNxVrlGKNUqxRLv44lS4JncqdJHQqXRLuJKFTOZGETuWJYo1SrFGKNcrFfyYJnUqXhE6lS8KdJHQq31SsUYo1SrFGufgwlW9S6ZLQqZxIwh2VLgldEjqVLgmdyhPFGqVYoxRrlIuXJeGbknAiCZ3KHZU7Sbij0iXhk4o1SrFGKdYo8QdrjGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYo/wDcJUMCxnFkWAAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-3.FL-2-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAK3SURBVO3BQW7sWAwEwSxC979yjpdcPUCQuv3NYUT8wRqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoFw8l4ZtUuiR0Km9KwjepPFGsUYo1SrFGuXiZypuScKLSJaFT6ZJwonKi8qYkvKlYoxRrlGKNcvFhSbhD5QmVO1SeSMIdKp9UrFGKNUqxRrn445Jwh0qXhE7lLyvWKMUapVijXAyj8n9WrFGKNUqxRrn4MJVvSkKn8kkq/5JijVKsUYo1ysXLkvCbVLokdCpPJOFfVqxRijVKsUa5eEjlX6bSJaFTOVH5S4o1SrFGKdYo8QcPJKFTuSMJnUqXhCdUTpLwSSonSehUnijWKMUapVijXDyk0iWhU+mScJKETqVLwh1J6FROVLokdCpdEjqVLgmdyicVa5RijVKsUS4eSsITKidJOFF5QqVLwh0qXRI6lS4Jn1SsUYo1SrFGiT/4RUnoVE6S8CaVJ5JwonKShE7liWKNUqxRijXKxcuScKJykoQTlTuS0Kl0SehU3pSEbyrWKMUapVijXLxM5Q6VJ5JwovJJKl0SflOxRinWKMUa5eKhJHyTyh1JOFHpktCpdEl4QqVLwpuKNUqxRinWKBcvU3lTEk5UTpLQqXRJOElCp3KShE6lS0Kn8qZijVKsUYo1ysWHJeEOlTuS8IRKl4QnVLokfFOxRinWKMUa5eKPU+mS0KmcJKFT6ZJwkoRO5Y4kdCpPFGuUYo1SrFEuhkvCiUqXhE6lS8JJEjqVbyrWKMUapVijXHyYym9SeSIJJypdErokdCpdEjqVJ4o1SrFGKdYoFy9Lwjcl4Y4kdConKidJOFHpkvBJxRqlWKMUa5T4gzVGsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxR/gPsRQn7/Zgr+QAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-4.FL-3-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAK1SURBVO3BQW7sWAwEwSxC979yzl9y9QBB6rbNYUT8hzVGsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRLh5KwjepdEnoVE6ScKLSJeGbVJ4o1ijFGqVYo1y8TOVNSThReULlDpU3JeFNxRqlWKMUa5SLD0vCHSpPJKFTOUlCp3JHEu5Q+aRijVKsUYo1ysUfl4ROpUtCp9IlYZJijVKsUYo1ysUwSfg/K9YoxRqlWKNcfJjKN6l8k8pvUqxRijVKsUa5eFkSfpMkdCpPJOE3K9YoxRqlWKNcPKTym6l0SehUTlT+kmKNUqxRijXKxUNJ6FTuSEKn0iXhTSpdEj5J5SQJncoTxRqlWKMUa5SLh1ROknBHEjqVkyR0SThROVHpktCpdEnoVLokdCqfVKxRijVKsUaJ//CiJPwklS4Jb1I5SUKn0iXhROWJYo1SrFGKNcrFh6nckYROpUvCm1SeSMIdKl0S3lSsUYo1SrFGuXgoCXckoVPpVLokdCp3qJwkoVN5UxK+qVijFGuUYo1y8ZDKHSp3qJwk4Q6VN6l0SfhJxRqlWKMUa5SLh5LwTSonKidJ6FS6JHQqXRKeUOmS8KZijVKsUYo1ysXLVN6UhBOVO1S6JJwkoVM5SUKn0iWhU3lTsUYp1ijFGuXiw5Jwh8odSThROVHpkvCESpeEbyrWKMUapVijXPxxKl0S7khCp9Il4SQJncodSehUnijWKMUapVijXAyj0iXhRKVLQqfSJeEkCZ3KNxVrlGKNUqxRLj5M5SepPJGEE5UuCV0SOpUuCZ3KE8UapVijFGuUi5cl4ZuS0KmcJKFTOVE5ScKJSpeETyrWKMUapVijxH9YYxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGuU/teYI/PXjUnIAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-4.FL-3-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQY7DVgwFwX6E7n/ljpdcfUCQ7GQYVsUP1hjFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUa5eCgJv6RykoQTlS4JnUqXhF9SeaJYoxRrlGKNcvEylTcl4SQJnUqXhDepvCkJbyrWKMUapVijXHxZEu5QuUOlS0Kn0iXhTUm4Q+WbijVKsUYp1igXw6h0SThRmaRYoxRrlGKNcvHHJeEOlS4JncpfVqxRijVKsUa5+DKVb1I5SUKXhE7lCZX/kmKNUqxRijXKxcuS8EtJ6FROVLokdConSfgvK9YoxRqlWKPED/5HktCpTFKsUYo1SrFGuXgoCZ1Kl4ROpUtCp9IloVN5QqVLQqdyRxI6lZMkdCpvKtYoxRqlWKNc/FgSTpLQqZwk4USlS0KnckcSTpLQqXQq31SsUYo1SrFGuXhIpUtCp/JEEu5Q6ZJwkoQTlROVkyScqLypWKMUa5RijRI/+KIknKh0SehUTpLQqZwkoVN5UxI6lS4JJypPFGuUYo1SrFHiBz+UhCdUuiTcodIl4Q6VkyScqHRJ6FSeKNYoxRqlWKPED/6wJHQqXRI6lTuScKJyRxI6lTcVa5RijVKsUeIHDyThl1ROknCHSpeEE5UuCZ3Kv6lYoxRrlGKNcvEylTcl4Q6VLgmdyolKl4Q7ktCp/FKxRinWKMUa5eLLknCHyh1J6FROktCpvEmlS0Kn8k3FGqVYoxRrlIs/TqVLwptUuiScJKFT6ZLQqbypWKMUa5RijXLxxyWhU+mS0Kl0SbhDpUtCp9IloVPpktCpPFGsUYo1SrFGufgylW9S6ZJwh8pJEroknCThJAnfVKxRijVKsUa5eFkSfikJnUqXhC4JncqJyh1J6FROkvCmYo1SrFGKNUr8YI1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUfwAdCyT12PsiuAAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-5.FL-4-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAK7SURBVO3BQY7DVgwFwW5C97/yyyy5+oAg2YkZVpk/rDGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1y8ZDKNyWhUzlJQqfSJeFE5ZuS8ESxRinWKMUa5eJlSXiTykkSTlROVLoknCThTSpvKtYoxRqlWKNcfJjKHUl4QqVLwonKEyp3JOGTijVKsUYp1igXP07lDpUuCZMUa5RijVKsUS6GSUKn0iWhU+mS8MuKNUqxRinWKBcfloTJkvBfUqxRijVKsUa5eJnKZCr/ZcUapVijFGuUi4eS8EtUuiScJOGXFGuUYo1SrFEuHlLpknCHSpeETuUOlZMkdCqflIQTlS4JTxRrlGKNUqxRLh5KQqdykoQ7ktCpdEl4UxI6lS4JnUqXhE6lS8InFWuUYo1SrFEuPiwJncodKicqJ0noVE5U7khCp9IloVP5pGKNUqxRijWK+cMHqZwk4Q6VNyWhU+mScKJykoQTlS4JTxRrlGKNUqxRLh5SuSMJnUqXhE7lTUnoVLokdCpdEu5Q+aZijVKsUYo1ivnDD1M5SUKncpKEJ1SeSMITxRqlWKMUa5SLh1S+KQlPJKFT6VS6JHQqTyShU3lTsUYp1ijFGuXiZUl4k8pJEk5UuiR0SehUOpUuCScqXRI6lS4JbyrWKMUapVijXHyYyh1JuEOlS8KJSpeENyWhU/mmYo1SrFGKNcrFj0vCHUnoVLokdConKl0S7lDpkvBEsUYp1ijFGuXif0alS0Kn0iWhUzlR6ZLwTcUapVijFGuUiw9Lwr8pCU+onCShU+lUuiR0Kl0SnijWKMUapVijXLxM5ZtUTpLQqXRJOEnCicpJEjqVTyrWKMUapVijmD+sMYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijfIPgXQHDUT2gvcAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-5.FL-4-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKqSURBVO3BSY7kQAwEQQ9C//+yTx95SkCQqhcOzeIX1hjFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUa5eCgJ30nljiR0Kl0SOpUuCd9J5YlijVKsUYo1ysXLVN6UhE9SuUPlTUl4U7FGKdYoxRrl4sOScIfKJyXhROWOJNyh8knFGqVYoxRrlIv/jMpkxRqlWKMUa5SL/1wSOpW/rFijFGuUYo1y8WEqn5SEE5UTlSdUfpNijVKsUYo1ysXLkvCTVLokdCpdEjqVkyT8ZsUapVijFGuU+IXBknCiMkmxRinWKMUa5eKhJHQqJ0noVLoknKh0SehU7kjCiUqXhE7lNynWKMUapVijXLwsCU+onCShUzlR6ZLQqTyRhBOV71SsUYo1SrFGufhhSXhTEu5IQqfyhEqXhE7lk4o1SrFGKdYoFy9T6ZLQqXRJ6FROknCHyhNJ6FTuUOmS0Km8qVijFGuUYo0Sv/BAEp5Q6ZLwhEqXhE6lS8KJyh1JOFHpktCpPFGsUYo1SrFGiV/4w5Lwm6j8pGKNUqxRijVK/MIDSfhOKidJ6FS6JHQqXRI6lZMknKicJKFTeaJYoxRrlGKNcvEylTcl4SQJb1LpktCpvEnlTcUapVijFGuUiw9Lwh0qd6h0SeiS0Kl0SXhC5SQJJypvKtYoxRqlWKNc/HFJ6FROktCpnCShS8KJSqfSJaFLQqfyRLFGKdYoxRrl4o9T6ZLQqXQqXRLuUOmScJKETqVLwpuKNUqxRinWKBcfpvKTktCpdCpdEk6S0Kl0SfhJxRqlWKMUa5SLlyXhOyXhTSpdEjqVE5U7VN5UrFGKNUqxRolfWGMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRrlH11qC+dujmXEAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-6.FL-5-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAK4SURBVO3BQW7sWAwEwSxC979yjpdcPUCQusfmZ0T8wRqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoFw8l4ZtUuiScqHRJ6FROkvBNKk8Ua5RijVKsUS5epvKmJNyhcqLSJaFTOVF5UxLeVKxRijVKsUa5+LAk3KFyh0qXhBOVNyXhDpVPKtYoxRqlWKNc/HFJuCMJkxVrlGKNUqxRLv44lS4JnUqXhE5lkmKNUqxRijXKxYep/J+S0Km8SeU3KdYoxRqlWKNcvCwJ35SETqVLwkkSOpWTJPxmxRqlWKMUa5T4gz8sCScqXRI6lUmKNUqxRinWKBcPJaFT6ZJwotIl4Q6VLgldEjqVO5LQqZwkoVPpknCi8kSxRinWKMUa5eIhlS4JnUqXhDtUuiScqNyRhBOVLgknKl0STlTeVKxRijVKsUa5eCgJncqbktCpdEk4UemS8ElJ6FS6JHxSsUYp1ijFGuXiZUnoVE6ScKLSJeGOJHQqn6RyRxI6lSeKNUqxRinWKPEHL0rCHSonSThR6ZJwotIl4ZtUPqlYoxRrlGKNEn/whyWhU+mS8ITKJyWhU3miWKMUa5RijXLxUBK+SeUJlS4JncodSehUuiR8U7FGKdYoxRrl4mUqb0rCHUl4IgknKm9SeVOxRinWKMUa5eLDknCHyh0qXRI6lS4JncpJEk5UuiR0Kt9UrFGKNUqxRrn445JwkoQnVO5QOUlCp/KmYo1SrFGKNcrFP0alS8KJSpeETuUkCZ3KJxVrlGKNUqxRLj5M5ZNUuiR0KicqXRJOVLok/CbFGqVYoxRrlPiDB5LwTSpdEjqVLglvUjlJwh0qbyrWKMUapVijxB+sMYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijfIfSYcO8wbhvOwAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-6.FL-5-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKuSURBVO3BQW7sWAwEwUxC979yjZdcPUCQuv3NYYT5wRqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoFw+pfFMSOpU7knCHyjcl4YlijVKsUYo1ysXLkvAmlZMkfFMS3qTypmKNUqxRijXKxYep3JGEO1S6JNyh0iXhDpU7kvBJxRqlWKMUa5SLPy4JJyonSZikWKMUa5RijXIxjModKl0S/rJijVKsUYo1ysWHJeGTVLokfFMS/iXFGqVYoxRrlIuXqfxLVLokdCpdEk5U/mXFGqVYoxRrFPODwVS6JExWrFGKNUqxRrl4SKVLQqfSJeEOlZMkdConKidJOFHpknCi0iWhU+mS8ESxRinWKMUaxfzgF6l0SbhDpUtCp9Il4USlS8KJSpeEE5UuCW8q1ijFGqVYo1w8pPJEEk5UTpLQqXRJOFHpknBHEjqVkyR8UrFGKdYoxRrF/OABlS4JnUqXhE6lS8IdKl0SOpUuCXeonCThCZUuCU8Ua5RijVKsUS5eptIl4QmVkyR0KicqJ0l4k8o3FWuUYo1SrFHMD/4wlZMkdCpPJOFEpUvCNxVrlGKNUqxRLh5S+aYkPJGETqVLQqfSqTyh0iXhTcUapVijFGuUi5cl4U0qJ0m4Q+VE5Ykk/KZijVKsUYo1ysWHqdyRhCdUuiR8k8pvKtYoxRqlWKNc/M8loVPpknCi0iXhNxVrlGKNUqxRLv44lS4Jd6h0SehU7lB5IglPFGuUYo1SrFEuPiwJn5SETuWOJHQqJ0noVLokdCpdEjqVNxVrlGKNUqxRLl6m8k0qXRI6lS4JdyShU+mScJKETuWTijVKsUYp1ijmB2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Aez3AACoA7U/QAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-7.FL-6-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKtSURBVO3BQW7sWAwEwSxC979yTi+5eoAgtb/NYUT8YI1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8JNUTpLQqZwkoVPpkvCTVJ4o1ijFGqVYo1y8TOVNSbhD5Q6VO1TelIQ3FWuUYo1SrFEuviwJd6jckYQnVJ5Iwh0q31SsUYo1SrFGuRhGpUvCSRI6lb+sWKMUa5RijXLxP6PSJWGSYo1SrFGKNcrFl6n8SyrfpPKbFGuUYo1SrFEuXpaE3yQJncoTSfjNijVKsUYp1igXD6n8Jkl4k8pfUqxRijVKsUa5eCgJnUqXhDepdCrflIQ3qXxTsUYp1ijFGuXiZUl4QuUkCU+onCShU+mScKLSJaFLQqfypmKNUqxRijVK/OCLknCicpKETuUkCZ3KHUk4UemS0Kl0SbhD5YlijVKsUYo1ysXLkvBEEjqVkyR0Kl0SOpUuCZ1Kl4QTlTtUuiS8qVijFGuUYo1y8TKVkyR0SehUuiR0KidJeCIJnUqXhDepvKlYoxRrlGKNEj/4w5LQqXRJOFHpknCHSpeEE5VvKtYoxRqlWKPEDx5Iwk9SeSIJd6h0SehUnkhCp/JEsUYp1ijFGuXiZSpvSsJJEp5Q6ZLQJaFT6ZLQqXRJOFF5U7FGKdYoxRrl4suScIfKm1ROktCpnCShU7lDpUtCp/JEsUYp1ijFGuViGJWTJJwkoVM5SUKncofKm4o1SrFGKdYoF8Mk4USlS8ITKr9JsUYp1ijFGiV+8EASOpU3JaFTOUnCv6RyRxI6lSeKNUqxRinWKBcvS8JPSsKJSpeETuUkCXckoVM5UXlTsUYp1ijFGiV+sMYo1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijXKf198BfMomBLSAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-7.FL-6-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALKSURBVO3BQW4kSQwEQQ+i/v9lXx15SiDR1VoNQbP4gzVGsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRHj6UhN+kciMJN1S6JPwmlU8Ua5RijVKsUR5epvKmJJwk4RMqN1TelIQ3FWuUYo1SrFEeviwJN1RuqHRJuJGETuVGEm6ofFOxRinWKMUa5WEYlZMkTFasUYo1SrFGefjHJeGGSpeESYo1SrFGKdYoD1+m8k0qXRI6lS4JnconVP6SYo1SrFGKNcrDy5Lwm5LQqXRJ6FS6JHQqJ0n4y4o1SrFGKdYo8QeDJOGGyiTFGqVYoxRrlIcPJaFT6ZLQqXRJ6FS6JHQqN1ROktCp3EhCp3KShE7lTcUapVijFGuUh5cloVM5UemS0Kl0SehUbiShU7mRhJMkdCqdyjcVa5RijVKsUR5eptIl4YZKl4STJJwk4SQJJyonKidJOFF5U7FGKdYoxRol/uBFSehUuiTcUDlJQqfSJeFEpUvCicpJEjqVLgknKp8o1ijFGqVYozy8TOVE5UYSOpUbKidJOFH5RBI6lS4JbyrWKMUapVijPPxxKm9KQqdykoQTlU7lJAmdypuKNUqxRinWKPEHH0jCb1K5kYQ3qXRJ6FT+T8UapVijFGuUh5epvCkJN5LwCZUuCTeS0Kn8pmKNUqxRijXKw5cl4YbKjSScqHRJ+CaVLgmdyjcVa5RijVKsUR7+cSpdEk5Ubqh0SThJQqfSJaFTeVOxRinWKMUa5eEfl4RO5UYSbqh0SehUuiR0Kl0SOpVPFGuUYo1SrFEevkzlm1S6JJyodConSeiScJKEkyR8U7FGKdYoxRrl4WVJ+E1JOFHpktCpnKjcSEKncpKENxVrlGKNUqxR4g/WGMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRvkPX0EZ+v4ZtuAAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-8.FL-7-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALLSURBVO3BQW7kQAwEwSxC//9yro88NSBIM2sTjIg/WGMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRrl4qEkfJPKHUnoVO5IwjepPFGsUYo1SrFGuXiZypuScJKETuUkCScqJypvSsKbijVKsUYp1igXH5aEO1TuUHlC5Ykk3KHyScUapVijFGuUi2GS0Kl0SeiS0Kn8ZcUapVijFGuUiz8uCZ3KiUqXhEmKNUqxRinWKBcfpvJJKnckoVN5QuU3KdYoxRqlWKNcvCwJ35SETqVLQqfSJaFTOUnCb1asUYo1SrFGiT8YJAl3qExSrFGKNUqxRrl4KAmdSpeETqVLQqfSJaFTOVG5Iwmdyh1J6FROktCpvKlYoxRrlGKNcvGfqXRJ6FTuSEKn0iWhU7kjCSdJ6FQ6lU8q1ijFGqVYo1w8pHKi0iWhUzlJwonKHSonSehUTlROknCi8qZijVKsUYo1ysUvo3JHEk6ScKJykoRO5SQJnUqXhC4JncoTxRqlWKMUa5SLh5LQqXRJOEnCHSonKl0SOpUuCScqTyShU+mS8KZijVKsUYo1ysVDKicqv0kSOpWTJJyodConSehU3lSsUYo1SrFGiT94IAnfpHKShE6lS8ITKl0SOpX/qVijFGuUYo1y8TKVNyXhm1S6JNyRhE7lm4o1SrFGKdYoFx+WhDtU7kjCSRK+SaVLQqfyScUapVijFGuUiz9OpUtCp/KESpeEkyR0Kl0SOpU3FWuUYo1SrFEu/rgkPJGEO1S6JHQqXRI6lS4JncoTxRqlWKMUa5SLD1P5JJWTJHQqncpJEroknCThJAmfVKxRijVKsUa5eFkSvikJnUqn0iWhUzlRuSMJncpJEt5UrFGKNUqxRok/WGMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRrlHyTFHvUsZbQhAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-8.FL-7-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAK6SURBVO3BQW7gSAwEwSxC//9yro88NSBIMtYcRsQfrDGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1y8VASfpPKSRJOVO5Iwm9SeaJYoxRrlGKNcvEylTcl4SQJncpJEk5UTlTelIQ3FWuUYo1SrFEuPpaEO1TuULlDpUvCE0m4Q+VLxRqlWKMUa5SLYZLQqfxLijVKsUYp1igXf1wSOpV/WbFGKdYoxRrl4mMqX1LpktCpdEnoVJ5Q+T8p1ijFGqVYo1y8LAm/KQmdSpeETqVLQqdykoT/s2KNUqxRijVK/MFgSThRmaRYoxRrlGKNcvFQEjqVLgmdSpeETqVLQqdyh8pJEjqVO5LQqZwkoVN5U7FGKdYoxRol/uBDSThReSIJnUqXhBOVO5Jwh8pvKtYoxRqlWKNcPJSETuVNSehUOpUuCXck4UTlROUkCScqbyrWKMUapVijXPwylZMkdCpdEjqVJ1ROktCpnCShU+mS0CWhU3miWKMUa5RijXLxsiR0Kl0STlS6JHQqT6h0SfhSEjqVLglvKtYoxRqlWKPEH/xhSThReSIJJyp3JKFTeVOxRinWKMUa5eKhJPwmlU6lS8IdSbhDpUtCp3Ki8qVijVKsUYo1ysXLVN6UhC+pnCThjiR0Kr+pWKMUa5RijXLxsSTcoXJHEjqVLgmdypdUuiR0Kl8q1ijFGqVYo1z8cSpfUumScJKETqVLQqfypmKNUqxRijXKxR+XhCeScIdKl4ROpUtCp9IloVN5olijFGuUYo1y8TGVL6l0SehUTlROktAl4SQJJ0n4UrFGKdYoxRrl4mVJ+E1JOEnCicqJyh1J6FROkvCmYo1SrFGKNUr8wRqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYo/wFnBQ36zSyB2QAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-9.FL-8-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKYSURBVO3BQY7YSAwEwSyi///lXB95EiBIGo+5jIh/sMYo1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijXK4aEk/CSVJ5JwRaVLwk9SeaJYoxRrlGKNcniZypuScEcSOpVOpUvCHSpvSsKbijVKsUYp1iiHjyXhDpU7ktCpdEnoVDqVJ5Jwh8qXijVKsUYp1iiH4VS6JHQqkxRrlGKNUqxRDv8zKl0SOpV/WbFGKdYoxRrl8DGVyVR+k2KNUqxRijXK4WVJ+E2S0Kk8kYTfrFijFGuUYo1yeEhlMpV/SbFGKdYoxRrl8FASOpUuCW9S6VS+lIQ3qXypWKMUa5RijXL4mEqXhE6lS0KnciUJncoTSehUuiRcUemS0CWhU3lTsUYp1ijFGuXwkMqVJHQqdyShU+lUnlDpktAloVPpkvBEEjqVJ4o1SrFGKdYoh78sCVdUvpSEJ1TuUOmS8KZijVKsUYo1yuFlSehUuiTckYROpUtCp/ImlS4Jb1J5U7FGKdYoxRol/sE/LAl/k0qXhCsqXyrWKMUapVijHB5Kwk9S6VS6JHQqV5JwRaVLwhWVO5LQqTxRrFGKNUqxRjm8TOVNSbiShCtJeCIJnUqXhE6lS8IVlTcVa5RijVKsUQ4fS8IdKl9SeSIJncodKl0SOpUnijVKsUYp1iiHYVS6JHRJuEPlShI6lTtU3lSsUYo1SrFGOQyThE7lShKeUPlNijVKsUYp1iiHj6l8SeWOJNyRhCtJ6FQ6lStJ6FSeKNYoxRqlWKMcXpaEn5SEKypXVK4k4Y4kdCpXVN5UrFGKNUqxRol/sMYo1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijXKf6mp+eQ4vy0eAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-9.FL-8-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKkSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsttDMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qJ0k4UemS0Kl0SfgmlSeKNUqxRinWKBcvU3lTEp5QOVG5Q+VNSXhTsUYp1ijFGuXiw5Jwh8odSThJwh0qdyThDpVPKtYoxRqlWKNcDKdykoRJijVKsUYp1igXwyWhU5msWKMUa5RijXLxYSrfpNIl4ZNUfkmxRinWKMUa5eJlSZgsCb+sWKMUa5RijXLxkMovScKbVP5PijVKsUYp1igXDyWhU+mS8CaVTqVLQqfSJaFTOUnCm1Q+qVijFGuUYo1y8bIkdCpdEjqVJ5Jwh8pJEjqVLgknKl0SuiR0Km8q1ijFGqVYo1y8TOVNSThROUnCHSpdEjqVLglPJKFTeaJYoxRrlGKNcvGQykkSOpU7VLoknCThROUkCXeo3KHSJeFNxRqlWKMUa5T4hxcl4Q6VkyR0Kl0STlS6JHQqdyThCZVPKtYoxRqlWKNcvEzlTSp3qHRJ6FTepNIl4V8q1ijFGqVYo1w8lIRvUulUTlS6JHQqb1L5l4o1SrFGKdYoFy9TeVMSTpLQqbwpCZ1Kl4ROpUtCp9IloVN5olijFGuUYo1y8WFJuEPlTUnoVLokdConSehUfkmxRinWKMUa5WI4lS4JncoTSehU7lB5U7FGKdYoxRrlYpgkdConSThR6ZLQqfySYo1SrFGKNcrFh6l8kkqXhBOVLglPJKFT6VROktCpPFGsUYo1SrFGuXhZEr4pCZ3KSRI6lS4JTyShUzlReVOxRinWKMUaJf5hjVGsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5T/ANzWBe3+OW1lAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-10.FL-9-1</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKjSURBVO3BQY7cQAwEwSxC//9yeo48NSBIs17TjIgfrDGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1y8VASfpLKHUnoVO5Iwk9SeaJYoxRrlGKNcvEylTcl4Y4kfJPKm5LwpmKNUqxRijXKxZcl4Q6VO5LQqXRJ6JJwonJHEu5Q+aZijVKsUYo1ysVwKidJmKRYoxRrlGKNcjFMEk5UJivWKMUapVijXHyZyk9S6ZLwTSq/SbFGKdYoxRrl4mVJmCwJv1mxRinWKMUaJX7wD0vCicr/pFijFGuUYo0SP3ggCZ1Kl4Q3qZwk4Q6VkyS8SeWbijVKsUYp1ijxgweScKJyRxI6lS4JncqbktCpdEk4UemScKLypmKNUqxRijXKxctUnlDpktCpdEnoVE6ScKLSJaFT6ZLwRBI6lSeKNUqxRinWKBdfloROpUtCp9KpdEk4ScKJykkS7lC5Q6VLwpuKNUqxRinWKBcvS0Kn0iWhU+mScKLSJaFTOUlCp9KpnCThTSpvKtYoxRqlWKPED/5hSThReVMSOpUuCScq31SsUYo1SrFGuXgoCT9JpVO5IwmdyptU/qZijVKsUYo1ysXLVN6UhJMknKg8kYROpUtCp9IloVPpktCpPFGsUYo1SrFGufiyJNyh8qYkdCpdEjqVkyR0Kr9JsUYp1ijFGuViGJWTJHQqTyShU7lD5U3FGqVYoxRrlIthktCpnCThRKVLQqfymxRrlGKNUqxRLr5M5ZtUTpLQqXRJeCIJnUqncpKETuWJYo1SrFGKNcrFy5Lwk5JwRxI6lS4JTyShUzlReVOxRinWKMUaJX6wxijWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNcofTEIC8FYrAgoAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-FHC-10.FL-9-2</span> <br>
+        Fire Hose Cabinet
+      </div>
+      </div>
+    </div>
+</div>
+
+  </body>
+</html>

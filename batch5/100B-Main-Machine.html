@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> -->
+    <title>FEM Sticker</title>
+    <style>
+
+        .mycontainer {
+            display: -webkit-box; 
+            display: -webkit-flex; 
+            display: -ms-flexbox; 
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            justify-content: left;
+            align-items: center;
+        }
+        .sticker {
+          align-content: center;
+          border: 1mm solid white;
+          border-collapse: collapse;
+          width: 65mm;
+          height: 20mm;
+          margin: 0mm;
+        }
+        .innerSticker {
+          display: flex;
+        }
+        .labelSticker {
+          align-content: center;
+          font-size: 12px;
+          font-family: "IBM Plex Sans", sans-serif;
+          font-weight: 500;
+          font-style: normal;
+        }
+        .labelId {
+          align-content: center;
+          font-size: 10px;
+          font-family: "IBM Plex Sans", sans-serif;
+          font-weight: 600;
+          font-style: normal;
+        }
+        </style>
+  </head>
+  <body>
+    <div class="mycontainer">
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOWSURBVO3BQW7F2AEDweaD7n/ljhcDhCsBgr7tccKq+IWZfxxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKxUtJ+EkqLQlNpSXhDZWWhKZyJwk/SeWNw0w5zJTDTLn4MJVPSsIbKi0JTaUl4Y7KGyqflIRPOsyUw0w5zJSLb5aEJ1SeUGlJaCp3ktBUnkhCU3kiCU+ofKfDTDnMlMNMufjjknAnCU3liSQ0labyv+QwUw4z5TBTLv44lZaEO0m4o/L/7DBTDjPlMFMuvpnKb1JpSWgqLQlN5U4SmsoTKv8mh5lymCmHmXLxYUn4SUloKi0JTaUloam0JDSVN5Lwb3aYKYeZcpgp8Qt/WBLeUJn/OsyUw0w5zJSLl5LQVFoS7qi0JDyh0pLwRBLuqNxJQlNpSWgqd5LQVFoS7qi8cZgph5lymCkXL6m0JDSVJ1SeSEJTaUloKi0Jd5JwR+WTVH7TYaYcZsphplx8mMoTSWgqLQl3VN5QaUloKk8k4U4S7qi0JNxR+aTDTDnMlMNMuXgpCXdU3lBpSWhJaCp3knBH5YkkNJWWhKbyhsp3OsyUw0w5zJT4hV+UhCdUWhLuqNxJQlNpSbij0pLwhEpLQlO5k4Sm8sZhphxmymGmXHyzJDSVptKS0FSeUGlJ+CSVN1RaEprKEyqfdJgph5lymCkXH5aEpvKESkvCGyotCU2lJaGp3EnCHZWWhCeS8ITKG4eZcpgph5ly8VISmkpLwh2VloSm8kQSmsoTKi0Jn6TSknBH5ScdZsphphxmSvzCL0pCU2lJuKNyJwlNpSWhqbQkNJWWhN+k8kmHmXKYKYeZEr/whyXhjsobSXhC5YkkNJXfdJgph5lymCkXLyXhJ6ncUWlJaCp3knBHpSXhThKayp0k3FFpSWgqbxxmymGmHGbKxYepfFIS3lBpSWgq30nlCZWWhJaEpvJJh5lymCmHmXLxzZLwhMoTKk+ovJGEO0n4SUloKm8cZsphphxmysUfl4Sm8obKE0l4Q+UJlZaETzrMlMNMOcyUi/8xSWgqbyThjsqdJDSVJ1RaEprKJx1mymGmHGbKxTdT+U4qTyThk5JwR6UloancSUJTaUloKm8cZsphphxmysWHJeEnJeENlSeS0FRaEv6yw0w5zJTDTIlfmPnHYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphpvwHbkCn+ulPiV0AAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-SN-RHT-RF.FL-0001</span> <br>
+        Return Heat Water Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN9SURBVO3BQY7kyAEEQY9E/f/LrjksoDgRIMjq3pHCLP7BzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cNDSfhJKi0JV1TuSEJTaUloKleS8JNUnjjMlMNMOcyUDy9TeVMS7lBpSWgqT6g8ofKmJLzpMFMOM+UwUz58WRLuULlD5YrKHSp3JKGp3JGEO1S+6TBTDjPlMFM+/OWScEWlJeGKSkvC/5PDTDnMlMNM+fCXU7mShDep/C87zJTDTDnMlA9fpvKTkvBEEprKlSQ0lTtU/k0OM+UwUw4z5cPLkvCTktBUWhKaSktCU2lJaCpPJOHf7DBTDjPlMFPiH/zFknBFpSWhqcx/HWbKYaYcZsqHh5LQVFoSrqi0JNyh0pJwRaUl4YrKlSQ0lZaEpnIlCU2lJeGKyhOHmXKYKYeZ8uEhlZaEN6m0JNyRhCeScEXlTSq/6TBTDjPlMFPiHzyQhDeptCQ0lZaEpnIlCXeo3JGEJ1RaEq6ovOkwUw4z5TBTPnyZSkvCHSpXVO5QaUloKnckoam0JDSVJ1S+6TBTDjPlMFM+PKTSknCHSkvCN6nckYQrKi0JV5LQVFoSmsqVJDSVJw4z5TBTDjPlwy9LQlO5IwlN5UoSnlB5QqUloancofKmw0w5zJTDTPnwZUloKleScEXljiRcUWlJaCpXknBFpSXhjiTcofLEYaYcZsphpnx4KAlN5U0qV1RaEppKS8IVlZaEN6m0JFxR+UmHmXKYKYeZEv/gi5LwJpWWhKZyRxKaSktCU2lJ+E0qbzrMlMNMOcyUD1+m8puS0FSayh1JuKJyRxKaym86zJTDTDnMlA8PJeEnqVxJQlO5IwlXVFoSriShqVxJwhWVloSm8sRhphxmymGmfHiZypuScIfKlSQ0lW9SuUOlJaEloam86TBTDjPlMFM+fFkS7lC5Q+VKEprKE0m4koSflISm8sRhphxmymGmfPjLJeFNKnck4QmVO1RaEt50mCmHmXKYKR/mUhKuqFxJQlO5Q6Uloam86TBTDjPlMFM+fJnKN6m0JDSVloQ3JeGKSktCU7mShKbSktBUnjjMlMNMOcyUDy9Lwk9KwhMqdyShqbQk/M0OM+UwUw4zJf7BzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5T8k1IwEu5LoowAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-SN-RHT-RF.FL-0002</span> <br>
+        Return Heat Water Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOQSURBVO3BMa4cSwIDwczC3P/KXBlr0Cqg0W8kfYER5hdm/u8wUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTPryk8jsloancJKGptCTcqDyRhKbyOyXhjcNMOcyUw0z58MOS8JNUbpJwo/KEyk0S3kjCT1L5SYeZcpgph5ny4ctUnkjCEyotCW8koak0lZskPKHyRBK+6TBTDjPlMFM+/Mcloam0JDSVn5SEf8lhphxmymGmfPjHqdyovKHSkvBfdpgph5lymCkfviwJ36TyRBL+Jkn4mxxmymGmHGbKhx+m8icloancqLQkNJWWhKbSknCj8jc7zJTDTDnMFPML/xCVloQ3VFoS/mWHmXKYKYeZ8uEllZaEptKS8ITKTRKeUHlD5SYJNyotCTcqLQlNpSXhjcNMOcyUw0wxv/CCyk0SmspNEm5UnkjCEyo3SbhRuUnCjUpLQlNpSfhJh5lymCmHmfLhD0vCjcoTSXgjCTcqTyShqbQkvKHSkvDGYaYcZsphpnz4YUloKk+otCQ0lZaEpnKThBuVloSWhCdUWhJuknCThG86zJTDTDnMlA8/TKUl4UblRuVGpSXhCZUnVG6S8IbKG0l44zBTDjPlMFM+vJSEpnKj8kQSmsoTKi0JN0m4ScI3JeFGpSXhJx1mymGmHGaK+YUXVN5IQlN5IglNpSXhRuUnJaGp/KQkfNNhphxmymGmmF/4jVRukvBNKjdJaCotCU3liSTcqLQk3Ki0JLxxmCmHmXKYKR9eUvkmlZskNJWbJNyo3Ki8oXKThBuVbzrMlMNMOcyUDy8l4ZuScKPSkvAnJeEJlRuVloRvOsyUw0w5zJQPL6n8Tkl4Q6UloSXhCZUblZaEG5WWhKZyk4Q3DjPlMFMOM+XDD0vCT1K5ScKNSkvCjUpLwhtJeCIJTaUl4ZsOM+UwUw4z5cOXqTyRhG9S+SaVN1T+pMNMOcyUw0z58I9RaUm4UWlJuFF5Igk3Kn+Tw0w5zJTDTPnwH6fSktBUWhJuVG6S0FRaEm5UWhKayo3KTRLeOMyUw0w5zJQPX5aEb0pCU2lJaCo3SWgqTaUloam0JLQk3CThCZWfdJgph5lymCkffpjK76TSknCThBuVJ1RaEp5QaUm4Ufmmw0w5zJTDTDG/MPN/h5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmfI/k+OEKponuOIAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-SN-SLP-RF.FL-0001</span> <br>
+        Solar Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN+SURBVO3BQW7lVgADwebDv/+VO14ECFcCBMmeOGFV/MLM3w4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlw0NJ+EkqLQlN5UoS7lBpSWgqV5Lwk1SeOMyUw0w5zJQPL1N5UxK+k0pLwhWVJ1TelIQ3HWbKYaYcZsqHb5aEO1TuULmShDtU7khCU7kjCXeofKfDTDnMlMNM+fDLJaGpXFG5Iwn/J4eZcpgph5ny4ZdTaUloKi0JTeUOlf+yw0w5zJTDTPnwzVT+pCQ0lZaEKypXktBU7lD5NznMlMNMOcyUDy9Lwk9KQlNpSbhDpSWhqTyRhH+zw0w5zJTDTIlf+MWS8ITK/OMwUw4z5TBTPjyUhKbSknBFpSXhDpUrSbgjCU3lShKaSktCU7mShKbSknBF5YnDTDnMlMNMiV94URLepHJHEppKS8KbVFoSmsqbknBF5YnDTDnMlMNM+fBQEt6k0pJwReUJlZaEpvJEEprKHUm4ovKmw0w5zJTDTIlfeCAJd6i0JFxRaUl4k8oTSWgqLQlXVK4koal8p8NMOcyUw0yJX3ggCW9SaUm4onJHEq6otCRcUWlJeJPKlSQ0lScOM+UwUw4z5cNDKm9KQlNpSfiTVJ5QaUloKneovOkwUw4z5TBTPrwsCVdU7khCU2lJaCotCVdUWhKaypUkXFFpSWgqV5Jwh8oTh5lymCmHmRK/8EASmkpLwh0qTyShqbQkNJUrSXhC5Tc5zJTDTDnMlPiFH5SEptKS8IRKS0JTaUloKi0JTaUl4U9SedNhphxmymGmxC/8Ykm4ovJEEu5QuSMJTeVPOsyUw0w5zJQPDyXhJ6l8pyRcUWlJuJKEpnIlCVdUWhKayhOHmXKYKYeZ8uFlKm9Kwh0qLQlXVL6Tyh0qLQktCU3lTYeZcpgph5ny4Zsl4Q6VO1RaEprKm5JwJQk/KQlN5YnDTDnMlMNM+fDLJeFKEprKFZU7knCHSkvCHSotCW86zJTDTDnMlA9zKQlXVK4k4YrKFZWWhKbypsNMOcyUw0z58M1UvpPKlSS0JLwpCVdUWhKaypUkNJWWhKbyxGGmHGbKYaZ8eFkSflISmkpTaUloKnckoam0JPxmh5lymCmHmRK/MPO3w0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTPkL/X+P/bgphF4AAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-SN-SLP-RF.FL-0002</span> <br>
+        Solar Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOdSURBVO3BQW4bSQAEwawG///lXB32UKcGBqQk26iI+IWZ/x1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKizcl4SeptCTcqLQk3Kh8UhJ+kso7DjPlMFMOM+XFh6l8UhK+k8pNEprKO1Q+KQmfdJgph5lymCkvvlkSnlB5QuUmCTdJuFG5SUJTeSIJT6h8p8NMOcyUw0x58ZdLwjtUnkhCU/mXHGbKYaYcZsqLv5xKS0JTeSIJNyr/ssNMOcyUw0x58c1UflMSnlBpSbhJQlN5QuVPcpgph5lymCkvPiwJPykJTaUloam0JPykJPzJDjPlMFMOM+XFm1T+ZCotCU2lJeEJlRuVv8lhphxmymGmvHhTEppKS8KNSkvCEyo3SfhOSWgqLQlN5SYJTaUl4UblHYeZcpgph5ny4sOS0FRaEm5UnkjCjcpNEprKTRKeULlJQlP5TYeZcpgph5kSv/BBSXiHSkvCEyotCTcqN0loKi0J71C5ScKNyicdZsphphxmyotvpnKThBuVmyS0JDSVJ5LwhEpLQlO5SUJTuVH5ToeZcpgph5kSv/CGJDSVJ5LwnVR+UxKayk0SmspNEprKOw4z5TBTDjPlxZtUbpLwhMpNEprKTRJuVFoSmspNEt6RhKbyhMonHWbKYaYcZsqLD0vCjUpLwk0SbpLwhEpLQlNpSbhReSIJTeUmCU+ovOMwUw4z5TBTXrwpCU2lJeFGpSWhqbQkNJWWhHckoam0JLxD5R0q3+kwUw4z5TBT4hd+URKaSktCU2lJuFFpSWgq70jCb1L5pMNMOcyUw0yJX/iLJaGpPJGEG5WWhBuVJ5LQVH7TYaYcZsphprx4UxJ+kspNEppKS8KNyo1KS8JNEprKTRJuVL7TYaYcZsphprz4MJVPSsITKjcqLQlPJOEJlSdUbpLQVD7pMFMOM+UwU+IX3pCEptKS8IRKS0JTuUnCJ6ncJOFPovKOw0w5zJTDTHnxl0vCjcpNEm6S0FSayhNJaCotCTcqLQmfdJgph5lymCkv/jEqLQnvUGlJaCotCU3lJglNpSWhJaGpfNJhphxmymGmvPhmKt9J5Ublk1SeSEJTaUm4UblJQlN5x2GmHGbKYaa8+LAk/KQkNJWWhKbSktBUWhKaSkvCE0n4kx1mymGmHGZK/MLM/w4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlP2K3nRFOIE8TAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B03-EE-EAMCC-4.FL-0001</span> <br>
+        EAMCC
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOcSURBVO3BQW4bSQAEwawG///lXB32UKcGBqQk26iI+IWZ/x1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKizcl4SeptCR8kspNEm5UWhJ+kso7DjPlMFMOM+XFh6l8UhKeUGlJeEcSmso7VD4pCZ90mCmHmXKYKS++WRKeUHlCpSWhqbQkNJWWhKZyk4Sm8kQSnlD5ToeZcpgph5ny4i+XhHckoancJKGp/EsOM+UwUw4z5cVfTqUl4UalJaEl4UblX3aYKYeZcpgpL76Zyk9SuUnCjUpLwk0SmsoTKn+Sw0w5zJTDTHnxYUn4SUloKi0JTaUl4Scl4U92mCmHmXKYKS/epPIvScITKjcqf5PDTDnMlMNMefGmJDSVloQblZaEJ1RuVL5TEppKS0JTuUlCU2lJuFF5x2GmHGbKYaa8+LAkfJLKTRLeofJEEp5QuUlCU/lNh5lymCmHmRK/8EFJaCrvSMKNSkvCO1RaEppKS8I7VG6ScKPySYeZcpgph5ny4sNUWhKaSktCU2kqN0loKu9IwhMqLQlN5SYJTeVG5TsdZsphphxmSvzCL0pCU2lJuFG5SUJT+UlJaCo3SWgqN0loKu84zJTDTDnMlPiFD0rCJ6l8UhKaSktCU7lJwhMqLQlN5TcdZsphphxmyos/jEpLwo1KS0JTaSotCU2lJeFG5YkkNJWbJDyh8o7DTDnMlMNMefGmJDSVloSm0pLQktBU3pGEpnKThKbSkvAOlXeofKfDTDnMlMNMiV/4RkloKk8koak8kYQblXck4TepfNJhphxmymGmxC/8xZJwo3KThBuVloQblSeS0FR+02GmHGbKYaa8eFMSfpLKO5Jwo3Kj0pJwk4SmcpOEG5XvdJgph5lymCkvPkzlk5LwhMqNSkvCE0l4QuUJlZskNJVPOsyUw0w5zJT4hTckoam0JDyh0pLQVG6S0FRaEp5QuUnCn0TlHYeZcpgph5ny4i+XhKZyo9KScJOEptJUnkhCU2lJuFFpSfikw0w5zJTDTHnxj0lCU2lJeEKlJaGptCQ0lZskNJWWhJaEpvJJh5lymCmHmfLim6l8J5WbJDSVd6g8kYSm0pJwo3KThKbyjsNMOcyUw0x58WFJ+ElJaCpN5SYJTaUloam0JDyRhD/ZYaYcZsphpsQvzPzvMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwU/4DoHup+26xXxgAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B03-EE-EAMCC-4.FL-0002</span> <br>
+        EAMCC
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOTSURBVO3BQY4jSQIDQWdA//+ybx3mwFMACUk91bM0iz+Y+cdhphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmvHhTEv4klZaEG5VPSsKNSkvCn6TyjsNMOcyUw0x58WEqn5SEJ1RuknCj0pJwo/KEyicl4ZMOM+UwUw4z5cWXJeEJlSdUWhLekYQ/KQlPqHzTYaYcZsphprz4yyWhqTyRhKby/+wwUw4z5TBTXvzlVG6ScKPSktBU/p8cZsphphxmyosvU/nNktBUWhKayiep/CaHmXKYKYeZ8uLDkvAnJaGp3Ki0JLwjCU3lJgm/2WGmHGbKYabEH/zFkvCEyk0SblT+yw4z5TBTDjPlxZuS0FRaEm5UWhKeUHkiCU3lHUloKi0JTeUmCU2lJeFG5R2HmXKYKYeZ8uJNKi0JTeUdKt+UhKZyk4Sm8o4kNJV/02GmHGbKYaa8eFMSbpLwhEpLQlNpSXhCpSXhJglN5QmVloQnknCj8kmHmXKYKYeZ8uJNKk8koancqLQkfJJKS8ITSWgqT6g8ofJNh5lymCmHmRJ/8EFJaCo3SXhCpSXhHSpPJKGp3CThRqUloancJKGpvOMwUw4z5TBT4g8+KAk3KjdJaCo3SbhRaUloKi0JTeWJJNyo/GaHmXKYKYeZ8uLLVFoSmspNEm5UnlBpSWgqLQlNpSWhqbQktCTcqLQkPKHyjsNMOcyUw0yJP3hDEppKS8ITKk8koam0JDSVloQblSeS0FRaEppKS8KNyjcdZsphphxmSvzBL5KEG5WbJDSVloSm8kQSfhOVTzrMlMNMOcyU+IO/WBJuVG6ScKNyk4Sm8kQSmsq/6TBTDjPlMFNevCkJf5LKE0l4QuWTktBUbpJwo/JNh5lymCmHmfLiw1Q+KQnvULlJwhNJeELlCZUnktBU3nGYKYeZcpgpL74sCU+oPKHSknCThJskNJWm0pLQkvCOJNyofNNhphxmymGmvPjLJeEmCU2lJeEmCU+oPJGE3+QwUw4z5TBTXvzHqNwk4QmVloSbJNyoNJWbJLQkNJVPOsyUw0w5zJQXX6byTSotCU2lqbxDpSWhqbQk3CShqTSVmyQ0lXccZsphphxmyosPS8KflISm8kQSmkpLwhNJaCotCb/ZYaYcZsphpsQfzPzjMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwU/4HeHmVEACXjYQAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-EE-TRO-1.FL-0001</span> <br>
+        Oil Transformer
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAANtSURBVO3BQW7kWgIDweSD7n/lnF7MgisBgqoMf4MR8R9m/u8wUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTLl5Kwk9SeSIJT6jcScIdlZaEn6TyxmGmHGbKYaZcfJjKJyXhN1F5Q+WTkvBJh5lymCmHmXLxZUl4QuWJJDSVptKS0FTuJKGptCQ0lSeS8ITKNx1mymGmHGbKxR+XhKbyhModlb/kMFMOM+UwUy7+mCS8kYQnVP6Sw0w5zJTDTLn4MpWfpNKS0JLwSUloKk+o/CaHmXKYKYeZcvFhSfjNVFoSmkpLQlNpSXgiCb/ZYaYcZsphpsR/+A9LQlO5k4QnVFoSmspfcpgph5lymCkXLyWhqbQkfJJKU7mThDsqd5LwRhI+SeWbDjPlMFMOM+XiJZWWhKbSktBUnkjCHZU7Kk+otCTcSUJT+aQk3FF54zBTDjPlMFMufphKS8InJaGptCQ0lU9SeSIJT6i0JHzSYaYcZsphplx8WRLeUGlJ+ElJeCMJTaWptCQ0lZ90mCmHmXKYKRcvJaGptCTcUbmThKbSknAnCW+otCS8kYSm8pscZsphphxmysWXqdxJQlNpKk+oPJGEb1JpSWhJeCIJ33SYKYeZcpgpF79cEt5IQlNpKi0J36RyJwlPqHzSYaYcZsphplx8WRLuqLQkNJWWhCdU7iThjsoTSWgqLQlN5U4Smso3HWbKYaYcZsrFL6PSkvCTVFoSmkpLwp0k3ElCU2lJuJOEpvLGYaYcZsphpsR/+A9LQlP5piTcUXkiCU+otCQ0lTcOM+UwUw4z5eKlJPwklabSktBUWhLuqNxRaUm4k4Sm8kkqn3SYKYeZcpgpFx+m8klJuJOEO0m4o3InCU3lCZU3VFoSmsonHWbKYaYcZsrFlyXhCZVPUmlJeEKlJeFOEt5QuaPyTYeZcpgph5ly8ceo3FFpSfgklTeScEelJaGpvHGYKYeZcpgpF39MEprKHZWWhDsqLQlPJKGp/CaHmXKYKYeZcvFlKt+k0pLQktBUWhLuqLQkNJU3kvCGyicdZsphphxmysWHJeEnJeGTVFoS7iThjsoTKk8koam8cZgph5lymCnxH2b+7zBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFP+ByyUcCPqNzwtAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-EE-CAP-1.FL-0001</span> <br>
+        Capacitor Bank
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOdSURBVO3BQW4bSQAEwawG///lXB32UKcGBqQk26iI+IWZ/x1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKizcl4SeptCTcqLQk3Kh8UhJ+kso7DjPlMFMOM+XFh6l8UhK+k8pNEprKO1Q+KQmfdJgph5lymCkvvlkSnlB5QuUmCTdJuFG5SUJTeSIJT6h8p8NMOcyUw0x58ZdLwjtUnkhCU/mXHGbKYaYcZsqLv5xKS0JTeSIJNyr/ssNMOcyUw0x58c1UflMSnlBpSbhJQlN5QuVPcpgph5lymCkvPiwJPykJTaUloam0JPykJPzJDjPlMFMOM+XFm1T+ZCotCU2lJeEJlRuVv8lhphxmymGmvHhTEppKS8KNSkvCEyo3SfhOSWgqLQlN5SYJTaUl4UblHYeZcpgph5ny4sOS0FRaEm5UnkjCjcpNEprKTRKeULlJQlP5TYeZcpgph5kSv/BBSXiHSkvCEyotCTcqN0loKi0J71C5ScKNyicdZsphphxmyotvpnKThBuVmyS0JDSVJ5LwhEpLQlO5SUJTuVH5ToeZcpgph5kSv/CGJDSVJ5LwnVR+UxKayk0SmspNEprKOw4z5TBTDjPlxZtUbpLwhMpNEprKTRJuVFoSmspNEt6RhKbyhMonHWbKYaYcZsqLD0vCjUpLwk0SbpLwhEpLQlNpSbhReSIJTeUmCU+ovOMwUw4z5TBTXrwpCU2lJeFGpSWhqbQkNJWWhHckoam0JLxD5R0q3+kwUw4z5TBT4hd+URKaSktCU2lJuFFpSWgq70jCb1L5pMNMOcyUw0yJX/iLJaGpPJGEG5WWhBuVJ5LQVH7TYaYcZsphprx4UxJ+kspNEppKS8KNyo1KS8JNEprKTRJuVL7TYaYcZsphprz4MJVPSsITKjcqLQlPJOEJlSdUbpLQVD7pMFMOM+UwU+IX3pCEptKS8IRKS0JTuUnCJ6ncJOFPovKOw0w5zJTDTHnxl0vCjcpNEm6S0FSayhNJaCotCTcqLQmfdJgph5lymCkv/jEqLQnvUGlJaCotCU3lJglNpSWhJaGpfNJhphxmymGmvPhmKt9J5Ublk1SeSEJTaUm4UblJQlN5x2GmHGbKYaa8+LAk/KQkNJWWhKbSktBUWhKaSkvCE0n4kx1mymGmHGZK/MLM/w4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlP2K3nRFOIE8TAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B03-EE-EAMCC-4.FL-0001</span> <br>
+        EAMCC
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOcSURBVO3BQW4bSQAEwawG///lXB32UKcGBqQk26iI+IWZ/x1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKizcl4SeptCR8kspNEm5UWhJ+kso7DjPlMFMOM+XFh6l8UhKeUGlJeEcSmso7VD4pCZ90mCmHmXKYKS++WRKeUHlCpSWhqbQkNJWWhKZyk4Sm8kQSnlD5ToeZcpgph5ny4i+XhHckoancJKGp/EsOM+UwUw4z5cVfTqUl4UalJaEl4UblX3aYKYeZcpgpL76Zyk9SuUnCjUpLwk0SmsoTKn+Sw0w5zJTDTHnxYUn4SUloKi0JTaUl4Scl4U92mCmHmXKYKS/epPIvScITKjcqf5PDTDnMlMNMefGmJDSVloQblZaEJ1RuVL5TEppKS0JTuUlCU2lJuFF5x2GmHGbKYaa8+LAkfJLKTRLeofJEEp5QuUlCU/lNh5lymCmHmRK/8EFJaCrvSMKNSkvCO1RaEppKS8I7VG6ScKPySYeZcpgph5ny4sNUWhKaSktCU2kqN0loKu9IwhMqLQlN5SYJTeVG5TsdZsphphxmSvzCL0pCU2lJuFG5SUJT+UlJaCo3SWgqN0loKu84zJTDTDnMlPiFD0rCJ6l8UhKaSktCU7lJwhMqLQlN5TcdZsphphxmyos/jEpLwo1KS0JTaSotCU2lJeFG5YkkNJWbJDyh8o7DTDnMlMNMefGmJDSVloSm0pLQktBU3pGEpnKThKbSkvAOlXeofKfDTDnMlMNMiV/4RkloKk8koak8kYQblXck4TepfNJhphxmymGmxC/8xZJwo3KThBuVloQblSeS0FR+02GmHGbKYaa8eFMSfpLKO5Jwo3Kj0pJwk4SmcpOEG5XvdJgph5lymCkvPkzlk5LwhMqNSkvCE0l4QuUJlZskNJVPOsyUw0w5zJT4hTckoam0JDyh0pLQVG6S0FRaEp5QuUnCn0TlHYeZcpgph5ny4i+XhKZyo9KScJOEptJUnkhCU2lJuFFpSfikw0w5zJTDTHnxj0lCU2lJeEKlJaGptCQ0lZskNJWWhJaEpvJJh5lymCmHmfLim6l8J5WbJDSVd6g8kYSm0pJwo3KThKbyjsNMOcyUw0x58WFJ+ElJaCpN5SYJTaUloam0JDyRhD/ZYaYcZsphpsQvzPzvMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwU/4DoHup+26xXxgAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B03-EE-EAMCC-4.FL-0002</span> <br>
+        EAMCC
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOYSURBVO3BS44sRwIDQWeg7n9lHy204GwCSGT1+wg0i/9g5l+HmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZ8uGlJPxKKi0JT6g8kYQnVFoSfiWVNw4z5TBTDjPlw5epfFMSblRukvBEEm5U3lD5piR802GmHGbKYaZ8+GFJeELliSQ0labSknCj0pLQknCj8kQSnlD5SYeZcpgph5ny4S+n0pLQVJpKS8IbKv8lh5lymCmHmfJh/k8SnkhCU/mbHWbKYaYcZsqHH6byk5LwRBJuVH4llT/JYaYcZsphpnz4siT8TiotCU2lJeEmCU2lJaGp3CThT3aYKYeZcpgpH15S+Z1UWhKaSkvCN6ncqPxNDjPlMFMOM+XDS0loKi0JTeWJJNyo3CThRqUl4SYJNyo3SWgqN0loKi0JTeWNw0w5zJTDTPnwkkpLwk0SmsqNSkvCjUpLQlNpSXhC5SYJTeWJJDSVloSm8k2HmXKYKYeZ8uHLVFoSmspNEt5IQlN5QuUmCTcqLQk3SXgjCU3ljcNMOcyUw0yJ/+AHJeEJlZsk3Ki8kYSm8k1JaCp/ksNMOcyUw0z58FISnlB5IglN5SYJTeUmCU8k4UblRuUmCW+ovHGYKYeZcpgpH15SeSMJNyotCU3lm1RuVG6S8IbKTRKayjcdZsphphxmyoeXknCj8oRKS8JNEr4pCd+k8kQSblR+0mGmHGbKYaZ8eEnlm5LQVJ5Iwk0SblRaEppKS0JTeSIJNyo3SWgqbxxmymGmHGZK/AcvJOFPotKS0FRukvA7qdwk4UbljcNMOcyUw0z58JLK75SEloSm8iupPJGEmyQ0lZ90mCmHmXKYKR9eSsKvpHKj0pJwo9JUnkjCTRKayk0SmkpLwo3KG4eZcpgph5ny4ctUvikJNyotCU3liSQ0lTdUnlC5UflJh5lymCmHmfLhhyXhCZU3VFoSfqUkfFMSmspPOsyUw0w5zJQP/zFJuFFpSWgqN0l4QuUmCX+Sw0w5zJTDTPnwl0tCU3kjCTcqLQlN5SYJTaUloam0JNyovHGYKYeZcpgpH36Yyk9SeSIJNyotCS0JTaUloancJKGptCQ0lZaEbzrMlMNMOcyUD1+WhF8pCU2lJaGp3CThiSQ0lRuVN5Lwkw4z5TBTDjMl/oOZfx1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbK/wAiRI4jViswgwAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-B1.FL-0001</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOUSURBVO3BO64kwQEDwWRh7n/l1BoyaBXQ6Hn7kRgRf2Hmvw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlw0tJ+J1UWhKaSktCU2lJuFFpSWgqN0n4nVTeOMyUw0w5zJQPX6byTUl4Q+VGpSXhRuUNlW9KwjcdZsphphxmyocfloQnVJ5QeSIJNypPJKGpPJGEJ1R+0mGmHGbKYaZ8+Mcloam0JLyRhP8nh5lymCmHmfLhH6fSknCj8obK/7LDTDnMlMNM+fDDVP4klZaEptKS0FRuktBUnlD5mxxmymGmHGbKhy9Lwu+UhKbSktBUWhKaSktCU3kjCX+zw0w5zJTDTPnwksrfJAnfpHKjcqPyLznMlMNMOcyUDy8loam0JNyotCQ8ofJEEm6S0FRuktBUWhKayk0SmkpLwo3KG4eZcpgph5ny4cuS0FRaEp5QuUlCU2lJuFFpSWhJuFFpSbhJQlNpKn/SYaYcZsphpsRf+IOS8E0qN0l4QuUnJaGptCTcqHzTYaYcZsphpnz4siTcqDSVJ5LQVN5QeSMJTeUJlSdUftJhphxmymGmfHgpCTcqLQlNpSXhRqUl4UblJglNpSXhRqUloam0JDyhcpOEpvLGYaYcZsphpnx4SaUl4ZtUWhKeSMI3qdyotCTcqLyh8k2HmXKYKYeZ8uEPS0JTaUloKk8k4UalJaGp3CShqdyotCQ0lZaEJ1TeOMyUw0w5zJQPLyWhqbQkNJWWhJaEpvKGSkvCjUpLwp+k8jsdZsphphxmSvyF3ygJTeUmCTcqLQk3Ki0JTaUloam0JPxJKt90mCmHmXKYKfEX/mFJaCrflIQnVJ5IQlP5kw4z5TBTDjPlw0tJ+J1UbpJwo3KThBuVloSbJDSVmyTcqLQkNJU3DjPlMFMOM+XDl6l8UxLeUGlJaCo/SeUJlZskNJVvOsyUw0w5zJQPPywJT6g8odKScKPyRhJukvBGEp5IQlN54zBTDjPlMFM+/OOS8E0qTyThCZWWhCdUWhK+6TBTDjPlMFM+zFUSblRuknCjcpOEloSm8k2HmXKYKYeZ8uGHqfwklZaEloSflIQblZskNJWmcpOEpvLGYaYcZsphpnz4siT8TkloKi0JNypPJKGptCTcJOFvdpgph5lymCnxF2b+6zBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFP+A/uLmBO9UfkxAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-B1.FL-0002</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOaSURBVO3BO65jSwIDwWRB+99yThvPoDMFHEi6/QEj4i/M/OcwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTXrwpCT9JpSXhRqUloam0JDSVloSmcpOEn6TyjsNMOcyUw0x58WEqn5SEJ1RaEppKS8ITKu9Q+aQkfNJhphxmymGmvPiyJDyh8oRKS8JNEprKO5LQVJ5IwhMq33SYKYeZcpgpL/5ySWgqLQnvSEJT+ZcdZsphphxmyou/nEpLQlO5SUJTeULlX3KYKYeZcpgpL75M5U+ShJskNJWbJDSVJ1T+JIeZcpgph5ny4sOS8JOS0FRaEppKS0JTaUloKu9Iwp/sMFMOM+UwU+Iv/MWS8ITK/H+HmXKYKYeZ8uJNSWgqLQk3Ki0JT6jcJKEloam0JDSVmyQ0lZaEpnKThKbSknCj8o7DTDnMlMNMefFlKi0JLQlN5SYJ71BpSbhJwo1KS8JNEppKU/mdDjPlMFMOMyX+whuS8IRKS8Inqdwk4QmVb0pCU2lJuFH5pMNMOcyUw0x58WUqLQlPqNwk4QmVloSm8kQSmsoTKk+ofNNhphxmymGmvPgwlZaEpnKThJaEJ5LwSUm4UWlJaCotCU+o3CShqbzjMFMOM+UwU168SaUloam0JDyh0pLQVFoSmkpLwjtUblRaEm5U3qHySYeZcpgph5ny4oeptCQ0lZaEptKScJOEG5WWhKZyk4SmcqPSktBUWhKeUHnHYaYcZsphprx4UxKaSkvCjcqNSktCU7lJwhMqLQm/k8pPOsyUw0w5zJT4C3+QJHyTSktCU2lJaCotCb+TyicdZsphphxmSvyFv1gSmsonJeEJlSeS0FR+p8NMOcyUw0x58aYk/CSVb0rCjUpLwk0SmspNEm5UWhKayjsOM+UwUw4z5cWHqXxSEp5IwhMq36TyhMpNEprKJx1mymGmHGbKiy9LwhMqT6jcJKGpvCMJN0l4RxKeSEJTecdhphxmymGmvPjLJeFG5QmVJ5LwhEpLwhMqLQmfdJgph5lymCkv/jEqLQlN5Ykk3KjcJOFG5SYJLQlN5ZMOM+UwUw4z5cWXqXyTyo1KS8InJeFG5SYJTaWp3CShqbzjMFMOM+UwU158WBJ+UhKaSkvCjcoTSWgqLQk3SfiTHWbKYaYcZkr8hZn/HGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsr/AFBmmRjZLv9qAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-B1.FL-0003</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOXSURBVO3BQY4cSQIDQWeg/v9lXx3mwFMAuVmtkQY0i78w84/DTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNM+fBSEn4nlZaEpvJGEppKS0JTuUnC76TyxmGmHGbKYaZ8+DKVb0rCE0loKjdJeELlDZVvSsI3HWbKYaYcZsqHH5aEJ1SeUGlJaEm4UXkjCU3liSQ8ofKTDjPlMFMOM+XDXy4JNypvJOFG5b/kMFMOM+UwUz785VRaEub/d5gph5lymCkffpjK76TSkvCGyk0SmsoTKn+Sw0w5zJTDTPnwZUn4nZLQVG5UWhKaSktCU3kjCX+yw0w5zJTDTPnwksrfTOVG5UblRuVvcpgph5lymCkfXkpCU2lJuFFpSXhC5YkkNJWWhKZyk4Sm0pLQVG6S0FRaEm5U3jjMlMNMOcyU+AsvJOFG5SYJNyo3SWgqTyThDZWWhCdUnkjCjcobh5lymCmHmRJ/4Q+ShBuVloSfpPKTktBUWhJuVL7pMFMOM+UwUz68lISm0pJwo3KjcqPSktBUbpLQVJ5IQlN5QuUJlZ90mCmHmXKYKR9eUmlJuFF5IglN5YkkNJUnknCj0pLQVFoSnlC5SUJTeeMwUw4z5TBTPnyZSkvCTRJuVFoSblRukvCGyo1KS8KNyhsq33SYKYeZcpgpH74sCU+otCS0JLyRhBuVloSmcpOEpnKj0pLQVFoSnlB54zBTDjPlMFM+vJSEptKS0JLQVG5UbpLQkvCGSkvCv0nldzrMlMNMOcyUDy+pfJNKS0JTuVF5IglN5UalJaEl4SYJN0l4QuWbDjPlMFMOMyX+wl8sCU+oPJGEJ1SeSEJT+TcdZsphphxmyoeXkvA7qdyotCQ8kYQblZaEmyQ0lZsk3Ki0JDSVNw4z5TBTDjPlw5epfFMS3lBpSWgqP0nlCZWbJDSVbzrMlMNMOcyUDz8sCU+oPKHSktBUmsobSbhJwhtJeCIJTeWNw0w5zJTDTPnwl0tCU3lD5YkkPKHSkvCESkvCNx1mymGmHGbKh/+YJNyoPJGEG5WbJNyo3CShJaGpfNNhphxmymGmfPhhKj9JpSXhJgnflIQblZskNJWmcpOEpvLGYaYcZsphpnz4siT8TkloKi0JNypPJKGptCTcJOFPdpgph5lymCnxF2b+cZgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCn/A/qEmwogCE5wAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-B1.FL-0004</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOLSURBVO3BO45jSQADwWRB979y7hhr0CrgQVLPB4yIvzDzv8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0x58aYk/CSVloRvUmlJaCo3SfhJKu84zJTDTDnMlBcfpvJJSfgklZsk3Ki8Q+WTkvBJh5lymCmHmfLiy5LwhMoTKk8k4UbliSQ0lSeS8ITKNx1mymGmHGbKi79cEm5UmkpLwk0SmkpT+ZccZsphphxmyou/nEpLQktCU3lHEprKv+QwUw4z5TBTXnyZyk9SaUloSWgqLQlN5SYJTeUJlT/JYaYcZsphprz4sCT8pCQ0lRuVloSm0pLQVN6RhD/ZYaYcZsphprx4k8q/TOVG5Ublb3KYKYeZcpgp8RfekISm0pJwo9KS8ITKE0l4QuUmCU2lJaGp3CShqbQk3Ki84zBTDjPlMFNefJnKEyo3SfgklZaEloQblZaEmyQ0labyOx1mymGmHGZK/IU3JOEJlZsk3Ki0JHyTyjcloam0JNyofNJhphxmymGmvHiTyjuS0FRukvCESktCU3lHEprKEypPqHzTYaYcZsphprz4YUloKi0JT6i0JNyotCQ0lZaEG5WWhKbSkvCEyk0Smso7DjPlMFMOM+XFlyWhqTyh0pJwo9KS8EkqNyotCTcq71D5pMNMOcyUw0x58WFJuElCU7lJwhNJeEKlJaGp3CShqdyotCQ0lZaEJ1TecZgph5lymCkv3pSEptKS0FRaEprKTRJaEm5UWhJuVFoSfieVn3SYKYeZcpgp8Re+KAlN5SYJNyqflISm0pLQVFoSfieVTzrMlMNMOcyU+At/sSQ8ofJEEp5QeSIJTeV3OsyUw0w5zJQXb0rCT1J5QuWJJNyotCTcJKGp3CThRqUloam84zBTDjPlMFNefJjKJyXhCZWWhBuVb1J5QuUmCU3lkw4z5TBTDjPlxZcl4QmVJ1SeUHlHEm6S8I4kPJGEpvKOw0w5zJTDTHnxl0tCU2kqT6g8kYQnVFoSnlBpSfikw0w5zJTDTHkxV0m4UblJwo3KTRJaEprKJx1mymGmHGbKiy9T+SaVJ5LwSUm4UblJQlNpKjdJaCrvOMyUw0w5zJQXH5aEn5SEptKScKPyRBKaSkvCTRL+ZIeZcpgph5kSf2Hmf4eZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5nyH0P+m/qNmAeUAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-B1.FL-0005</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOGSURBVO3BQW7cSAAEwazG/P/LuTr4UCcCBGdkyVsR8QszfxxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKi4eS8J1UWhKaypUkNJVPSsJ3UnniMFMOM+UwU168mco7JeGOJFxRuSMJTeUJlXdKwjsdZsphphxmyosPS8IdKneotCQ0lZaEO1SuJKGp3JGEO1Q+6TBTDjPlMFNe/HJJaCotCVdU7khCU/mXHGbKYaYcZsqLX07lDpWWhDtU/mWHmXKYKYeZ8uLDVH4TlZaEK0loKneo/CSHmXKYKYeZ8uLNkvCdktBUfrIk/GSHmXKYKYeZEr/wiyWhqVxJwhMq/7LDTDnMlMNMefFQEppKS8IVlZaEO1SuJKGpXEnCHUloKi0JTeVKEppKS8IVlScOM+UwUw4z5cU3U2lJuKLSkvBJKleScCUJV5LQVJrK33SYKYeZcpgp8QsPJKGpvFMS7lC5IwlNpSWhqbQkNJU7ktBUWhKuqLzTYaYcZsphprz4sCQ0lTtUriShJaGptCQ0lZaEO1SeULlD5ZMOM+UwUw4z5cWbJaGpPJGEpvKEyhWVJ5LQVFoS7lC5koSm8sRhphxmymGmxC/8YkloKi0JV1RaEprKlSQ0lZaEKyo/yWGmHGbKYaa8eLMkNJWWhHdSuUOlJaGptCRcUblDpSWhqbQk3KHyxGGmHGbKYaa8eCgJTeUJlTuS0FSeSEJTaUn4Tirf6TBTDjPlMFPiFz4oCU3ljiQ0lStJaCotCU3liST8TSrvdJgph5lymCnxC79YEppKS0JTaUm4otKScEXljiQ0lb/pMFMOM+UwU148lITvpHKHSkvCFZUrKi0JV5LQVK4k4YrKJx1mymGmHGbKizdTeack3JGEptJUWhLuSMIdKneoXElCU3mnw0w5zJTDTIlfeCAJTaUl4Q6VloSmckcSnlC5koSfROWJw0w5zJTDTHnxyyXhDpWWhCtJaCpN5UoSmkpLwh0qLQnvdJgph5lymCkv/meScIdKS0JTuaJyReVKEloSmso7HWbKYaYcZsqLD1P5JJWWhCsqT6i0JNyh0pLQVJrKlSQ0lScOM+UwUw4z5cWbJeE7JaGp3JGEptKS0FSuqFxJwk92mCmHmXKYKfELM38cZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmyn9BXqDsrpaIyQAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-B1A.FL-0001</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN2SURBVO3BQY7kRgADwWRB//9yeg8+8CRAaPWsPWBE/IOZfx1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKxYeS8JNUnkjCEyp3knBHpSXhJ6l84jBTDjPlMFMuXqbypiS8SaUl4QmVT6i8KQlvOsyUw0w5zJSLL0vCEypPJKGpPKFyJwlNpSWhqTyRhCdUvukwUw4z5TBTLn6ZJDSVloQ7Kk3ljspvcpgph5lymCkXv1wSnkjCEyq/yWGmHGbKYaZcfJnK36TSkvCmJDSVJ1T+Sw4z5TBTDjPl4mVJ+JtUWhKaSktCU2lJaCotCU8k4b/sMFMOM+UwU+If/I8l4Y7KnSTcUWlJaCq/yWGmHGbKYaZcfCgJTaUl4U0qTeVOEppKU7mThE8k4U0q33SYKYeZcpgpFx9SaUloKk8koam0JDyh8gmVloQ7SXhC5Ykk3FH5xGGmHGbKYaZcfCgJTyShqdxJwhMqLQl3VH6Syp0k3FFpSXjTYaYcZsphplx8SOVOEp5Q+UQSmsqdJDSVloQnVFoSWhKayh2Vn3SYKYeZcpgpFy9LQlNpSXgiCU3lTSp3VFoS3pSE/5LDTDnMlMNMufhQEprKHZU7SWgqLQl3VFoSmkpLwjeptCR8IgnfdJgph5lymCkXX5aEOyp3ktBUnlC5o9KS8H+i8qbDTDnMlMNMufhhKk+oPJGEOyotCXdUnkhCU2kqLQlNpSWhqXzTYaYcZsphplz8ZUm4k4SmckelJeEJlZaEptKScCcJ35SEpvKJw0w5zJTDTIl/8D+WhKbyTUm4o/JEEp5QaUloKp84zJTDTDnMlIsPJeEnqTSVloSm0pJwR+WOSkvCnSQ0lTepvOkwUw4z5TBTLl6m8qYk3EnCJ1TuJKGpPKHyCZWWhKbypsNMOcyUw0y5+LIkPKHyCZU3qbQk3EnCJ1TuqHzTYaYcZsphplz8MkloKk2lJeFNKk8koSXhjkpLQlP5xGGmHGbKYaZc/HJJaCpNpSXhjkpLwm9ymCmHmXKYKRdfpvJNKp9Iwh2VloSm8kQS3qTypsNMOcyUw0y5eFkSflISmkpLQlO5o9KScCcJd1SeUHkiCU3lE4eZcpgph5kS/2DmX4eZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5nyD2OPhQgJ2slWAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B03-EE-UPS-1.FL-0001</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOVSURBVO3BQQ4jRwIDwWRB//9yrg8+8FRAo6WB7WVE/AszfzvMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUDy8l4U9SaUloKk8k4Q2VmyT8SSpvHGbKYaYcZsqHL1P5piTcqNwk4UbliSS8ofJNSfimw0w5zJTDTPnwY0l4QuWJJDSVptKS0JJwo9JUvikJT6j80mGmHGbKYaZ8+JdTuUlCU2lJaCo3SWgq/yWHmXKYKYeZ8uE/JglN5UbljSQ0lX+zw0w5zJTDTPnwYyq/lISmcpOEN1RaEt5Q+Sc5zJTDTDnMlA9floR/kiQ0lZaEptKS8E1J+Cc7zJTDTDnMlPgX/o8l4Ubl/8lhphxmymGmfHgpCU2lJaGpPJGEG5WWhKbSktBUWhJuknCjcpOEpnKThKbSktBU3jjMlMNMOcyUD1+WhKbSktBUblR+KQlN5UblJglN5YkkNJWWhKbyTYeZcpgph5ny4ctUWhKayk0SblRaEprKjcpNEt5QaUm4ScIbSWgqbxxmymGmHGZK/AtflISm8icl4QmVmyQ0lTeS0FT+SQ4z5TBTDjPlwx+WhKbSkvCGSkvCE0m4ScKNSktCU7lJwhsqbxxmymGmHGbKhy9T+SaVJ5LQVL5J5Y0k3KjcJKGpfNNhphxmymGmxL/wQhKeUGlJeEOlJeEJlSeScKPyRhJuVH7pMFMOM+UwUz68pPJEEm5UfknlJglN5UalJeFGpSXhRuUmCU3ljcNMOcyUw0z58FIS3lC5ScKNyhNJeEOlJeGJJNyo3CThlw4z5TBTDjPlw0sqv6Ryk4QblZskNJU3VJ5Iwk0SmsovHWbKYaYcZsqHl5LwJ6ncqLQkNJWbJNyoPJGEpnKThKbSktBUvukwUw4z5TBTPnyZyjcl4UalJaGptCTcqLQktCQ8ofKEyhNJaCpvHGbKYaYcZsqHH0vCEyq/pHKThDeS8E1JuFH5psNMOcyUw0z58B+j0pLQVN5QaUloKk8k4QmVXzrMlMNMOcyUD/9ySWgqN0loKk3lCZWWhKbSktBUWhKaSkvCjcobh5lymCmHmfLhx1R+SeVG5YkkNJUnVFoSbpLQVFoSmkpLwjcdZsphphxmyocvS8KflISmcpOEN5LQVG5UvikJv3SYKYeZcpgp8S/M/O0wUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBT/gcw9psKw5ti4gAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-4.FL-0001</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOeSURBVO3BQY5bSwIDwWRB979yTi/+gqsChCd52gYj4g9m/nOYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgpLx5Kwp+k0pLwDpWWhCdUbpLwJ6k8cZgph5lymCkvPkzlk5Jwo/KOJNyo3CThCZVPSsInHWbKYaYcZsqLL0vCO1TekYSm0pJwo9KS0FSayicl4R0q33SYKYeZcpgpL/5yKi0JTaUl4UblJglN5V9ymCmHmXKYKS/+MSotCU3lk5LQVP5mh5lymCmHmfLiy1S+KQlNpam8Iwk3Kp+k8pscZsphphxmyosPS8JvkoSm0pLQVFoSbpLQVG6S8JsdZsphphxmSvzBPyQJ71BpSWgqLQlN5V9ymCmHmXKYKS8eSkJTaUloKu9Iwo1KU2lJ+KYkNJWbJDSVmyQ0lZaEpvLEYaYcZsphpsQffFASmspNEprKTRKaym+ShKbSktBUWhKaSktCU/mkw0w5zJTDTHnxYSo3SWgqN0n4piR8kkpLwk0SnkhCU3niMFMOM+UwU+IPHkjCjUpLwo3KTRKayjuScKPSktBUnkhCU/lNDjPlMFMOMyX+4IuS0FRaEppKS0JTuUlCU3lHEp5QaUloKjdJeELlicNMOcyUw0x58WFJaCotCU3lRuU3UXkiCTcqN0loKp90mCmHmXKYKfEHDyThCZWWhD9J5R1JuFF5Igk3Kt90mCmHmXKYKS8eUrlJQlNpSWgqTyThRuUmCU3lRqUl4UalJeFG5SYJTeWJw0w5zJTDTHnxUBLekYSbJLxD5UalJeEJlZaEdyThRuUmCd90mCmHmXKYKS8eUvl/SsJNEppKS0JTeULlHUm4SUJT+abDTDnMlMNMefFQEv4klRuVJ5Jwo/KOJDSVmyQ0lZaEpvJJh5lymCmHmfLiw1Q+KQk3Ki0JT6i0JLQkvEPlHSrvSEJTeeIwUw4z5TBTXnxZEt6h8oTKE0l4IgmflIQblU86zJTDTDnMlBf/mCTcqDyh0pLQVN6RhHeofNNhphxmymGmvPjLJaGptCS0JDSVpvIOlZaEptKS0FRaEppKS8KNyhOHmXKYKYeZ8uLLVL5JpSWhqbwjCU3lHSotCTdJaCotCU2lJeGTDjPlMFMOM+XFhyXhT0pCU2lJ+KQkNJUblU9KwjcdZsphphxmSvzBzH8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5X85aaARXDS6agAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-4.FL-0002</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOhSURBVO3BQY4kRwIDQfdA/f/L3DnsgacAElndGgk0M38w83+HmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZ8uElld+UhKbSktBUbpJwo9KS8ITKb0rCG4eZcpgph5ny4cuS8E0qN0l4IglNpSWhJeGbkvBNKt90mCmHmXKYKR9+mMoTSXhD5Q2VloSmcpOEJ1SeSMJPOsyUw0w5zJQP/3IqLQlPJOFGpSWhqfyXHGbKYaYcZsqH/xiVmyTcqDyRhP+Sw0w5zJTDTPnww5Lwm5Jwo9KS8E9Kwt/kMFMOM+UwUz58mcrfRKUloam0JDSVG5WWhBuVv9lhphxmymGmfHgpCX8TlZaEptKS8ITKE0n4NznMlMNMOcyUDy+ptCQ8odKS0FSeSMITKk8k4Ublm5Jwo9KS8MZhphxmymGmfHgpCTcqLQlPJKGp3Kg8kYTflISm8oTKTzrMlMNMOcyUDy+pfJPKE0m4UXlC5Y0kPJGEpvJEEr7pMFMOM+UwUz68lIQblaZyk4QnVFoSbpLwRBKayo1KS0JTaUm4UflNh5lymCmHmWL+4AWVN5Jwo3KThDdUbpLwN1NpSXjjMFMOM+UwUz78siQ0lZsk3Kg8kYSWhKbSVFoSnlBpSXhD5ScdZsphphxmivmDH6Ryk4Sm8kQSmspNEt5QuUlCU/mmJDSVloQ3DjPlMFMOM8X8wT9IpSXhRuWJJNyotCQ0lZskNJWWhBuVloSm8kQS3jjMlMNMOcyUDy+pvJGEG5UnknCj0pLQVG6S0FRuVJ5QuUlCU/mmw0w5zJTDTPnwUhJ+UhJuVJpKS0JLQlNpSbhRuUnCEyotCU3lNx1mymGmHGbKh5dUflMSnlB5QuUmCU3lRqUl4UalJaGptCR802GmHGbKYaZ8+LIkfJPKTRKeUGlJaCotCU3liSS8ofKbDjPlMFMOM+XDD1N5IglPqNwkoSWhqXyTyjcloan8pMNMOcyUw0z58C+XhKbSVFoSWhKaSlP5SUm4UWlJaCotCW8cZsphphxmyof/mCQ0lSeS8IRKS0JTaUloKjdJaCotCd90mCmHmXKYKR9+WBJ+k0pLwo1KS0JTaUl4IglN5ZtUWhLeOMyUw0w5zJQPX6bym1RaEm5UWhKayhNJaCotCS0JNyo3SWgq33SYKYeZcpgp5g9m/u8wUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBT/geHLI8xs0i4eAAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-6A.FL-0001</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOQSURBVO3BQW4kSQIDQWeg/v9lXx0GGJ4CSFRJ3ZqlWfzCzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cWbkvCTVFoSmsoTSbhRaUloKjdJ+Ekq7zjMlMNMOcyUFx+m8klJ+E4qLQk3Ku9Q+aQkfNJhphxmymGmvPhmSXhC5QmVloQblRuVJ5LQVJ5IwhMq3+kwUw4z5TBTXvxySWgqn5SE/yeHmXKYKYeZ8uKXU7lJwhMqNyr/ZYeZcpgph5ny4pup/EkqLQlNpSWhqdwkoak8ofI3OcyUw0w5zJQXH5aEn5SEptKS0FRaEppKS0JTeUcS/maHmXKYKYeZEr/wiyWhqdwkoanMvw4z5TBTDjPlxZuS0FRaEm5UWhKeUHlC5SYJTeUmCU2lJaGp3CShqbQk3Ki84zBTDjPlMFPiFz4oCTcqLQk3Ki0J71C5ScITKi0JT6g8kYQblXccZsphphxmSvzCN0pCU7lJwo3KTRJuVFoSblS+UxKaSkvCjconHWbKYaYcZsqLD0vCTRKeUHmHyo3KO5LQVJ5QeULlOx1mymGmHGbKizcl4UalJeFGpSXhHUloKi0JTaUl4UbliSQ8oXKThKbyjsNMOcyUw0x58SaVloQnVFoSmkpLwhMqLQnvULlJQlO5UXmHyicdZsphphxmyosfpvJEEm5U3qHSktBUbpJwk4Sm0pLQVFoSnlB5x2GmHGbKYaa8eFMSmkpLwo3KjUpLQkvCJ6m0JDyh0pLwDpWfdJgph5lymCnxC3+xJNyo3CShqbQkNJWWhKbSkvAnqXzSYaYcZsphpsQv/GJJaCqflIQnVJ5IQlP5kw4z5TBTDjPlxZuS8JNUnkhCU7lJwo1KS8JNEprKTRJuVFoSmso7DjPlMFMOM+XFh6l8UhKeSMJNEprKd1J5QuUmCU3lkw4z5TBTDjPlxTdLwhMqT6i0JDSVT0rCTRLekYQnktBU3nGYKYeZcpgpL365JHySyhNJeEKlJeEJlZaETzrMlMNMOcyUF/9xSWgqTyThRuUmCTcqN0loSWgqn3SYKYeZcpgpL76ZyndSaUloKi0Jn5SEG5WbJDSVpnKThKbyjsNMOcyUw0x58WFJ+ElJuEnCjcoTSWgqLQk3SfibHWbKYaYcZkr8wsw/DjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+V/ybSUC91iQsUAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-6A.FL-0002</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN5SURBVO3BQa7cVhAEwawG73/ltBZe9OrBBDmjb6ki4i9U/WuoWoaqZahahqplqFqGqmWoWoaqZahahqplqFqGqmWoWoaqZahaLh5KwjepnCRhU3kiCXeobEn4JpUnhqplqFqGquXiZSpvSsJJEjaVLQknKlsSTlSeUHlTEt40VC1D1TJULRcfloQ7VJ5IwonKHSpbEjaVJ5Jwh8onDVXLULUMVcvFXy4Jm8rfbKhahqplqFou/udUtiRsKvXfDVXLULUMVcvFh6l8k8qWhBOVO1TepPKTDFXLULUMVcvFy5LwTUnYVE5UtiRsKlsSNpUtCZvKSRJ+sqFqGaqWoWq5eEjlJ1M5UXlC5UTl/2SoWoaqZahaLh5KwqbypiRsKidJ2FSeUNmSsKlsSThROUnCHSpvGqqWoWoZqpb4C1+UhBOVO5KwqZwk4Q6VkyT8JCpPDFXLULUMVcvFy5Jwh8pJEjaVO5JworIlYUvCicqWhBOVkyScqGxJeNNQtQxVy1C1XLxM5Y4kbCqbyh1JeJPKHSpbErYkbCqbyu80VC1D1TJULRcPJeFE5URlS8IdKlsS7kjCHUm4Q+WOJPxOQ9UyVC1D1XLxYUm4Q+UkCVsS7lB5QuWOJNyhcpKETxqqlqFqGaqWi5ep3JGELQknKlsSNpUtCVsSTlROkrCpbEnYVLYknCRhUzlRedNQtQxVy1C1XHxZEjaVJ1SeULlD5URlS8KmcpKELQmbyicNVctQtQxVy8WHJWFTuSMJJypbEj4pCU8k4URlS8JJEjaVJ4aqZahahqrl4iGVE5UnVE6SsKlsSdhUtiS8SeWOJPwkQ9UyVC1D1XLxUBK+SWVT2ZJwkoRN5YkknCRhUzlJwqayJeGThqplqFqGquXiZSpvSsITKidJOFF5QuUOlROVLQlvGqqWoWoZqpaLD0vCHSq/k8qWhE3lJAmflIRN5U1D1TJULUPVcvGHUdmSsKlsKnckYVPZknCi8oTKloRN5YmhahmqlqFqufjDJGFT2ZJworKpPKFykoQ7VD5pqFqGqmWoWi4+TOWbVO5QOUnCicpJEu5Q2ZJwovKmoWoZqpaharl4WRK+KQknKpvKSRLuSMKm8klJOFF5YqhahqplqFriL1T9a6hahqplqFqGqmWoWoaqZahahqplqFqGqmWoWoaqZahahqplqFr+AdALhwP68T9nAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-6A.FL-0003</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOXSURBVO3BO45jSQADwWRB979y7hhr0CpAeFLPB4yIvzDzv8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0x58VASfpJKS0JTuUlCU7lJwjtUWhJ+ksoTh5lymCmHmfLiw1Q+KQk3Ki0JTeUmCe9QeULlk5LwSYeZcpgph5ny4suS8A6VdyThCZWbJLQk3Ki8IwnvUPmmw0w5zJTDTHnxl1O5ScInqfzLDjPlMFMOM+XFPyYJTyThHUloKn+zw0w5zJTDTHnxZSrflIQblZaEloSm8g6VJ1T+JIeZcpgph5ny4sOS8DuptCQ0lZaEmyQ0lZaEpnKThD/ZYaYcZsphprx4SOV3UmlJaCrfpHKj8jc5zJTDTDnMlBcPJaGptCQ0lXck4UblJgk3Ki0JN0m4UblJQlO5SUJTaUloKk8cZsphphxmyosPS8ITSWgqLQktCU3lJglPqNwkoam8IwlNpSWhqXzSYaYcZsphprz4YUloKjdJaCo3SbhRuVG5ScKNSkvCTRKeSEJTeeIwUw4z5TBT4i88kIR3qPykJDyh8klJaCp/ksNMOcyUw0x58ZDKJyXhRqUl4R0qLQnvSMI7VJrKTRKeUHniMFMOM+UwU178ZkloKjdJaCo3SXiHyo3KE0m4UblJQlP5pMNMOcyUw0x58VASblTekYQblZskNJV3JOEJlRuVmyTcqHzTYaYcZsphprx4SOUmCU+otCQ0lXck4UalJaGptCQ8kYQblZskNJUnDjPlMFMOMyX+wgNJ+CSVloR3qLQkNJWbJPxOKjdJuFF54jBTDjPlMFNePKTyTSo3SWhJaCo/SeUdSbhJQlP5psNMOcyUw0x58VASfpLKE0loKk3lHUm4SUJTuUlCU2lJuFF54jBTDjPlMFNefJjKJyXhRuUmCU3lJglN5QmVd6jcqHzTYaYcZsphprz4siS8Q+WTVFoSvikJn5SEpvJNh5lymCmHmfLiH5OEptJUWhKayk0S3qFyk4Q/yWGmHGbKYaa8+Msloam0JDSVmyTcqLQkNJWbJDSVloSm0pJwo/LEYaYcZsphprz4MpVvUmlJuEnCjUpLQktCU2lJaCo3SWgqLQlNpSXhkw4z5TBTDjPlxYcl4Scl4UblHUl4RxKayo3KE0n4psNMOcyUw0yJvzDzv8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0z5D7XoiynaHBBIAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-6A.FL-0004</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOISURBVO3BOa4rSQADwWRB979yzjPGoFWA0NLfwIj4g5n/HWbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsqLh5LwK6m0JLxDpSWhqbQkvEOlJeFXUnniMFMOM+UwU158mMonJeFGpSXhJglNpSXhRuUJlU9KwicdZsphphxmyosvS8I7VN6RhKbSknCThKbSktCScKPyjiS8Q+WbDjPlMFMOM+XFX07ld1L5lxxmymGmHGbKi39MEppKS8JNEm5UWhKayt/sMFMOM+UwU158mco3JeEJlSdUnlD5kxxmymGmHGbKiw9Lwu+k0pLQVFoSmkpLQlNpSWgqN0n4kx1mymGmHGZK/ME/JAlN5YkkNJV/2WGmHGbKYaa8eCgJTaUloam8Iwk3Ku9IwhNJuFG5SUJTuUlCU2lJaCpPHGbKYaYcZsqL3ywJTaWpvEPlRqUl4R0qN0loKu9IQlNpSWgqn3SYKYeZcpgp8Qe/UBKaSkvCjcpNEm5UnkjCjUpLwhMqLQk3Kk8cZsphphxmSvzBByWhqbQkvEOlJeFGpSWhqdwkoal8UhKayp/kMFMOM+UwU+IPPigJ71BpSfgklZsk3Ki0JLxD5R1JeELlicNMOcyUw0yJP/iLJOFG5R1JaCrflIQblZskNJVPOsyUw0w5zJQXDyXhRqUl4QmVloRPSsITKjcqN0m4Ufmmw0w5zJTDTHnxkMpNEprKJ6m0JDyh0pLQVFoSnkjCjcpNEprKE4eZcpgph5ny4qEkPJGEJ1SaSktCU7lJwk0SbpLwhMpNEr7pMFMOM+UwU148pPKEyhNJuFH5lVTekYSbJDSVbzrMlMNMOcyUFw8l4VdSuVFpSbhRaSrvSMJNEprKTRKaSkvCjcoTh5lymCmHmfLiw1Q+KQk3Kjcq70hCU3lC5R0qNyrfdJgph5lymCkvviwJ71B5Igm/UxI+KQlN5ZsOM+UwUw4z5cU/TuUmCU3lJgnvULlJwp/kMFMOM+UwU1785ZLwSUm4UWlJaCo3SWgqLQlNpSXhRuWJw0w5zJTDTHnxZSrfpPKOJNyotCS0JDSVloSmcpOEptKS0FRaEj7pMFMOM+UwU158WBJ+pSTcqDSVmyS8IwlN5UbliSR802GmHGbKYabEH8z87zBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFP+A5EAjg6UvZ+MAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-6A.FL-0005</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOSSURBVO3BQY4jyQEEQfcE///lUB/2EBclQBTZmh2FmfnBzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cVDKr8pCU2lJeFGpSXhRuUdSWgqvykJTxxmymGmHGbKiw9Lwiep3CShqbQktCTcqNwk4YkkfJLKJx1mymGmHGbKiy9TeUcS3qFyo9KScJOEptJUbpLwDpV3JOGbDjPlMFMOM+XFv1wSflMSmsrf5DBTDjPlMFNe/J9Rmf/uMFMOM+UwU158WRK+SeWTkvCOJDyRhD/JYaYcZsphprz4MJX/pSQ0lZaEpnKj0pLQVFoSblT+ZIeZcpgph5lifvAXUblJwjtUWhL+ZoeZcpgph5ny4iGVloSm0pLwDpWbJDyh8g6VmyTcqLQk3Ki0JDSVloQnDjPlMFMOM+XFlyWhqbwjCU2lqdwkoak8kYQblZaEd6i0JDSVloRPOsyUw0w5zJQXH6Zyk4Qblabym5Jwo3KThKZyo/KESkvCE4eZcpgph5lifvBBKi0JNyo3SfgklZaEptKS8EkqLQl/ksNMOcyUw0x58WFJaCotCe9QaUloKu9IQlN5h8o7ktCScKPyRBKeOMyUw0w5zJQXH6Zyo/KOJDSVmyQ0lXck4SYJT6jcJOFGpSXhkw4z5TBTDjPlxUMqn5SEpvKbVJ5Iwk0SblRukvBNh5lymCmHmWJ+8ItUWhI+SeWJJDSVloSm0pLwDpWbJNyotCQ8cZgph5lymCkvHlK5ScKNSktCU2lJaCotCU+o3KjcqDyRhBuVbzrMlMNMOcyUFw8l4R1JeEcSnlBpSfimJLxD5UalJeGbDjPlMFMOM+XFQyq/KQk3Ki0JTaUloSXhHSo3Ki0JNyotCU3lJglPHGbKYaYcZsqLD0vCJ6ncJOEdSbhRaUl4IgnvSMJNEr7pMFMOM+UwU158mco7kvCESktCU/kmlU9SaUn4psNMOcyUw0x58ZdJQlNpSWgqLQk3Ku9Iwo3Kn+QwUw4z5TBTXvzLqXySyk0SmkpLwo1KS0JTaUloKjdJeOIwUw4z5TBTXnxZEr4pCU2lJaGp3CShqTSVloSm0pJwo9KS0FRaEprKJx1mymGmHGbKiw9T+U0qNyotCTcq71BpSbhJwhMq33SYKYeZcpgp5gcz/zjMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyU/wDs3IMxz6Ue2QAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-6A.FL-0006</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN6SURBVO3BQY7kSAIDQWcg//9l3zrMgScBgpQ13bM0iz+Y+cdhphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmfHgoCb9JpSXhikpLwh0qLQlN5UoSfpPKE4eZcpgph5ny4WUqb0rCE0l4k8oTKm9KwpsOM+UwUw4z5cOXJeEOlTtUWhKaSktCU3kiCU3ljiTcofJNh5lymCmHmfLhL5eEO1TuSEJT+S87zJTDTDnMlA9/OZWWhCtJuKJyJQlN5b/kMFMOM+UwUz58mcqfTKUloalcSUJTuUPlT3KYKYeZcpgpH16WhN+UhKbSktBUWhKaSktCU3kiCX+yw0w5zJTDTIk/+Isl4U0q/88OM+UwUw4z5cNDSWgqLQlXVFoS7lC5IwlXktBUriShqbQkNJUrSWgqLQlXVJ44zJTDTDnMlPiDFyWhqfzJkvCESkvCHSp3JOGKyhOHmXKYKYeZ8uGhJNyRhCdUWhKaSkvCFZWWhKZyh8odSWgqLQlXVN50mCmHmXKYKR9eptKScIfKN6m0JDSVO5LQVO5QuUPlmw4z5TBTDjPlw0MqT6hcSUJTaSotCVeScEcSrqjckYQ7VK4koak8cZgph5lymCkfXpaEptKScIdKS8IVlStJeELlShKayhWVJ1TedJgph5lymCkf/mVJ+KYkXFFpSWgqV5JwJQlNpSWhqbQk3KHyxGGmHGbKYaZ8eCgJTeVNKi0JTeWKSkvCFZWWhDtUWhKeUPlNh5lymCmHmRJ/8IuS0FRaEu5QaUm4otKS0FRaEppKS8K/SeVNh5lymCmHmRJ/8BdLQlN5UxLuULkjCU3l33SYKYeZcpgpHx5Kwm9S+aYkXFFpSbiShKZyJQlXVFoSmsoTh5lymCmHmfLhZSpvSsITSbii8k0qd6hcSUJTedNhphxmymGmfPiyJNyhcodKS8IVlSeScCUJTyThjiQ0lScOM+UwUw4z5cNfLglvUrkjCXeotCTcodKS8KbDTDnMlMNM+TCXknBF5UoSrqhcSUJLQlN502GmHGbKYaZ8+DKVb1K5IwlvSsIVlStJaCpN5UoSmsoTh5lymCmHmfLhZUn4TUm4onJF5Y4kNJWWhCtJ+JMdZsphphxmSvzBzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5X+D434VDjK83wAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-6A.FL-0007</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOySURBVO3BO65jSwIDwWRB+99yThvPoFWAcKTbn2FE/IWZ/xxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKi4eS8JNUWhKaSktCU2lJaCotCe9QaUn4SSpPHGbKYaYcZsqLD1P5pCTcqLwjCU2lJeFG5QmVT0rCJx1mymGmHGbKiy9LwjtU3pGEpnKjcqPSktCScKPyjiS8Q+WbDjPlMFMOM+XFX06lJaGpfJLKv+wwUw4z5TBTXvxjVFoSmspNEm6S0FT+JYeZcpgph5ny4stUvikJ70jCjcpPUvmTHGbKYaYcZsqLD0vC76TSktBUWhJuktBUWhKayk0S/mSHmXKYKYeZ8uIhld9J5R1J+CSVG5W/yWGmHGbKYaa8eCgJTaUloam8Iwk3Ku9QaUloSbhJwo3KTRKayk0SmkpLQlN54jBTDjPlMFNe/LAkNJWWhKbSktCScKNyo9KScKNyk4Sm8o4kNJWWhKbySYeZcpgph5ny4iGVloQblZaEptKS0FRaEp5IQlO5ScKNSkvCTRKeSEJTeeIwUw4z5TBTXjyUhKbSkvCOJDSVT0pCU2lJaCpN5R0qLQlN5R0q33SYKYeZcpgp8RceSMITKjdJaCrvSMITKi0J71B5RxKeUHniMFMOM+UwU148pHKThKZyk4SmcpOEpnKj0pLQVG5UnkjCjcpNEprKJx1mymGmHGZK/IUHknCjcpOEptKScKPyRBI+SeWJJNyofNNhphxmymGmvHhI5R1JaCotCU3lHUloKi0JNyotCU2lJeGJJNyo3CShqTxxmCmHmXKYKfEXHkjCjcpNEt6hcpOEG5WbJPxOKjdJuFF54jBTDjPlMFNePKTyhMoTSfiTqLwjCTdJaCrfdJgph5lymCkvHkrCT1J5IglNpam8Iwk3SWgqN0loKi0JNypPHGbKYaYcZsqLD1P5pCTcqLQk3KjcJKGpPKHyDpUblW86zJTDTDnMlBdfloR3qDyh0pLQkvBNSfikJDSVbzrMlMNMOcyUF/9nVFoSmspNEt6hcpOEP8lhphxmymGmvPjLJaGpPJGEG5WWhKZyk4Sm0pLQVFoSblSeOMyUw0w5zJQXX6byTSo3Ki0JNyotCS0JTaUloancJKGptCQ0lZaETzrMlMNMOcyUFx+WhJ+UhKbSktBUbpLwjiQ0lRuVJ5LwTYeZcpgph5kSf2HmP4eZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5nyPx3jsw2tUo9JAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-6A.FL-0008</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOSSURBVO3BQY4kRwIDQWeg/v9l3znsgacAElndGgk0i38w83+HmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZ8uGlJPwmlZaEJ1SeSMITKi0Jv0nljcNMOcyUw0z58GUq35SEG5UnktBUWhJuVN5Q+aYkfNNhphxmymGmfPhhSXhC5YkkNJUblRuVloSWhBuVJ5LwhMpPOsyUw0w5zJQP/3IqLQlNpSXhRuUJlf+Sw0w5zJTDTPnwH6PSkvBEEp5IQlP5NzvMlMNMOcyUDz9M5Scloam8ofKbVP4mh5lymCmHmfLhy5LwN1NpSbhJQlNpSWgqN0n4mx1mymGmHGbKh5dU/kkqb6i8oXKj8m9ymCmHmXKYKR9eSkJTaUloKk8k4UalJeGJJDyRhBuVmyQ0lZskNJWWhKbyxmGmHGbKYaZ8+GVJeELlJgk3Kt+kcpOEpvJEEppKS0JT+abDTDnMlMNM+fDLVFoSmkpLwo3KE0m4UblJwo1KS8JNEt5IQlN54zBTDjPlMFPiH/ygJNyotCQ0lZskNJWbJDSVloSm8k1JaCp/k8NMOcyUw0z58FISmsqNyhNJaCpNpSXhiSQ8kYQ3VG6S8IbKG4eZcpgph5kS/+AXJeEJlTeS0FRaEprKG0loKi0JNyo3SWgq33SYKYeZcpgpH15KwjeptCQ0lZ+UhDdUWhKayk0SblR+0mGmHGbKYabEP/gHJaGpPJGEb1JpSWgqLQlPqLQk3KjcJKGpvHGYKYeZcpgpH15Kwo1KS0JTuUlCU3lD5SYJN0l4Iwk3KjdJ+EmHmXKYKYeZ8uEllSdUnlB5Q+U3qTyRhJskNJWfdJgph5lymCkfXkrCb1J5Igk3Kk3liSTcJKGp3CShqbQk3Ki8cZgph5lymCkfvkzlm5Jwo9KS0FSeSEJTeUPlCZUblZ90mCmHmXKYKR9+WBKeUHlD5SYJPykJ35SEpvKTDjPlMFMOM+XDf1wSmkpLQlO5ScIbKi0Jf5PDTDnMlMNM+fAvl4QblSeScKPSktBUbpLQVFoSmkpLwo3KG4eZcpgph5ny4Yep/CSVmyQ8odKS0JLQVFoSmspNEppKS0JTaUn4psNMOcyUw0z58GVJ+E1JaCo3KjdJeCIJTeVG5Y0k/KTDTDnMlMNMiX8w83+HmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZ8j/wNJUN+mHW4AAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-12.FL-0001</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOOSURBVO3BQW4kRwADwWRh/v/ltA4+8OICGjPSag1GxC/M/OswUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTXrwpCT9JpSWhqTyRhBuVloSmcpOEn6TyjsNMOcyUw0x58WEqn5SEJ5LwhEpLwo3KO1Q+KQmfdJgph5lymCkvvlkSnlB5QqUl4UblRuWJJDSVJ5LwhMp3OsyUw0w5zJQXf7kk3Ki0JDSVmyQ0labyf3KYKYeZcpgpL/5yKi0JNyrz3w4z5TBTDjPlxTdT+U2S8ITKTRKayhMqv8lhphxmymGmvPiwJPykJDSVloSm0pLQVFoSmso7kvCbHWbKYaYcZsqLN6n8ZirvULlRuVH5mxxmymGmHGbKizcloam0JNyotCQ8ofJEEm6S0FRuktBUWhKayk0SmkpLwo3KOw4z5TBTDjMlfuGDktBUWhKeUHkiCTcqN0l4QqUl4QmVJ5Jwo/KOw0w5zJTDTHnxpiQ0lZaEJ1RaEt6hcpOEG5UnVJ5IQlNpSbhR+aTDTDnMlMNMefFhSWgqLQk3SWgqLQk3Ki0JT6g8kYSm8oTKEyrf6TBTDjPlMFPiF36RJNyotCR8kkpLwo3KTRLeoXKThKbyjsNMOcyUw0x58WFJeELlRuVGpSXhO6k8odKS0FTeofJJh5lymCmHmfLiD0vCTRKayieptCQ0lZskNJWWhKbSktBUWhKeUHnHYaYcZsphprx4UxKaSktCU2lJuFG5ScInqbQk/EkqP+kwUw4z5TBT4hd+UBK+k0pLQlNpSWgqLQlNpSXhT1L5pMNMOcyUw0x58cNUPikJ71B5Igk3Kk8koan8SYeZcpgph5ny4k1J+EkqN0loKk8k4UalJeEmCU3lJgk3Ki0JTeUdh5lymCmHmfLiw1Q+KQlPqNwkoal8J5UnVG6S0FQ+6TBTDjPlMFNefLMkPKHyhEpLQlNpKu9Iwk0S3pGEJ5LQVN5xmCmHmXKYKS/+ckm4SUJTuVF5Igk3KjdJeEKlJeGTDjPlMFMOM+XFXCXhRuUmCU2lqdwkoSWhqXzSYaYcZsphprz4ZirfSaUloam0JHxSEm5UbpLQVJrKTRKayjsOM+UwUw4z5cWHJeEnJaGpPKHyRBKaSkvCTRJ+s8NMOcyUw0yJX5j512GmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYab8A9Armv5VD+xQAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-14.FL-0001</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAORSURBVO3BO45jSQADwWRB979y7hhr0CpAeFLPB4yIvzDzv8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0x58VASfpJKS8KNyhNJeIdKS8JPUnniMFMOM+UwU158mMonJeFGpSXhJglNpSXhRuUJlU9KwicdZsphphxmyosvS8I7VN6RhJskNJUblZaEloQblXck4R0q33SYKYeZcpgpL/5yKjdJ+CSVloR/yWGmHGbKYaa8+Mck4R1JeEcS/mWHmXKYKYeZ8uLLVL4pCTcqLQlN5XdS+ZMcZsphphxmyosPS8LvpNKS0FRaEppKS0JTaUloKjdJ+JMdZsphphxmyouHVH4nlXck4ZNUblT+JoeZcpgph5ny4qEkNJWWhKbyjiTcqLQkvEOlJeEmCTcqN0loKjdJaCotCU3licNMOcyUw0yJv/BAEj5J5SYJv5PKTRKaSktCU2lJaCotCU3lkw4z5TBTDjPlxYep3CShqdwk4UblHUm4UblJwo1KS8JNEp5IQlN54jBTDjPlMFPiLzyQhKbyRBKaSktCU7lJQlNpSbhR+aQkNJU/yWGmHGbKYaa8eEjlJgk3Kk2lJaGp3CThm5LwhMpNEp5QeeIwUw4z5TBTXvwwlZaEG5WbJNyovEPlRuUmCU2lJeFG5SYJTeWTDjPlMFMOM+XFQ0n4piS8Q+WJJHyTyk0SblS+6TBTDjPlMFNePKTyTSo3SbhJwjtUWhKaSktCU3lHEm5UbpLQVJ44zJTDTDnMlBcPJeEJlZsk3Ki0JNyo3CThJgk3SXhC5SYJ33SYKYeZcpgpLx5S+SaVmyT8SVTekYSbJDSVbzrMlMNMOcyUFw8l4Sep3KjcJKGpNJV3JOEmCU3lJglNpSXhRuWJw0w5zJTDTHnxYSqflIQblXeo3CShqTyh8g6VG5VvOsyUw0w5zJQXX5aEd6h8UhJ+UhI+KQlN5ZsOM+UwUw4z5cU/JglN5SYJTeUmCU+otCT8SQ4z5TBTDjPlxV8uCU2lJaGp3CThRqUloancJKGptCQ0lZaEG5UnDjPlMFMOM+XFl6l8k8o7knCj0pLQktBUWhKayk0SmkpLQlNpSfikw0w5zJTDTHnxYUn4SUloKk3lHUl4RxKayo3KE0n4psNMOcyUw0yJvzDzv8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0z5DyjThSxWkTHKAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-UPS-14.FL-0002</span> <br>
+        Uninterruptible Power Supply
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOKSURBVO3BMY5rRwADweZA979yewMHjAZ4kLT2t1kVfzDzt8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0x58aYk/CaVloSm8kQSmkpLwhMqLQm/SeUdh5lymCmHmfLiw1Q+KQk3KjdJeCIJNyrvUPmkJHzSYaYcZsphprz4siQ8ofJEEprKjcoTSWhJuFF5IglPqHzTYaYcZsphprz4w6n8k1T+Sw4z5TBTDjPlxf9MEppKS8ITSWgqf7LDTDnMlMNMefFlKt+UhKZyo3Kj8ptU/k0OM+UwUw4z5cWHJeFPkoSm0pLQVFoSmspNEv7NDjPlMFMOM+XFm1T+SSotCU2lJeGTVG5U/iSHmXKYKYeZEn/whiQ0lZaEpvJEEm5U3pGET1K5SUJTuUlCU2lJaCrvOMyUw0w5zJQXvywJTeVGpSWhJaGp3CThHSo3SbhRuUlCU2lJaCqfdJgph5lymCkvPiwJTeUmCU2lJaGptCR8kspNEp5QaUloKu9IQlN5x2GmHGbKYabEH/yiJDyhcpOEG5WWhKbSktBU/k8OM+UwUw4z5cWbktBUnlC5ScITKi0JN0l4IglPqNwk4ZNU3nGYKYeZcpgp8QcflISmcpOEG5UnktBUbpLQVL4pCTcqN0loKp90mCmHmXKYKS/elIQnktBUbpJwo3KThKZyk4R3qLwjCTcq33SYKYeZcpgp8Qe/KAlPqHxSEm5UWhKaSktCU3kiCTcqN0loKu84zJTDTDnMlBdvSsKNyhMqLQnvUGkqN0m4ScJNEt6hcpOEbzrMlMNMOcyU+IM/WBKeULlJwjtUnkhCU2lJaCrfdJgph5lymCkv3pSE36Ryo9KS0JLQVJrKE0m4SUJTuUlCU2lJuFF5x2GmHGbKYaa8+DCVT0rCjcoTKjdJaCrvUHlC5Ublmw4z5TBTDjPlxZcl4QmVb0rCNyXhk5LQVL7pMFMOM+UwU178x6ncJKGp3CThCZWbJPybHGbKYaYcZsqLP1wSnlC5ScKNSktCU3lHEppKS8KNyjsOM+UwUw4z5cWXqXyTSkvCTRJuVFoSWhKaSktCU2lJuFFpSWgqLQmfdJgph5lymCkvPiwJvykJTaUloancJOGJJDSVG5V3JOGbDjPlMFMOMyX+YOZvh5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmfIXVfaLFFwHckAAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-6A.FL-0001</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAPISURBVO3BQY4kRwIDQXqg/v9l3znowFMAiazulQY0wz8y84+TmXIyU05myslMOZkpJzPlZKaczJSTmXIyU05myslMOZkpJzPlZKZ88hKQ36TmCSBNzQ2QGzUNSFPTgPwmNW+czJSTmXIyUz75MjXfBOQGyI2aBuRGTQPSgDQ1T6j5JiDfdDJTTmbKyUz55IcBeULNE2pugDQ1DUgDcqOmAWlqngDyhJqfdDJTTmbKyUz55C8DpKn5JiB/s5OZcjJTTmbKJ/9xQJqaBqSpaWpugDQ1Dcjf5GSmnMyUk5nyyQ9T85PUNCBNTQPyhJoGpKl5Q82/yclMOZkpJzPlky8D8puANDUNSFPTgDQ1DUhT04A0NTdA/s1OZsrJTDmZKfhH/mJAmpoG5A01f5OTmXIyU05myicvAWlqGpCmpgFpahqQpuYGyBtqGpCmpgFpap4A0tTcAGlqvulkppzMlJOZgn/kBSA3ahqQpuYJIE3NE0Bu1DQgN2pugNyo+Tc5mSknM+VkpuAf+SIgN2oakCfU3AB5Qk0D0tTcAGlqfhOQpuaNk5lyMlNOZsonP0xNA3Kj5g01DcgTam6ANDUNSFPTgDQ1DUhT04A0Nd90MlNOZsrJTPnkJSBNzRtAvknNDZCm5kZNA9LUPAGkqWlAmpoGpKl542SmnMyUk5mCf+SLgNyouQHS1DQgTc0NkDfUNCBNTQPS1NwAuVHzm05myslMOZkpn7wEpKlpQJ5Q04C8oaYBuVHTgDQ1Dcg3qWlAbtR808lMOZkpJzMF/8gXAXlDzQ2QpqYBaWpugPwkNQ3IjZobIDdq3jiZKScz5WSmfPISkKamAXkDyBNqGpAbNTdAmpoG5AbIE0CamqamAfmmk5lyMlNOZsonL6m5UfOGmhsgN2oakJ+k5gkgN0Bu1HzTyUw5mSknM+WTl4D8JjVNzRNqboA0NQ3IE0Camhs1TwBpat44mSknM+VkpnzyZWq+CcgTQJ5Q09R8k5ongDQ1DUhT800nM+VkppzMlE9+GJAn1DwB5EbNDZCm5g0g3wTkN53MlJOZcjJTPvmPU3MD5AkgTU1T04A0NTdA/s1OZsrJTDmZKZ/8xwFpapqaBuRGTQPyBJCm5gk1TwBpat44mSknM+Vkpnzyw9T8JDUNyI2aBqQBuVHzhpoGpAH5fzqZKScz5WSmfPJlQH4TkBs1DUhTcwPkBsiNmgakqWlAbtQ0IN90MlNOZsrJTME/MvOPk5lyMlNOZsrJTDmZKScz5WSmnMyUk5lyMlNOZsrJTDmZKScz5WSm/A/cr8Ea5KuG4AAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-6A.FL-0002</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOKSURBVO3BO47kWAADweSD7n/l3DXGoCVAUFXPB4yI/2Pml8NMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0y5eCkJP0nliSS8odKS0FTuJOEnqbxxmCmHmXKYKRcfpvJJSXgiCXdUWhLuJOGTVD4pCZ90mCmHmXKYKRdfloQnVJ5IQlNpSbij0pLQVFoSPikJT6h802GmHGbKYaZc/GOS0FRaEu6otCQ0lZaEpvI3O8yUw0w5zJSLf1wSmkpLwh2VloSm8i85zJTDTDnMlIsvU/mdVP5kKn+Sw0w5zJTDTLn4sCT8TiotCU3liSQ0lZaEpnInCX+yw0w5zJTDTLl4SeVvkoQ3ktBU7qj8TQ4z5TBTDjPl4qUkNJWWhE9SaSpPqDyh0pLwRBI+SeWbDjPlMFMOM+XiJZWWhKbSknBH5U4S7qg0lZaEb0pCU/mkJNxReeMwUw4z5TBTLl5KQlNpSbij0pJwR6Ul4Q2VloQ3VJ5IwhMqLQmfdJgph5lymCkXL6k8oXJH5ZOS8IZKS8ITSWgqTaUloan8pMNMOcyUw0y5eCkJd1RaEppKS8IdlaZyR+VOEppKS8IbKi0JTeVPcpgph5lymCkXH6bSktBUWhKayhNJaCpPqNxRaUl4Igl3kvBEEr7pMFMOM+UwUy6+TOWNJNxRuZOEJ1TeSEJTeSIJT6h80mGmHGbKYaZcfFkSmkpTuaPSknAnCU+o3EnCnSQ0lZaEptKS0FTuqHzTYaYcZsphplx8mUpLQlNpSfgklZaEJ1RaEu4k4U4SnkhCU2lJaCpvHGbKYaYcZsrFSypPqNxReSIJT6i0JDyh0pLQVJ5IQkvC73SYKYeZcpgpFy8l4SepNJU3VFoSPikJTeVPdpgph5lymCkXH6bySUm4k4Q7KneScEelJeEJlTdUftJhphxmymGmXHxZEp5Q+Z1UWhKaSktCS8IbKneS0FQ+6TBTDjPlMFMu/jEqLQlNpancUfkklZaEloQ7Ki0JTeWNw0w5zJTDTLn4x6m0JNxReUKlJaGptCQ0lZaE3+kwUw4z5TBTLr5M5ZtU3lC5k4Sm8kQS7iThDZVPOsyUw0w5zJSLD0vCT0pCU2lJeEOlJaGp3FFpSbij8kQSmsobh5lymCmHmRL/x8wvh5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmfIfHGiSE0Nj8xMAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-6A.FL-0003</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAODSURBVO3BMa7YVhAEwZ4F73/l9g8cbPQAgqQsyVMVf1D1r6FqGaqWoWoZqpahahmqlqFqGaqWoWoZqpahahmqlqFqGaqWoWq5eCgJv5LKloQTlS0JJypbEu5Q2ZLwK6k8MVQtQ9UyVC0XL1N5UxJOVLYknKicJOFE5QmVNyXhTUPVMlQtQ9Vy8bEk3KFyRxI2lZMkbCqbypaELQknKnck4Q6VLw1Vy1C1DFXLxR9OZUvCicoTKn+zoWoZqpaharn4y6lsSdhUtiTckYRN5U82VC1D1TJULRcfU/lSEk6SsKmcqNyh8oTK72SoWoaqZahaLl6WhP+SypaEkyRsKlsSNpUtCZvKSRJ+Z0PVMlQtQ9USf/AXS8KJykkSNpW/2VC1DFXLULVcPJSETWVLwqZyRxJOVE5UtiScJOEkCScqJ0nYVE6SsKlsSdhUnhiqlqFqGaqWi4+pbEm4Q+WOJHxJ5SQJJyonSdhUtiRsKm8aqpahahmqlouHVE6ScKJykoRN5Q6VO1ROknCHypaETeWJJGwqTwxVy1C1DFVL/MEDSThR2ZJwovKmJDyh8n8yVC1D1TJULRcPqWxJ2JLwRBI2lSdUtiTckYQ7VE6S8CaVJ4aqZahahqrl4mMqJ0k4UXlC5Q6VE5UnknCicpKETeVNQ9UyVC1D1XLxUBK+lIQnVO5IwhMqTyThROVLQ9UyVC1D1RJ/8KEknKhsSdhUTpLwJpUtCZvKloRN5Y4knKicJGFTeWKoWoaqZaha4g8eSMKJykkS3qTyRBL+SyonSThReWKoWoaqZahaLh5SeULliSRsSThR+ZLKHUk4ScKm8qWhahmqlqFquXgoCb+SyonKSRI2lU3ljiScJGFTOUnCprIl4UTliaFqGaqWoWq5eJnKm5JworIl4UTlJAmbyhMqd6icqHxpqFqGqmWoWi4+loQ7VJ5QOUnCl5LwpiRsKl8aqpahahmqlou/XBI2lS0Jm8pJEu5QOUnC72SoWoaqZahaLv5wSXhTEk5UtiRsKk8kYVPZknCi8sRQtQxVy1C1XHxM5UsqJ0nYknCisiVhS8KmsiVhU9mScKKyJWFT2ZLwpqFqGaqWoWq5eFkSfqUkbCqbyh1JuCMJm8qJyhNJ+NJQtQxVy1C1xB9U/WuoWoaqZahahqplqFqGqmWoWoaqZahahqplqFqGqmWoWoaqZaha/gGohY0GFshanQAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-6A.FL-0004</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN0SURBVO3BQY7kSBIEQTUH//9l3ToMMH4KgCAzp7rXROIPqv4xVC1D1TJULUPVMlQtQ9UyVC1D1TJULUPVMlQtQ9UyVC1D1TJULRcPJeGbVLYkbCpbEjaVO5Jwh8qWhG9SeWKoWoaqZahaLl6m8qYk3JGEN6m8SeVNSXjTULUMVctQtVx8WBLuUPmmJGwqJ0k4UbkjCXeofNJQtQxVy1C1XPzhVLYkbConKvWvoWoZqpaharn4wyXhjiScqGxJ2FT+ZkPVMlQtQ9Vy8WEqn6SyJeEOlROVkyRsKneo/CZD1TJULUPVcvGyJHxTEjaVLQmbypaETWVLwqbyRBJ+s6FqGaqWoWqJP/iLJeFEZUvCpvL/ZKhahqplqFouHkrCpnKShE9SOVHZknBHEu5QOUnCprIl4Q6VJ4aqZahahqrl4iGVLQlPqJwkYVPZkrCpnKhsSThR2ZLwpiT8l4aqZahahqrl4qEkbConSbgjCU8kYVN5IgmbypaEO1S2JPyXhqplqFqGqiX+4IEk3KGyJWFTOUnCicpJEu5QOUnCHSp3JOEOlSeGqmWoWoaq5eIhlU9KwonKHSpbEu5Iwh0qJ0n4TYaqZahahqol/uCBJGwqWxI2lSeSsKmcJGFTOUnCicodSdhUnkjCicoTQ9UyVC1D1RJ/8EASfhOVkyTcobIl4Q6VLQmbypaEO1TeNFQtQ9UyVC0XL1P5pCRsKlsS7lC5Q+WOJGwqT6h80lC1DFXLULVcfFkSNpWTJGwqJypbEjaVO5LwpiScqGxJ2JJwovLEULUMVctQtcQf/MGScKKyJeGTVO5IwqZykoQTlSeGqmWoWoaq5eKhJHyTyh1JOFF5IgknSdhUTpKwqXzTULUMVctQtVy8TOVNSXhC5SQJm8qWhE3lDpU7VE5UtiS8aahahqplqFouPiwJd6i8KQmbykkSnkjCm5JwovKmoWoZqpaharn4y6jcoXKShC0Jm8qWhBOVO1ROkrCpPDFULUPVMlQtF384lZMkbCpbEjaVE5UTlZMk/GZD1TJULUPVcvFhKt+UhDtU7kjCicqWhDtUTpKwqbxpqFqGqmWoWi5eloRvSsKm8kQS3qTyRBJOkrCpPDFULUPVMlQt8QdV/xiqlqFqGaqWoWoZqpahahmqlqFqGaqWoWoZqpahahmqlqFqGaqW/wGz23kOP3hkcQAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-6A.FL-0005</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOESURBVO3BQY5rRwIDwWRB979yTi8MDFcFCE9qf9uMiD+Y+cthphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmvHgoCb9JpSXhRqUl4UalJeEdKi0Jv0nlicNMOcyUw0x58WEqn5SEG5WWhCeScKPyhMonJeGTDjPlMFMOM+XFlyXhHSrvSEJTaUloKu9IQkvCjco7kvAOlW86zJTDTDnMlBf/cCotCU2lJaGpvEOlJeHf5DBTDjPlMFNe/MuotCTcJGH+7zBTDjPlMFNefJnKNyXhRuWbVJ5Q+ZMcZsphphxmyosPS8LfSaUloam0JDSVloSm0pLQVG6S8Cc7zJTDTDnMlPiD/5Ak3Ki0JDSVf7PDTDnMlMNMiT94IAlNpSWhqbwjCTcqTyThk1RuktBUbpLQVFoSmsoTh5lymCmHmfLiw5LwRBKayhNJ+CSVmyTcqNwkoam0JDSVTzrMlMNMOcyUFw+p3CThHSotCb9J5SYJ71BpSWgqTyShqTxxmCmHmXKYKfEHH5SEd6i0JDSVT0pCU2lJaCr/JYeZcpgph5ny4stUWhJuVFoSmso7ktBUWhLekYR3qNwk4ZNUnjjMlMNMOcyU+IMvSsITKjdJaCrvSEJT+aYk3KjcJKGpfNJhphxmymGmxB88kITfpPKOJDSVloRPUrlJwhMq33SYKYeZcpgpLx5SeUcSblRukvAOlZaEG5WWhKbSkvAOlZaEG5WbJDSVJw4z5TBTDjMl/uCBJLxDpSXhHSotCU2lJaGp3CTh76Ryk4QblScOM+UwUw4z5cVDKk+ofJPKb1J5RxJuktBUvukwUw4z5TBTXjyUhN+k8kQSmkpTeUcSbpLQVG6S0FRaEm5UnjjMlMNMOcyUFx+m8klJuFFpSWgqTeUmCU3lCZV3qNyofNNhphxmymGmvPiyJLxD5ZuS8E1J+KQkNJVvOsyUw0w5zJQX/zEqLQlN5SYJ71C5ScKf5DBTDjPlMFNe/MMloam0JDSVmyTcqLQkNJUnktBUWhJuVJ44zJTDTDnMlBdfpvJNKjcqLQk3Ki0JLQlNpSWhqbQk3Ki0JDSVloRPOsyUw0w5zJQXH5aE35SEptKS0FRukvCOJDSVG5UnkvBNh5lymCmHmRJ/MPOXw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTPkfzImSAVRenNUAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-6A.FL-0006</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOQSURBVO3BQa5bSQIDwWRB979yjhe94GYKEJ707XYzIv7CzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cVDSfhJKi0JTaUloam8IwnvUGlJ+EkqTxxmymGmHGbKiw9T+aQk3Ki0JNwkoam0JNyoPKHySUn4pMNMOcyUw0x58WVJeIfKO5Jwo3KThKbSktCScKPyjiS8Q+WbDjPlMFMOM+XFv5xKS8JNEub/O8yUw0w5zJQXfxmVd6i0JNyotCT8TQ4z5TBTDjPlxZepfFMSblSaSktCU3mHyhMqf5LDTDnMlMNMefFhSfidVFoSmso7ktBUWhKayk0S/mSHmXKYKYeZEn/hPyQJTeUmCU3lb3aYKYeZcpgpLx5KQlNpSWgq70jCjcpNEprKTRJuknCjcpOEpnKThKbSktBUnjjMlMNMOcyUF79ZEppKU2lJaEloKt+kcpOEG5WbJDSVloSm8kmHmXKYKYeZ8uLDktBUblRukvCOJNwk4UblJgnvUGlJaCpPJKGpPHGYKYeZcpgp8RceSMKNyk0SmspNEm5U3pGEG5X/ksNMOcyUw0x58ZDKTRKaSlO5ScKNyk9KwjtUbpLwSSpPHGbKYaYcZsqLH5aEptKS0FSeSEJTuVG5UXkiCTcqN0loKp90mCmHmXKYKS8eSsI7VFoSbpLQVFoSPikJT6g8kYQblW86zJTDTDnMlPgLf5AkNJWbJHySSktCU2lJaCrvSMKNyk0SmsoTh5lymCmHmRJ/4YEkfJJKS0JTeUcSmspNEn4nlZsk3Kg8cZgph5lymCkvHlL5JpWbJDSVpvKTVN6RhJskNJVvOsyUw0w5zJQXDyXhJ6ncJOEdKk3lHUm4SUJTuUlCU2lJuFF54jBTDjPlMFNefJjKJyXhRqUl4UblJglN5QmVd6jcqHzTYaYcZsphprz4siS8Q+UJlZaEloRvSsInJaGpfNNhphxmymGmvPjLJKGp3CShqdwk4R0qN0n4kxxmymGmHGbKi3+5JHxSEm5UWhKayhNJaCotCTcqTxxmymGmHGbKiy9T+SaVloSWhHeotCS0JDSVloSm0pJwo9KS0FRaEj7pMFMOM+UwU158WBJ+UhKaSktCU7lJwjuS0FRuVJ5IwjcdZsphphxmSvyFmX8cZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmyv8Aea2NG9ce8/IAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-6A.FL-0007</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOSSURBVO3BQY4kyQEDQfdA/f/LVB8EiKcAElk9uyPQzPxg5r8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cNLKn9SEprKTRKaSktCU2lJaCotCTcqf1IS3jjMlMNMOcyUD1+WhG9SeSIJTeVG5YkkvJGEb1L5psNMOcyUw0z58MtUnkjCE0n4piQ8odKS8ITKE0n4TYeZcpgph5ny4S+ncpOEpvKEyk0S/p8cZsphphxmyoe/XBKaSlNpSWgqTyShqbQk/M0OM+UwUw4z5cMvS8K/WRKaSkvCb0rCv8lhphxmymGmfPgylT9JpSWhqdyotCQ0lZaEN1T+zQ4z5TBTDjPF/OAvpnKThKbSkjD/c5gph5lymCkfXlJpSWgqN0loKk8k4ZtUWhJuVFoSmkpLwo1KS0JTuUnCG4eZcpgph5lifvBFKi0JTeWJJDyhcpOEpvJGEppKS8I3qdwk4Y3DTDnMlMNMMT/4IpUnktBU3kjCGyotCU+o3CThCZWbJHzTYaYcZsphppgfvKByk4Sm8kQSmso3JeENlZaEG5WWhBuVloTfdJgph5lymCkffplKS8ITKjdJaCotCTcqLQlN5SYJ36TSknCj0pLwxmGmHGbKYaZ8eCkJTaUl4Y0kNJWbJNyovJGEG5WWhCeS8EQSvukwUw4z5TBTPvwylSeS0FRaEm5UWhJuktBUWhJuVG5U3lB5IglvHGbKYaYcZor5wQsqLQlPqNwkoancJKGp3CThRuWJJDSVloSm0pLwTzrMlMNMOcwU84NfpNKS8ITKTRJuVFoSmkpLQlNpSWgq/6QkfNNhphxmymGmmB/8xVSeSMITKk8k4QmVloR/0mGmHGbKYaZ8eEnlT0rCTRLeULlJQlO5UWlJuFG5SUJTaUl44zBTDjPlMFM+fFkSvknlDZWbJPymJDyRhBuVloRvOsyUw0w5zJQPv0zliSQ8kYSmcpOEN1RuVN5QeUKlJeGNw0w5zJTDTPnwl1NpSXgjCU+oPJGEpvJEEprKNx1mymGmHGbKh7lSuUnCjUpTuUlCU2kqLQnfdJgph5lymCkfflkSflMSmsqfpHKThBuVmyTcqLQkvHGYKYeZcpgpH75M5U9SuUlCU2lJeEKlJaGp3Kj8mx1mymGmHGaK+cHMfx1mymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKfwCNxpMPYvQgCgAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-6A.FL-0008</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN6SURBVO3BQW7dWBAEwawG73/lHC+86NUDCPJLsqYi4h9U/TVULUPVMlQtQ9UyVC1D1TJULUPVMlQtQ9UyVC1D1TJULUPVMlQtFw8l4SupnCRhU7kjCZvKloRN5SQJX0nliaFqGaqWoWq5eJnKm5Jwh8qWhBOVkyS8SeVNSXjTULUMVctQtVx8WBLuULkjCScqJ0k4UdmS8KYk3KHySUPVMlQtQ9Vy8cuo3KFykoRN5TcbqpahahmqlotfLgl3qGwqWxI2ld9kqFqGqmWoWi4+TOU7qZwk4Tup/CRD1TJULUPVcvGyJPwkSdhU7kjCprIlYVM5ScJPNlQtQ9UyVC0XD6n8nyRhUzlR+ZcMVctQtQxVS/yDB5KwqWxJeJPKE0nYVO5IwqZykoQ3qXzSULUMVctQtVw8pHKHykkSNpUtCScqJyonSXgiCZvKm5JwovLEULUMVctQtVw8lIQTlZMkbCpbEk5UTpJwovImlTuScIfKloQ3DVXLULUMVcvFQyonSbgjCZvKSRJOVLYk3KGyJeGOJGwqm8qWhE3lKw1Vy1C1DFXLxcuS8ITKloRNZVM5ScJJEjaVLQlvSsKm8pMMVctQtQxVy8VDSdhU3qSyJeFEZVN5QmVLwkkS7kjCHUn4pKFqGaqWoWq5+LAkbCp3JGFT2ZJwRxJOVJ5QeSIJd6i8aahahqplqFoufpgkbCpbEjaVLQmbyonKSRJOkrCpbEnYVLYkbConKp80VC1D1TJULRcfprIl4Y4kfCeVLQknSThJwh1J2FS2JGwqTwxVy1C1DFXLxUMqd6i8KQknSdhUtiTcobIlYVO5IwlbEr7TULUMVctQtVw8lISvpLKpPKGyJeFNSdhUfrKhahmqlqFquXiZypuScJKETeWOJJyobEm4Q+UJla80VC1D1TJULRcfloQ7VN6UhE3lRGVLwqayJWFLwhMqJ0nYVN40VC1D1TJULRe/nMqJyonKEyonSdiScKKyJWFTeWKoWoaqZahaLn6ZJDyhcofKloSTJGwqWxK+01C1DFXLULVcfJjKJ6lsSbhD5SQJm8odSThJwhMqbxqqlqFqGaqWi5cl4Ssl4URlS8IdKlsSNpUTlS0JJyp3JGFTeWKoWoaqZaha4h9U/TVULUPVMlQtQ9UyVC1D1TJULUPVMlQtQ9UyVC1D1TJULUPVMlQt/wELL3UnQUt9dQAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-14.FL-0001</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOISURBVO3BQY5jBxYDweSD7n/lHC9mwdUHBKnK7QYj4j+Y+b9jphwz5Zgpx0w5ZsoxU46ZcsyUY6YcM+WYKcdMOWbKMVOOmfLiQ0n4TSrvSMInVFoSmsqTJPwmlU8cM+WYKcdMefFlKt+UhE+ovCMJLQnfpPJNSfimY6YcM+WYKS9+WBLeofKOJDSVJ0loKk9UWhK+KQnvUPlJx0w5ZsoxU1785ZLwJAlNpSXhSRKayn/ZMVOOmXLMlBd/mSR8k0pLQlP5mxwz5Zgpx0x58cNUfpNKS0JT+ZOo/EmOmXLMlGOmvPiyJPyXJKGptCQ0lZaEpvIkCX+yY6YcM+WYKS8+pPInU/mmJDSVJyr/JcdMOWbKMVPiP/hAEppKS8I3qbwjCU3lE0loKk+S8E0qP+mYKcdMOWbKiw+pPFFpSWgq35SEptKS0FRaEj6RhKbyTUl4ovKJY6YcM+WYKS9+WBKeJKGptCQ0lZaEpvJEpSXhm1TekYR3qLQkfNMxU46ZcsyUF79MpSWhJaGptCQ0lZaEJypNpSWhqbQkvCMJTaWptCQ0ld90zJRjphwz5cW/TOVJEt6h8iQJT1RaEr4pCU3lT3LMlGOmHDPlxYeS8I4kvEOlJaEloam0JDSVd6i0JDxJwjuS8I4k/KRjphwz5ZgpL75M5RNJaEn4piQ8UfmEyieS8A6VbzpmyjFTjpny4pcloak8UWlJaCotCU2lJaGpPEnCkyQ0lZaEptKS0FSeqPykY6YcM+WYKS9+WBKaSktCU2lJaCotCU+S8AmVloQnSXiShHckoam0JDSVTxwz5Zgpx0x58SGVJypPVJ6ovEPlHUl4h0pLQlN5RxJaEv5Nx0w5ZsoxU158KAm/SaWptCQ8UWkqLQnflISm8ic7ZsoxU46Z8uLLVL4pCU+S0FTekYQnKi0J71D5hMpvOmbKMVOOmfLihyXhHSr/JpWWhKbSktCS8AmVJ0loKt90zJRjphwz5cVfJglPVJrKE5VPqDxJQkvCE5WWhKbyiWOmHDPlmCkv/nIqLQlPVN6h0pLwJAlNpSXh33TMlGOmHDPlxQ9T+UkqT5LwROVJEprKO5LwJAmfUPmmY6YcM+WYKS++LAm/KQk/SaUloak8UWlJeKLyjiQ0lU8cM+WYKcdMif9g5v+OmXLMlGOmHDPlmCnHTDlmyjFTjplyzJRjphwz5Zgpx0w5Zsr/AIXTfjP7zfyRAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-EE-ISP-14.FL-0002</span> <br>
+        Isolate Panel
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOaSURBVO3BMY5rRwADweZA979y+wcOmHiAB0lrr8Gq+AczfzvMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUF29Kwk9SaUloKi0JTeUmCU2lJaGp3CThJ6m84zBTDjPlMFNefJjKJyXhiSQ0lU9SeYfKJyXhkw4z5TBTDjPlxZcl4QmVJ1RuktBUblSeSEJTeSIJT6h802GmHGbKYaa8+OWScKPSktBUbpLQVJrK/8lhphxmymGmvPjlVFoSblTmnx1mymGmHGbKiy9T+UkqN0l4QuUmCU3lCZX/ksNMOcyUw0x58WFJ+ElJaCotCU2lJaGptCQ0lXck4b/sMFMOM+UwU+If/GJJeEJl/tlhphxmymGmvHhTEppKS8KNSkvCEyotCU2lJeEJlZskNJWWhKZyk4Sm0pJwo/KOw0w5zJTDTHnxYUloKi0JLQk3Ku9Iwo1KS0JLwo3KJ6n8mw4z5TBTDjPlxZcloam0JNwk4UblRuUmCTcqTyThJgk3Ki0JNyqfdJgph5lymCkvvkylJeEJlXck4UblHUloKi0JTeUdKt90mCmHmXKYKS8+TKUloancJKEloak8oXKThKbSknCj0pJwk4Sm0pLQVG6S0FTecZgph5lymCkv3qTSknCThBuVmyQ0lZskfJLKO1RuVJ5Q+aTDTDnMlMNMefFlKi0JTaUl4YkkvEOlJaGp3CThRuUmCU2lJeEJlXccZsphphxmyos3JaGptCQ0lSdUWhKaSktCU2lJuFFpSfikJDSVloQblW86zJTDTDnMlPgHX5SEptKS8E0qN0loKi0JTaUl4d+k8kmHmXKYKYeZEv/gF0tCU2lJaCpPJOEJlSeS0FT+TYeZcpgph5ny4k1J+EkqN0loKk8k4UalJeEmCU3lJgk3Ki0JTeUdh5lymCmHmfLiw1Q+KQlPqLQk3Kh8k8oTKi0JLQlN5ZMOM+UwUw4z5cWXJeEJlSdUWhKayicl4SYJPykJTeUdh5lymCmHmfLil0tCU2lJaCo3Kk8k4SeptCR80mGmHGbKYaa8+J9JQlN5RxJuVG6S0FSeUGlJaCqfdJgph5lymCkvvkzlm1RukvBNSbhRaUloKjdJaCotCU3lHYeZcpgph5ny4sOS8JOS0FSeUHkiCU2lJeE3O8yUw0w5zJT4BzN/O8yUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJS/ALIAoQ1HnJNbAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-SN-WST-RF.FL-0001</span> <br>
+        Water Storage Tank
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOSSURBVO3BQZIcyQEDwUBa///LIR72gFOayqo5XEpwj78w84/DTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNM+fBSEn6SSkvCjUpLwhMqLQlN5SYJP0nljcNMOcyUw0z58GUq35SEN5Jwo9KScKPyhso3JeGbDjPlMFMOM+XDb5aEJ1SeUGlJeCIJTeWJJDSVJ5LwhMrvdJgph5lymCkf/nJJeEKlJeEmCf9PDjPlMFMOM+XDX07lDZUnVP6XHWbKYaYcZsqH30zlT0rCjUpLQlO5SUJTeULl3+QwUw4z5TBTPnxZEn5SEprKjUpLQlNpSWgqbyTh3+wwUw4z5TBT4i/8xZJwozL/vcNMOcyUw0z58FISmkpLwo1KS8ITKi0JLQlNpSXhRuUmCU2lJaGp3CShqbQk3Ki8cZgph5lymCkfviwJNyotCU3lJgktCU2lJeFGpSWhJeFG5ZtU/qTDTDnMlMNMib/wg5LwhkpLwhsqLQlN5YkkvKHSknCj8k2HmXKYKYeZ8uGlJNyoNJWWhBuVloQnVJ5QeSIJTaUloam8ofI7HWbKYaYcZkr8hReS8CeptCTcqLQkNJWWhBuVloQnVFoSmspNEprKG4eZcpgph5ny4SWVb0pCU2lJeEKlJeENlTdUblSeUPmmw0w5zJTDTPnwZUl4QqWptCQ0lZaEN1RaEprKTRJuVG6S0FRaEp5QeeMwUw4z5TBTPryUhKZyk4SbJDSVloSm0pLwhkpLwjcloam0JNyo/E6HmXKYKYeZEn/hByXhRqUloancJOFGpSWhqbQkNJWWhD9J5ZsOM+UwUw4zJf7CXywJNypvJOEJlSeS0FT+pMNMOcyUw0z58FISfpLKjUpLQlO5ScKNSkvCTRKayk0SblRaEprKG4eZcpgph5ny4ctUvikJ35SEpvI7qTyh0pLQktBUvukwUw4z5TBTPvxmSXhC5QmVloQblTeScJOEn5SEpvLGYaYcZsphpnz4yyXhRuUJlSeS8JNUWhK+6TBTDjPlMFM+/I9LQlN5Igk3KjdJaCpPqLQkNJVvOsyUw0w5zJQPv5nK76TSknCThG9Kwo1KS0JTuUlCU2lJaCpvHGbKYaYcZsqHL0vCT0pCU7lJQlN5IglNpSXhb3aYKYeZcpgp8Rdm/nGYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgp/wHMGJcOEEvzWQAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-SN-WST-RF.FL-0002</span> <br>
+        Water Storage Tank
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOdSURBVO3BQY4cSQIDQWeg/v9lXx3mwFMAiazWjLQ0i78w84/DTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNM+fBSEn4nlZaEpnKThKbSkvCEyk0SfieVNw4z5TBTDjPlw5epfFMSblSeUGlJaCo3SXhD5ZuS8E2HmXKYKYeZ8uGHJeEJlSeScKNyo9KS0FSayjcl4QmVn3SYKYeZcpgpH/5wKjdJeELlJglN5W9ymCmHmXKYKR/+ciotCU3ljSQ0lT/ZYaYcZsphpnz4YSo/KQlNpSWhqdwk4UalJeENlf+Sw0w5zJTDTPnwZUn4kyShqbQkfFMS/ssOM+UwUw4zJf7CXyQJNyo3SWgq/08OM+UwUw4z5cNLSWgqLQlN5Ykk3Kg0lZaEloSm8kQSblRuktBUbpLQVFoSmsobh5lymCmHmRJ/4YUkPKFyk4Sm0pLwhkpLQlP5NyWhqbQkNJVvOsyUw0w5zJQP/7Ik3CShqbQkNJU3kvBNKjdJeCMJTeWNw0w5zJTDTIm/8EVJuFG5SUJTuUnCjUpLQlO5SUJTeSMJTeW/5DBTDjPlMFPiL/xGSXhD5SYJT6i0JPwklZaEb1J54zBTDjPlMFM+fFkS3lB5IglPqLyh8kQSnlC5SUJT+abDTDnMlMNM+fBSEm5UWhKaSkvCjcoTKi0JTaWp3CThCZUblZaEG5WfdJgph5lymCnxF/5FSWgqbyShqTyRhKbSktBUWhKeULlJQlNpSWgqbxxmymGmHGbKh5eScKPSkvBEEppKS0JTuUnCGyotCW8koak0lZaEn3SYKYeZcpgpH15SeULlCZUnknCj0pLQVN5QeSIJN0loKj/pMFMOM+UwUz68lITfSeVG5Y0k3Kg8kYSmcpOEptKS0FS+6TBTDjPlMFM+fJnKNyXhRuWJJNyotCS0JDyh8oRKS8JNEprKG4eZcpgph5ny4Ycl4QmVb0pCU7lJwhtJeCMJT6h802GmHGbKYaZ8+Mskoal8k0pLQlNpSfgmlZ90mCmHmXKYKR/+cEloKjdJaCpN5QmVloSm0pLQVFoSbpJwo/LGYaYcZsphpnz4YSo/SaUl4UblJglN5QmVloSmcqPyRBK+6TBTDjPlMFM+fFkSfqckNJWbJLyRhKZyo3KThKZyk4SfdJgph5lymCnxF2b+cZgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCn/A3dZowWAdCeyAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-SN-WST-1.FL-0001</span> <br>
+        Water Storage Tank
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOPSURBVO3BQY4kyQEDQWeg/v9llw574CmARFa3Zkc0i//FzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cNLSfhNKjdJeEKlJeEJlZsk/CaVNw4z5TBTDjPlw5epfFMSbpLQVFoSmkpLQlO5ScIbKt+UhG86zJTDTDnMlA8/LAlPqLyRhKbSkvBEEppKS0JTeSIJT6j8pMNMOcyUw0z58JdLQlNpSXgiCX+zw0w5zJTDTPnwL6fSktBUblRaEp5Q+ZscZsphphxmyocfpvKbVFoSblSeUPkmlT/JYaYcZsphpnz4siT8piQ0lRuVloSm0pJwk4SmcpOEP9lhphxmymGmfHhJ5U+m0pLQVFoSmkpLQlO5Ufk3OcyUw0w5zJQPLyWhqXxTEprKTRJuVG5UWhKeSMKNyk0SnlD5psNMOcyUw0z58GVJaCotCU2lJaGp3Kg8kYQblRuVloSm0pJwk4Q3ktBU3jjMlMNMOcyUDy+p3CThjSQ0lZaEptKScKNyo9KS0FRuVFoSmkpLwo1KS8I3HWbKYaYcZsqHL0vCE0m4UWlJ+E1JaCpPJOEJlf+lw0w5zJTDTPnwy1SeSMIbKk8k4SYJb6i0JPxJDjPlMFMOM+XDS0loKi0JLQlPqNwkoSXhRqUl4QmVn6Ryk4SfdJgph5lymCkffpnKE0n4SSotCTdJaCpPJOEmCU3lRuWbDjPlMFMOM+XDD1NpSWgqNyo3SXgjCW8k4UblCZUblZ90mCmHmXKYKR9+WBJuktBUWhJuVL5JpSWhqbQk3CThjSQ0lZaEpvLGYaYcZsphpnx4SeVG5Q2VmyTcqNyo3Kg8ofJEEv4kh5lymCmHmfLhpST8JpWmcpOEptKS8ITKE0loKjdJaCotCU3lmw4z5TBTDjPlw5epfFMSvikJTeUmCS0JT6g8odKS8JsOM+UwUw4z5cMPS8ITKm8koam0JDyh0pJwk4Q3ktBUftNhphxmymGmfPjLqLQkNJWWhBuVpvJGEppKS8ITSWgqbxxmymGmHGbKh/9zKi0JLQlNpSWhqdyotCT8SQ4z5TBTDjPlww9T+ZMl4UblRuUNlTdUvukwUw4z5TBTPnxZEn5TEprKTRLeSEJTeSMJTeUmCTcqbxxmymGmHGZK/C9m/nGYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgp/wETPoMxMOd4AgAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-SN-WST-1.FL-0002</span> <br>
+        Water Storage Tank
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAANqSURBVO3BMa7cWBAEwcwG73/lWhky2noAQc7oS1sR5heqfhuqlqFqGaqWoWoZqpahahmqlqFqGaqWoWoZqpahahmqlqFqGaqWi4dUvikJm8pJEk5UnkjCico3JeGJoWoZqpaharl4WRLepHJHEk5U/qQkvEnlTUPVMlQtQ9Vy8WEqdyThTSonSdhUTpLwJpU7kvBJQ9UyVC1D1XLxl0vCprIl4URlS8KmsqmcJOFvNlQtQ9UyVC0XfzmVLQmbyh0qWxI2lS0J/5KhahmqlqFqufiwJHxSEk6SsKncobIl4U1J+EmGqmWoWoaq5eJlKt+ksiVhU9mSsKlsSdhUTlS2JJyo/GRD1TJULUPVYn7hf0TlJAmbykkS/iVD1TJULUPVcvGQypaEE5VvSsIdKneonCThRGVLwqZyRxKeGKqWoWoZqpaLh5JworIl4U0qJyp3JGFT2ZKwqWxJ2FS2JJyo/ElD1TJULUPVcvHDqDyRhE3lTSpbEjaVLQmbyk82VC1D1TJULRcfloRNZUvCloQTlTuSsKlsSbgjCZvKicpJEk5UvmmoWoaqZahaLl6msiXhDpWTJHySyonKE0nYVH6SoWoZqpahajG/8IDKHUl4k8pJEk5UtiR8ksqWhDtUTpLwxFC1DFXLULVcfFgS7lD5piScqNyRhJMkbCpPJOFNQ9UyVC1D1XLxsiRsKnck4Q6VE5UtCZvKm1S2JGwqJ0n4k4aqZahahqrl4sOScKKyqdyRhE1lS8KmcpKEO1ROVJ5QuSMJTwxVy1C1DFXLxUNJeCIJT6hsSbgjCW9Kwh0qJ0nYVD5pqFqGqmWoWi4eUvmmJDyRhE3ljiTcobIl4URlS8JJEt40VC1D1TJULRcvS8KbVJ5QOUnCprIlYVO5Iwl3JGFT+aahahmqlqFqufgwlTuS8ITKloRN5ZNUnlA5ScInDVXLULUMVcvF/0wSNpU7kvCEypaETWVLwonKloQnhqplqFqGquXiL5eEE5WTJGwqd6icJGFLwhMqnzRULUPVMlQtFx+WhG9S2ZKwqWwqP0kSNpWTJLxpqFqGqmWoWi5epvJNKt+ksiXhCZUtCVsSNpVNZUvCE0PVMlQtQ9VifqHqt6FqGaqWoWoZqpahahmqlqFqGaqWoWoZqpahahmqlqFqGaqWoWr5D1JhW0H45ebNAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-SN-WST-1.FL-0003</span> <br>
+        Water Storage Tank
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN7SURBVO3BQY7kSAIDQWdA//+ybx/mwJMAQZk1Nb00i38w84/DTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMuXgpCT9J5ZOS8IbKnST8JJU3DjPlMFMOM+Xiw1Q+KQl3kvCGyhNJeEPlk5LwSYeZcpgph5ly8WVJeELlm1RaEppKS0JTaUloKk8k4QmVbzrMlMNMOcyUi7+MSktCS8IbSfibHWbKYaYcZsrFf5xKS8ITKi0JT6j8TQ4z5TBTDjPl4stUfrMkPKHySSq/yWGmHGbKYaZcfFgSflISmkpLQlNpSWgqLQl3ktBU7iThNzvMlMNMOcyUi5dUfjOVJ5LQVN5Q+S85zJTDTDnMlIuXktBUPikJTeVOEt5QaUm4o9KScEflThKeUPmkw0w5zJTDTLn4lyWhqTSVOyp3kvBJKi0JTaUl4U4S3khCU3njMFMOM+UwUy5eUmlJeEKlJeE3UWlJaCp3VFoSmkpLwh2VloRPOsyUw0w5zJSLL1NpSWhJuKPyRhKayhNJaCpPJOEJlX/TYaYcZsphpsQ/eCEJTeWJJDSVloQnVO4koam0JHyTSkvCJ6m8cZgph5lymCkXH5aEptKS8IRKS8KdJDSVptKS8ITKN6ncScI3HWbKYaYcZkr8gxeS0FRaEprKnSR8k8qdJDyh8kQSnlBpSWgqn3SYKYeZcpgpF/+yJDSVO0m4o9KScCcJbyThjsoTKndUvukwUw4z5TBTLr5MpSXhThLeSEJTeUKlJaGptCTcScIbSWgqLQlN5Y3DTDnMlMNMuXhJ5QmVT0pCU3lC5Y7KEypPJOE3OcyUw0w5zJSLl5Lwk1SaSkvCHZWWhCdUnkhCU7mThKbSktBUPukwUw4z5TBTLj5M5ZOS8IRKS0JLQlO5k4SWhCdUnlBpSfhJh5lymCmHmXLxZUl4QuWNJHySSkvCnSS8kYSm8pMOM+UwUw4z5eIvo9KS0FRaEu6oNJU3ktBUWhKeSEJTeeMwUw4z5TBTLv7PqbQktCQ0lZaEpnJHpSXhNznMlMNMOcyUiy9T+c2ScEfljsobKm+ofNJhphxmymGmXHxYEn5SEppKU2lJeCMJTeWNJDSVO0m4o/LGYaYcZsphpsQ/mPnHYaYcZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphpvwPWwZ8II4ze/AAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-SN-WST-1.FL-0004</span> <br>
+        Water Storage Tank
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOESURBVO3BQY4kRwIDQWeg/v9l3zkIC54CSGT1aCTRLP7CzF8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cNLSfidVFoSblSeSMITKjdJ+J1U3jjMlMNMOcyUD1+m8k1JuFG5ScKNSlO5ScIbKt+UhG86zJTDTDnMlA8/LAlPqDyRhDeScKPSVL4pCU+o/KTDTDnMlMNM+fAPp9KS0FS+KQlN5d/kMFMOM+UwUz78yyXhRuWNJDSVf7LDTDnMlMNM+fDDVH5SEt5IwhMqLQlvqPxJDjPlMFMOM+XDlyXh76TSktBUWhKaSkvCNyXhT3aYKYeZcpgp8Rf+w5Jwo/Jfcpgph5lymCkfXkpCU2lJaCpPJOFGpSWhqdyotCTcJOFG5SYJTeUmCU2lJaGpvHGYKYeZcpgp8Rf+Rkm4UWlJeEKlJaGp/EmS0FRaEprKNx1mymGmHGbKhy9Lwjcloan8pCT8JJWWhDeS0FTeOMyUw0w5zJQPLyWhqbQkPKHyRhJuVFoSmkpLQlN5Iwk3KjcqP+kwUw4z5TBTPvxmKi0JLQk/KQlNpSXhJglvqLQktCS8ofLGYaYcZsphpsRfmP9Lwo3KE0m4UXkiCU3lmw4z5TBTDjPlw0tJ+CaVloSm8kQSblSayk0SnlBpSbhJwo3KTzrMlMNMOcyUDy+p3CThRuVG5SYJNypPJKGp3Ki0JLQkvKFyk4Sm8sZhphxmymGmfHgpCTcqTyThRuWJJHyTSkvCG0loKjdJ+EmHmXKYKYeZ8uEllW9SeUPliSQ0lTdUnkjCTRKayk86zJTDTDnMlA8vJeF3UrlJQlN5Igk3Kk8koancJKGptCQ0lW86zJTDTDnMlA9fpvJNSbhReSIJNyotCS0JT6g8odKScJOEpvLGYaYcZsphpnz4YUl4QuWNJNyo3CThjSS8kYQnVL7pMFMOM+UwUz78y6i0JHyTSktCU2lJaCotCU+o/KTDTDnMlMNM+fAPl4Sm0lRaEppKU3lCpSWhqbQkNJWWhJsk3Ki8cZgph5lymCkffpjKT1JpSbhRuUlCU3lCpSWhqdyoPJGEbzrMlMNMOcyUD1+WhN8pCU2lJaEl4Y0kNJUblZskNJWbJPykw0w5zJTDTIm/MPOXw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTPkf+bt6K1W1rXoAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-SN-TP-B1.FL-0001</span> <br>
+        Transfer Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAN2SURBVO3BO45jCxYDweSB9r/lnDbGoHUBQap6P0bEP5j5v2OmHDPlmCnHTDlmyjFTjplyzJRjphwz5Zgpx0w5ZsoxU46Z8uJDSfhNKp9IQlN5RxKeqLQk/CaVTxwz5Zgpx0x58WUq35SEdyShqXyTyidUvikJ33TMlGOmHDPlxQ9LwjtU3pGEJ0loKu9IQlNpSWgq70jCO1R+0jFTjplyzJQX/zFJaCpPVJ6o/JscM+WYKcdMefEvo9KS0FSeJOEdKv8mx0w5ZsoxU178MJW/syT8lVT+To6ZcsyUY6a8+LIk/JOptCQ0lZaEpvIkCX9nx0w5ZsoxU+If/IMloam0JHxC5b/kmCnHTDlmSvyDDyShqbQkfJPKJ5LQVJ4k4YnKkyR8k8pPOmbKMVOOmRL/4G8kCU3lSRKeqHxTEprKkyQ0lU8k4YnKJ46ZcsyUY6a8+FASmkpLQlN5RxKaSlN5koSm0pLQVH5SEppKS8ITlZaEbzpmyjFTjpny4pcloak0lSdJaCotCU3lE0n4SUl4ovKbjplyzJRjprz4iyXhE0loKi0JT1SeqLQkfJNKS8Jf6Zgpx0w5ZsqLL0tCU2lJaCotCU3lHUloKk+S8JNUWhI+kYSfdMyUY6YcM+XFl6k8UWlJeJKEJypN5R0qLQk/SaUl4RMq33TMlGOmHDPlxS9LQlP5RBKayjuS8ETlHUloKi0JTeUdKj/pmCnHTDlmyosfloSm8iQJ71BpSXii8kSlJaGptCQ8ScKTJDSVloSm0pLQVD5xzJRjphwzJf7BP1gS3qHyiSQ8UXlHEt6h0pLQVD5xzJRjphwz5cWHkvCbVJpKS0JTaUl4ovJEpSXhSRKayjepfNMxU46ZcsyUF1+m8k1JeJKEJ0l4ovIkCU3lHSrflISm8k3HTDlmyjFTXvywJLxD5RMqT5LwDpWWhCdJ+CaV33TMlGOmHDPlxb9cEppKS8I3qbwjCU2lJaGptCQ0lU8cM+WYKcdMefEfp9KS8ESlJeGbktBUftMxU46ZcsyUFz9M5SeptCS8IwlPVFoSmsonVFoS3qHyTcdMOWbKMVNefFkSflMSmkpLwjtUWhKeJOGJSktCU2kqLQlNpSWhqXzimCnHTDlmSvyDmf87ZsoxU46ZcsyUY6YcM+WYKcdMOWbKMVOOmXLMlGOmHDPlmCn/AxBBgRIRZIEvAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B01-SN-TP-B1.FL-0002</span> <br>
+        Transfer Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAANvSURBVO3BQa7cWAIDweRD3f/KOV70grMRIEj17XYzIv7CzD8OM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5cNDSfhJKleScEXliSRcUWlJ+EkqTxxmymGmHGbKh5epvCkJT6i0JFxRuaLyhMqbkvCmw0w5zJTDTPnwZUm4Q+WOJFxJwhNJaCotCU3ljiTcofJNh5lymCmHmfLhL6PSktBU7lC5ovI3OcyUw0w5zJQP83+ScIfK3+QwUw4z5TBTPnyZyk9KwpUkNJXfSeVPcpgph5lymCkfXpaE30mlJaGptCQ0lZaEptKS0FSuJOFPdpgph5lymCkfHlL5myShqbQkNJUrKv8mh5lymCmHmfLhoSQ0lZaEN6k0lSsqLQlXVFoSnkjCm1S+6TBTDjPlMFPiL7woCVdUriShqbQk3KHypiR8k8qVJFxReeIwUw4z5TBTPjyUhCsqV5JwJQlN5UoSWhKayptU3pSEKyotCW86zJTDTDnMlA8vU2lJaCpN5Y4kXFG5IwlNpSXhjiQ0lZaEO1R+0mGmHGbKYaZ8eEjlm5LQVJ5IQlO5otKScEXlDpWWhN/pMFMOM+UwUz48lIQrKi0JTeWKyh1JaCpNpSXhTUloKm9KwjcdZsphphxmyoeXqVxRuZKEO1Sayh0qLQlPqFxRaUl4QuVNh5lymCmHmfLhy5LwhEpLwpUkXFFpSbii0pJwRxKuqLQktCQ0lW86zJTDTDnMlA8/TKUloam0JDyhcodKS8KVJDyRhKbSknAlCU3licNMOcyUw0yJv/AvloSm8k1JuKJyRxLuUGlJaCpPHGbKYaYcZsqHh5Lwk1SaypUk3KHypiQ0lT/ZYaYcZsphpnx4mcqbknAlCU+oXEnCEypvSkJTedNhphxmymGmfPiyJNyh8iaVloQ7VFoSriThTSo/6TBTDjPlMFM+/OWS0FRaEp5QeSIJTaUloam0JDSVJw4z5TBTDjPlw3+cSkvCE0loKnckoan8pMNMOcyUw0z58GUq36RyJQlXknBFpSWhJeEJlZaEO1TedJgph5lymCkfXpaEn5SEpvKESkvCE0m4otJUWhKaSktCU3niMFMOM+UwU+IvzPzjMFMOM+UwUw4z5TBTDjPlMFMOM+UwUw4z5TBTDjPlMFMOM+UwU/4Hptd2F01C70UAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-SN-TP-1.FL-0001</span> <br>
+        Transfer Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOSSURBVO3BOw5bSQADwe6B7n9lrgMHjAZ4kOTfssr8wMxPh5lymCmHmXKYKYeZcpgph5lymCmHmXKYKYeZcpgph5lymCmHmfLiTSq/UhKayk0SnlB5Igk3Kr9SEt5xmCmHmXKYKS8+LAmfpHKThKZyo3KThBuVdyThk1Q+6TBTDjPlMFNefJnKE0l4QqUl4SYJNyotCS0Jn6TyRBK+6TBTDjPlMFNe/OWScKPSknCThBuVloR/yWGmHGbKYaa8+MeoPKHSkvCESkvC3+wwUw4z5TBTXnxZEr5JpSWhqTyhcpOET0rCn+QwUw4z5TBTXnyYyt8sCU3lRqUl4UblT3aYKYeZcpgp5gf+R1RaEppKS8L/yWGmHGbKYaa8eJNKS0JTaUl4QuUmCU2lJeGTVG6ScKPSknCj0pLQVFoS3nGYKYeZcpgpL96UhKbyDpWWhE9KQlNpSbhJwo1KS8KNyk0SmkpLwicdZsphphxmyovfTKUloam0JDSVloR3qNwkoan8TiotCe84zJTDTDnMlBcfloSm8o4kNJUnVG6ScKNyk4Sm0lSeSMJNEr7pMFMOM+UwU158mEpLQlNpSWgqn5SEpnKjcqPyRBJuVJrKO5LwjsNMOcyUw0x58YdJwo1KS0JTaUloSXhHEm5UmspNEp5QaUn4pMNMOcyUw0x58SaVb1L5JJWWhJaEG5UnktBUblRukvBNh5lymCmHmfLiTUm4UXlCpSXhRuVGpSXhRqUloSXhm5LQVG5UWhLecZgph5lymCnmB96g8klJaCq/UxKayjcl4UblJgnvOMyUw0w5zBTzA38xlZaEptKS0FRaEp5QaUl4QqUloam0JHzTYaYcZsphprx4k8qvlIQnkvCEyieptCTcqLQkNJWbJLzjMFMOM+UwU158WBI+SeUmCU+o3CShqbQkNJWbJDyRhKbyKx1mymGmHGbKiy9TeSIJn6TSknCjcqNyo/IOlSeS8EmHmXKYKYeZ8uIfo/JNSXhCpSWhqTyRhG86zJTDTDnMlBd/OZWWhBuVloSWhBuVmyS0JDSVloSmcqNyk4R3HGbKYaYcZsqLL0vCNyWhqbQktCTcqLQktCQ0laZyk4SbJDyh8kmHmXKYKYeZ8uLDVH4llSdU3qHSknCjcqPSknCj8k2HmXKYKYeZYn5g5qfDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNM+Q9UCYM3OdHP8AAAAABJRU5ErkJggg=="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B02-SN-TP-1.FL-0002</span> <br>
+        Transfer Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOOSURBVO3BO45rCRYDweSB9r/lnDHaoHUBQap6/WFE/D9m/nLMlGOmHDPlmCnHTDlmyjFTjplyzJRjphwz5Zgpx0w5ZsoxU158KAm/SeVJEp6otCQ8UWlJaCpPkvCbVD5xzJRjphwz5cWXqXxTEt6h8k1J+CaVb0rCNx0z5Zgpx0x58cOS8A6VdyThHSpNpSWhqbQkfFMS3qHyk46ZcsyUY6a8+JdRaUl4h0pLQlP5NztmyjFTjpny4j8mCU9UmkpLQlP5NzlmyjFTjpny4oep/KYkNJUnSfiTVP5OjplyzJRjprz4siT8SSotCU3lHUloKi0JTeVJEv7OjplyzJRjprz4kMo/SRI+kYSm8kTln+SYKcdMOWbKiw8loam0JHyTSlNpSfgmlZaEdyThm1R+0jFTjplyzJQXH1JpSXii8iQJTeVJEp6otCQ0lZaEb1L5piQ8UfnEMVOOmXLMlBcfSsI7kvBEpSWhqTSVd6j8piQ0lSdJeKLSkvBNx0w5ZsoxU158mUpLQlN5koSm0pLQVN6RhKbyRKUl4UkSmsqTJDxR+U3HTDlmyjFTXnxZEp4koak0lZaEpvIJlZaEptKS8A6Vd6i0JPxJx0w5ZsoxU178MJWWhHeoPEnCE5UnKk9UWhKeJOGJSkvCO5Lwk46ZcsyUY6a8+DKVloSm0pLQVFoSmsonkvBE5RMqT5LwROUdKt90zJRjphwz5cUvS0JTeaLyROUTKk+S8CQJT1SeqLQkNJWm8pOOmXLMlGOmvPhhKk+S8A6VJ0loKp9QaUl4RxKeJKGptCQ0lZaEpvKJY6YcM+WYKS8+pPIJlU8k4R0qLQnvUGlJaCrvSEJLwp90zJRjphwz5cWHkvCbVJpKS8I7VFoSvikJTeXv7Jgpx0w5ZsqLL1P5piQ8SUJTaUloKi0JT1RaEt6h8k9yzJRjphwz5cUPS8I7VD6RhE+otCQ0lZaEloRvUmlJaCrfdMyUY6YcM+XFv4xKS8ITlScq36TyjiQ0lZaEpvKJY6YcM+WYKS/+Y5LwROUdKi0JTaUloam0JDSV33TMlGOmHDPlxQ9T+UkqLQnvUHmShKbyjiQ0lW9S+aZjphwz5ZgpL74sCb8pCU2lJeETKi0JTeWJSktCU2kqLQlNpSWhqXzimCnHTDlmSvw/Zv5yzJRjphwz5Zgpx0w5ZsoxU46ZcsyUY6YcM+WYKcdMOWbKMVP+B4RHngQBXqgZAAAAAElFTkSuQmCC"
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B04-SN-CWBP-1.FL-0001</span> <br>
+        Cold Water Booster Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAAOKSURBVO3BMW4kSQIEQY9E///LfhRWCClxhW5yhrthFr8w84/DTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMefGmJPwklZaEpnKThKbSktBUWhKayk0SfpLKOw4z5TBTDjPlxYepfFISnkjCjco7VN6h8klJ+KTDTDnMlMNMefHNkvCEyhMqLQlNpSWhqTSVJ5LQVJ5IwhMq3+kwUw4z5TBTXvxySWgqTyShqbQk/JccZsphphxmyotfTuUmCU3lHSr/ZoeZcpgph5ny4pup/EkqN0m4UblJQlN5QuVvcpgph5lymCkvPiwJPykJTaUloancqLQkNJV3JOFvdpgph5lymCnxC79YEm5U5v93mCmHmXKYKS/elISm0pJwo9KS8ITKTRKayk0SmspNEppKS0JTuUlCU2lJuFF5x2GmHGbKYaa8eJNKS0JTaUm4UblJwhMq70jCjcqNyhMqf9JhphxmymGmvHhTEppKS8JNEj4pCTcqT6g8kYSmcpOEptKScKPySYeZcpgph5ny4k0qLQk3Ki0JNyotCS0JNyo3SWgqTyThJgmfpPKdDjPlMFMOM+XFm5LQVFoSnlBpSbhRuUlCU3kiCTcqn5SEpnKThKbyjsNMOcyUw0yJX/hBSbhR+aQkPKHSktBU/s0OM+UwUw4z5cWHJaGp3Ki0JNyotCQ0labSktBUWhKayk0SmkpLQlNpSfgklXccZsphphxmSvzCG5LQVP5mSWgqN0l4h0pLQlNpSWgqP+kwUw4z5TBT4hf+oCS8Q+UmCU2lJaGptCQ0lZaEP0nlkw4z5TBTDjMlfuEXS8KNyjuS8ITKE0loKn/SYaYcZsphprx4UxJ+ksqNSktCU7lJwo1KS8JNEprKTRJuVFoSmso7DjPlMFMOM+XFh6l8UhKeSMJNEprKd1J5QqUloSWhqXzSYaYcZsphprz4Zkl4QuUJlZskNJV3JOEmCT8pCU3lHYeZcpgph5ny4pdLwo3KEypPJOEJlXeotCR80mGmHGbKYaa8mKsk3KjcJKEl4UalqbQkNJVPOsyUw0w5zJQX30zlO6m0JNwk4ZOScKPSktBUbpLQVFoSmso7DjPlMFMOM+XFhyXhJyWhqTyh8kQSmkpLwm92mCmHmXKYKfELM/84zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlP8BvR2XBeDIPpYAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B04-SN-CWBP-1.FL-0002</span> <br>
+        Cold Water Booster Pump
+      </div>
+      </div>
+    </div>
+    <div class="sticker">
+      <div class="innerSticker" >
+      <div>
+        <img
+        width="70px"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAAAklEQVR4AewaftIAAANySURBVO3BQY7kSAIDQWcg//9l3z7MgXsRIEhZ01OgWfyDmX8cZsphphxmymGmHGbKYaYcZsphphxmymGmHGbKYaYcZsphphxmyoeHkvCTVO5IwhWVO5JwRaUl4SepPHGYKYeZcpgpH16m8qYkPKFyJQlN5YrKEypvSsKbDjPlMFMOM+XDlyXhDpU7knCHyh1JaCotCU3ljiTcofJNh5lymCmHmfLhl1G5koQ7VK6o/CaHmXKYKYeZ8mH+TxLuUPlNDjPlMFMOM+XDl6n8m5LwTUloKneo/E0OM+UwUw4z5cPLkvA3U2lJaCotCU2lJeGOJPzNDjPlMFMOMyX+wX9YEu5QuZKEptKS0FR+k8NMOcyUw0z58FASmkpLwptUmkpLwh1JaCotCU8k4U0q33SYKYeZcpgp8Q9elIQrKk8koalcSUJTeSIJTaUloalcSUJTuZKEKypPHGbKYaYcZsqHL1NpSWgqV5LQVN6UhKbyTUloKi0JV1RaEt50mCmHmXKYKR8eSkJTuaLSknBF5UoSrqi0JNyRhDtUWhKeUPlJh5lymCmHmfLhIZWWhCsqTeVKEprKEyp3qLQkvCkJf5PDTDnMlMNM+fBQEprKE0loKneotCQ0lZaEb1K5koQ7kvBNh5lymCmHmfLhhyXhjiQ0lTeptCT8m1TuUHnTYaYcZsphpnz4siTcofJEEprKlSRcUbkjCU3ljiQ0labyTYeZcpgph5ny4Yep3JGEpnJFpSWhqVxRaUloKi0JV5Jwh0pLQlNpSWgqTxxmymGmHGZK/IP/sCQ0lW9KwhWVO5Jwh0pLQlN54jBTDjPlMFM+PJSEn6TSVFoSnlC5otKScCUJTeVNKm86zJTDTDnMlA8vU3lTEq4k4YpKS0JTuZKEpnKHyhMqLQlN5U2HmXKYKYeZ8uHLknCHyhMqLQlPqLQkXEnCEypXVL7pMFMOM+UwUz78MkloKleS8CaVK0loKi0JV1RaEprKE4eZcpgph5ny4ZdRuUOlJeGKSkvCHSotCX+Tw0w5zJTDTPnwZSrfpNKS0FSuJOGKSktCU7kjCW9SedNhphxmymGmfHhZEn5SEt6k0pJwJQlXVO5QuSMJTeWJw0w5zJTDTIl/MPOPw0w5zJTDTDnMlMNMOcyUw0w5zJTDTDnMlMNMOcyUw0w5zJTDTPkfm9yDAXgHnmsAAAAASUVORK5CYII="
+      />
+      </div>
+      <div class="labelSticker">
+        <span class="labelId">100B04-EE-RMU-1.FL-0001</span> <br>
+        Ring Main Unit
+      </div>
+      </div>
+    </div>
+</div>
+
+  </body>
+</html>

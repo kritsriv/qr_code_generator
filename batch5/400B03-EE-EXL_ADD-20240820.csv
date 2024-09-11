@@ -1,0 +1,6 @@
+AssetManufacture,AssetModel,AssetNumber,AssetParentNumber,AssetAccountingNumber,AssetSerialNumber,AssetPartNumber,AssetTypeName,PriorityName,AssetHostName,AssetOS,AssetCPU,AssetRam,AssetHarddisk,AssetIPAddress,AssetMAC,AssetDetail,Remark,AssetLocation,Status,BuyingName,AssetPO,AssetRegisterDate,AssetBuyDate,AssetPriceEx,AssetVAT,AssetVATValue,AssetPrice,AssetAccumulatedDepreciation,AssetSalvageValue,AssetWriteOffDate,NumOfMonthWarranty,AssetStartWarrantyDate,AssetEndWarrantyDate,AssetQuantity,Branch,Zone,Supplier,Owner,CostCenter,CostType,Company,Department,AssetLatLong,AssetGoogleMapUrl
+DELIGHT,DLEX-RLG3,400B03-EE-EXL-1.FL-0012,,,,,Exit Sign Light,,,,,,,,,,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� 1,,,,,,CRA,,,
+DELIGHT,DLEX-RLG3,400B03-EE-EXL-B1.FL-0014,,,,,Exit Sign Light,,,,,,,,,,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� B1,,,,,,CRA,,,
+DELIGHT,DLEX-RLG3,400B03-EE-EXL-RL.FL-0004,,,,,Exit Sign Light,,,,,,,,,,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� RF,,,,,,CRA,,,
+DELIGHT,DLEX-RLG3,400B03-EE-EXL-RL.FL-0005,,,,,Exit Sign Light,,,,,,,,,,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� RF,,,,,,CRA,,,
+DELIGHT,DLEX-RLG3,400B03-EE-EXL-RL.FL-0006,,,,,Exit Sign Light,,,,,,,,,,,,,,,,,,,,,,,,,,,,�;ѡ� 400B-��� RF,,,,,,CRA,,,
